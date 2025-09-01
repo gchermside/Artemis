@@ -10,6 +10,12 @@ body {
     color: #333;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -51,6 +57,9 @@ nav {
 .logo h1 {
     color: white;
     font-size: 1.8rem;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .nav-links {
@@ -63,6 +72,10 @@ nav {
     color: white;
     text-decoration: none;
     transition: color 0.3s;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
 }
 
 .nav-links a:hover {
