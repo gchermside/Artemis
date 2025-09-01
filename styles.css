@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background: #1e3a8a;
+    background: #2d6c90;
     color: white;
     padding: 1rem 0;
     position: fixed;
@@ -39,6 +39,8 @@ nav {
     display: flex;
     align-items: center;
     gap: 10px;
+    text-decoration: none;
+    color: inherit;
 }
 
 .logo-img {
@@ -64,18 +66,28 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #ea580c;
+    color: #b8501a;
 }
 
 main {
     margin-top: 80px;
 }
 
+/* Smooth scrolling and offset for fixed header */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
 .hero {
-    background: linear-gradient(135deg, #1e3a8a 0%, #ea580c 100%);
-    color: white;
+    background: linear-gradient(135deg, #f9c86a 0%, #eceded 50%, #619fc0 100%);
+    color: #1e3a5f;
     padding: 100px 0;
     text-align: center;
+}
+
+.hero-content {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 .hero-content h1 {
@@ -115,7 +127,7 @@ main {
     text-align: center;
     margin-bottom: 3rem;
     font-size: 2.5rem;
-    color: #1e3a8a;
+    color: #2d6c90;
 }
 
 .about p {
@@ -144,7 +156,7 @@ main {
 }
 
 .register-button {
-    background: #ea580c;
+    background: #b8501a;
     color: white;
     padding: 15px 40px;
     text-decoration: none;
@@ -156,7 +168,7 @@ main {
 }
 
 .register-button:hover {
-    background: #dc2626;
+    background: #f9c86a;
 }
 
 .program-grid {
@@ -175,7 +187,7 @@ main {
 }
 
 .program-card h3 {
-    color: #ea580c;
+    color: #b8501a;
     margin-bottom: 1rem;
     font-size: 1.5rem;
     position: relative;
@@ -189,17 +201,17 @@ main {
     transform: translateX(-50%);
     width: 50px;
     height: 3px;
-    background: #1e3a8a;
+    background: #2d6c90;
     border-radius: 2px;
 }
 
 .program-card a {
-    color: #1e3a8a;
+    color: #2d6c90;
     text-decoration: underline;
 }
 
 .program-card a:hover {
-    color: #ea580c;
+    color: #b8501a;
 }
 
 .programs {
@@ -235,7 +247,7 @@ main {
 }
 
 footer {
-    background: #1e3a8a;
+    background: #2d6c90;
     color: white;
     text-align: center;
     padding: 2rem 0;
@@ -253,5 +265,15 @@ footer {
     
     .program-grid {
         grid-template-columns: 1fr;
+    }
+    
+    /* Adjust scroll padding for mobile */
+    html {
+        scroll-padding-top: 120px;
+    }
+    
+    /* Increase main margin for mobile if nav wraps */
+    main {
+        margin-top: 100px;
     }
 }
