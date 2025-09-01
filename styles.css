@@ -178,6 +178,19 @@ main {
     color: #ea580c;
     margin-bottom: 1rem;
     font-size: 1.5rem;
+    position: relative;
+}
+
+.program-card h3::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #1e3a8a;
+    border-radius: 2px;
 }
 
 .program-card a {
