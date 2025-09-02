@@ -128,7 +128,7 @@ html {
     background: #dc2626;
 }
 
-.about, .register, .programs, .contact {
+.about, .register, .programs, .testimonials, .contact {
     padding: 80px 0;
 }
 
@@ -136,7 +136,7 @@ html {
     background: #eceded;
 }
 
-.about h2, .register h2, .programs h2, .contact h2 {
+.about h2, .register h2, .programs h2, .testimonials h2, .contact h2 {
     text-align: center;
     margin-bottom: 3rem;
     font-size: 2.5rem;
@@ -245,8 +245,42 @@ html {
     margin: 0 auto 3rem auto;
 }
 
-.contact {
+.testimonials {
     background: white;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.testimonial-card {
+    background: linear-gradient(145deg, #f8fafc, #eceded);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    text-align: left;
+    border-left: 4px solid #b8501a;
+}
+
+.testimonial-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    color: #333;
+}
+
+.testimonial-author {
+    text-align: right;
+    color: #2d6c90;
+    font-size: 0.9rem;
+}
+
+.contact {
+    background: #eceded;
     text-align: center;
 }
 
@@ -284,6 +318,10 @@ footer {
     }
     
     .program-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .testimonial-grid {
         grid-template-columns: 1fr;
     }
     
