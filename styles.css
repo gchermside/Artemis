@@ -128,7 +128,7 @@ html {
     background: #dc2626;
 }
 
-.about, .register, .programs, .testimonials, .contact {
+.about, .register, .programs, .testimonials, .support, .contact {
     padding: 80px 0;
 }
 
@@ -136,7 +136,7 @@ html {
     background: #eceded;
 }
 
-.about h2, .register h2, .programs h2, .testimonials h2, .contact h2 {
+.about h2, .register h2, .programs h2, .testimonials h2, .support h2, .contact h2 {
     text-align: center;
     margin-bottom: 3rem;
     font-size: 2.5rem;
@@ -279,6 +279,33 @@ html {
     font-size: 0.9rem;
 }
 
+.support {
+    background: white;
+    text-align: center;
+}
+
+.support p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 2.5rem auto;
+}
+
+.support-button {
+    background: #b8501a;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.support-button:hover {
+    background: #f9c86a;
+}
+
 .contact {
     background: #eceded;
     text-align: center;
@@ -311,7 +338,7 @@ footer {
     .nav-links {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(3, auto);
+        grid-template-rows: repeat(4, auto);
         gap: 0.5rem;
         align-items: start;
     }
@@ -321,7 +348,8 @@ footer {
     .nav-links li:nth-child(3) { grid-column: 1; grid-row: 3; } /* Registration */
     .nav-links li:nth-child(4) { grid-column: 2; grid-row: 1; } /* Programs */
     .nav-links li:nth-child(5) { grid-column: 2; grid-row: 2; } /* Testimonials */
-    .nav-links li:nth-child(6) { grid-column: 2; grid-row: 3; } /* Contact */
+    .nav-links li:nth-child(6) { grid-column: 1; grid-row: 4; } /* Support Us */
+    .nav-links li:nth-child(7) { grid-column: 2; grid-row: 4; } /* Contact */
     
     .hero-content h1 {
         font-size: 2rem;
