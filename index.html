@@ -13,14 +13,19 @@
                 <img src="img/logo.png" alt="Artemis Logo" class="logo-img">
                 <h1>Artemis</h1>
             </a>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#register">Register</a></li>
-                <li><a href="#programs">Programs</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#support">Support Us</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" onclick="closeMenu()">Home</a></li>
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#register" onclick="closeMenu()">Register</a></li>
+                <li><a href="#programs" onclick="closeMenu()">Programs</a></li>
+                <li><a href="#testimonials" onclick="closeMenu()">Testimonials</a></li>
+                <li><a href="#support" onclick="closeMenu()">Support Us</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -110,5 +115,27 @@
         <div class="container">
         </div>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+
+        function closeMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.remove('active');
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const nav = document.querySelector('nav');
+            const navLinks = document.querySelector('.nav-links');
+            
+            if (!nav.contains(event.target) && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+            }
+        });
+    </script>
 </body>
 </html>
