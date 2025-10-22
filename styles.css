@@ -83,7 +83,7 @@ nav {
 }
 
 main {
-    margin-top: 80px;
+    margin-top: 75px;
 }
 
 /* Smooth scrolling and offset for fixed header */
@@ -372,7 +372,7 @@ footer {
     transition: 0.3s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .hamburger {
         display: flex;
     }
@@ -423,7 +423,7 @@ footer {
     
     /* Increase main margin for mobile if nav wraps */
     main {
-        margin-top: 100px;
+        margin-top: 75px;
     }
 
     /* About section mobile styles */
