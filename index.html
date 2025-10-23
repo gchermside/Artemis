@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artemis - Computer Science for Young Minds</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
     <header>
@@ -33,8 +34,19 @@
     <main>
         <section id="home" class="hero">
             <div class="hero-content">
-                <h1>Welcome to Artemis</h1>
-                <p>Artemis is a CS education program that aims to further the empowerment of women in STEM. This program is open to all students from 4th-8th grade and is completely free.</p>
+                <h1>Artemis is <span id="typed"></span></h1>
+                <div id="typed-strings">
+                    <p>dedicated to female empowerment</p>
+                    <p>for tomorrow's innovators</p>
+                    <p>open to all 4th-8th grade students</p>
+                    <p>for aspiring coders</p>
+                    <p>a fun and supportive environment</p>
+                    <p>for the leaders of the future</p>
+                    <p>a Brown University initiative</p>
+                    <p>for young learners</p>
+                    <p>free</p>
+                    <p>for you!</p>
+                </div>
             </div>
         </section>
 
@@ -145,6 +157,20 @@
             if (!nav.contains(event.target) && navLinks.classList.contains('active')) {
                 navLinks.classList.remove('active');
             }
+        });
+
+        // Initialize Typed.js
+        document.addEventListener('DOMContentLoaded', function() {
+            const typed = new Typed('#typed', {
+                stringsElement: '#typed-strings',
+                typeSpeed: 50,
+                backSpeed: 30,
+                backDelay: 2000,
+                loop: true,
+                showCursor: true,
+                cursorChar: '|',
+                autoInsertCss: true
+            });
         });
     </script>
 </body>

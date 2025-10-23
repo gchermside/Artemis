@@ -93,14 +93,14 @@ html {
 }
 
 .hero {
-    background: linear-gradient(135deg, #b8501a 0%, #f9c86a 25%, #eceded 50%, #619fc0 75%, #2d6c90 100%);
-    color: #1e3a5f;
+    background: #1E1E1E;
+    color: #eceded;
     padding: 100px 0;
     text-align: center;
 }
 
 .hero-content {
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .hero-content h1 {
@@ -111,6 +111,22 @@ html {
 .hero-content p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
+}
+
+/* Typed.js styling */
+#typed-strings {
+    display: none;
+}
+
+#typed {
+    color: #f47a23;
+    font-weight: bold;
+}
+
+.hero-description {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    opacity: 0.9;
 }
 
 .cta-button {
