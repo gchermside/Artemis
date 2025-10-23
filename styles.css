@@ -96,15 +96,18 @@ html {
     background: #1E1E1E;
     color: #eceded;
     padding: 100px 0;
-    text-align: center;
+    text-align: left;
 }
 
 .hero-content {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .hero-content h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
@@ -121,6 +124,7 @@ html {
 #typed {
     color: #f47a23;
     font-weight: bold;
+    
 }
 
 .hero-description {
