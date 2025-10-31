@@ -19,12 +19,12 @@
                 <span></span>
             </div>
             <ul class="nav-links">
-                <li><a href="#home" onclick="closeMenu()">Home</a></li>
                 <li><a href="#about" onclick="closeMenu()">About</a></li>
                 <li><a href="#register" onclick="closeMenu()">Register</a></li>
                 <li><a href="#programs" onclick="closeMenu()">Programs</a></li>
                 <li><a href="#testimonials" onclick="closeMenu()">Testimonials</a></li>
                 <li><a href="#support" onclick="closeMenu()">Support Us</a></li>
+                <li><a href="#faq" onclick="closeMenu()">FAQs</a></li>
                 <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
             </ul>
         </nav>
@@ -111,6 +111,89 @@
             </div>
         </section>
 
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Who can participate in Artemis?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Artemis is open to all students in grades 4th - 8th in the Providence area. No prior computer science experience is required!</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <span>How much does it cost?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Artemis is completely free for all participants! Students do need a computer for each session, but we provide loaner laptops if needed to make sure Artemis is accessible to everyone.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <span>When is the program?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>
+                                The program meets on Sundays from 2:00 - 4:00 PM. We run both a fall and a spring session each year — the fall session typically runs from September to November, and the spring session from February to April.
+                                The exact dates for the current session can be found in the <a href="#register">registration section</a>.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Where is the program?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>
+                                Artemis is hosted at the Thomas J. Watson Sr. Center for Information Technology (CIT) on Brown University's campus.
+                                The address is: <a href="https://maps.app.goo.gl/DEnagBqpqGDpuBnf6" target="_blank" rel="noopener noreferrer">115 Waterman St, Providence, RI 02906</a>.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Who runs Artemis?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>
+                                Artemis is a student organization at Brown University organized and run by Brown Students with a computer science background. All volunteers go through minors protection training.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Do parents need to stay during the program?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>
+                                Parents of students age 12 and under must stay for the duration of the program. Extra space is available in the building for parents. All parents are welcome to stay and observe thier student's class.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Which program will my child be in?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>
+                                Each semester, we run three programs: Microbits, Scratch, and Introduction to Algorithms. Students are placed in the program that best fits their learning needs based on their grade level and prior programming experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="contact" class="contact">
             <div class="container">
                 <h2>Contact Us</h2>
@@ -141,11 +224,31 @@
         document.addEventListener('click', function(event) {
             const nav = document.querySelector('nav');
             const navLinks = document.querySelector('.nav-links');
-            
+
             if (!nav.contains(event.target) && navLinks.classList.contains('active')) {
                 navLinks.classList.remove('active');
             }
         });
+
+        // FAQ accordion toggle
+        function toggleFAQ(button) {
+            const answer = button.nextElementSibling;
+            const isOpen = answer.classList.contains('open');
+
+            // Close all other FAQs
+            document.querySelectorAll('.faq-answer').forEach(item => {
+                item.classList.remove('open');
+            });
+            document.querySelectorAll('.faq-question').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            // Toggle current FAQ
+            if (!isOpen) {
+                answer.classList.add('open');
+                button.classList.add('active');
+            }
+        }
     </script>
 </body>
 </html>
