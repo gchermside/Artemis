@@ -181,15 +181,40 @@ html {
 .about-photos {
     display: flex;
     gap: 2rem;
-    justify-content: center;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    padding: 1rem 0;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+}
+
+.about-photos::-webkit-scrollbar {
+    height: 8px;
+}
+
+.about-photos::-webkit-scrollbar-track {
+    background: #eceded;
+    border-radius: 10px;
+}
+
+.about-photos::-webkit-scrollbar-thumb {
+    background: #2d6c90;
+    border-radius: 10px;
+}
+
+.about-photos::-webkit-scrollbar-thumb:hover {
+    background: #b8501a;
 }
 
 .about-photo {
-    width: 300px;
-    height: auto;
+    width: calc((100% - 4rem) / 3);
+    aspect-ratio: 1;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     object-fit: cover;
+    flex-shrink: 0;
 }
 
 .register {
@@ -529,13 +554,13 @@ footer {
 
     /* About section mobile styles */
     .about-photos {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         gap: 1.5rem;
     }
 
     .about-photo {
-        width: 90%;
-        max-width: 350px;
+        width: calc((100% - 1.5rem) / 2);
+        aspect-ratio: 1;
     }
 }
