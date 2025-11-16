@@ -235,6 +235,13 @@ html {
     margin-right: auto;
 }
 
+.register-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .register-button {
     background: #b8501a;
     color: white;
@@ -249,6 +256,14 @@ html {
 
 .register-button:hover {
     background: #f9c86a;
+}
+
+.spanish-text {
+    font-size: 0.85em;
+}
+
+.register-button .spanish-text {
+    font-size: 0.85em;
 }
 
 .program-grid {
