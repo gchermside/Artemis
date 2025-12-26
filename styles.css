@@ -319,11 +319,6 @@ html {
     margin-right: auto;
 }
 
-.info-session-text {
-    margin-top: 3rem !important;
-    margin-bottom: 1.5rem !important;
-}
-
 .register-buttons {
     display: flex;
     gap: 1.5rem;
@@ -488,6 +483,13 @@ html {
     margin: 0 auto 2.5rem auto;
 }
 
+.support-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .support-button {
     background: #b8501a;
     color: white;
@@ -498,6 +500,10 @@ html {
     font-weight: bold;
     display: inline-block;
     transition: background 0.3s;
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
 }
 
 .support-button:hover {
