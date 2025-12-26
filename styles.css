@@ -319,6 +319,11 @@ html {
     margin-right: auto;
 }
 
+.info-session-text {
+    margin-top: 3rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
 .register-buttons {
     display: flex;
     gap: 1.5rem;
