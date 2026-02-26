@@ -728,20 +728,68 @@ footer {
     }
 }
 
+/* Team View More button - hidden by default on desktop */
+.team-view-more-btn {
+    display: none;
+}
+
 /* Stack team cards on smaller screens */
 @media (max-width: 900px) {
     .team-grid {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    
+
     .team-card-top,
     .team-card:not(.team-card-top) {
         grid-column: span 1;
     }
-    
+
     .team-photo {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /* Hide extra team members on mobile by default */
+    .team-card-extra {
+        display: none;
+    }
+
+    /* Show extra team members when expanded */
+    .team-grid.expanded .team-card-extra {
+        display: block;
+    }
+
+    /* Show the View More button on mobile */
+    .team-view-more-btn {
+        display: block;
+        margin: 2rem auto 0;
+        padding: 0.875rem 2rem;
+        background: #2d6c90;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.3s, transform 0.3s;
+    }
+
+    .team-view-more-btn:hover {
+        background: #245a78;
+        transform: translateY(-2px);
+    }
+
+    /* Toggle text visibility */
+    .team-view-more-btn .view-less-text {
+        display: none;
+    }
+
+    .team-view-more-btn.expanded .view-more-text {
+        display: none;
+    }
+
+    .team-view-more-btn.expanded .view-less-text {
+        display: inline;
     }
 }
