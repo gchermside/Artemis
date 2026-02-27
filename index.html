@@ -223,8 +223,8 @@
                     </div>
                 </div>
                 <button class="team-view-more-btn" onclick="toggleTeamMembers()">
-                    <span class="view-more-text">View More</span>
-                    <span class="view-less-text">View Less</span>
+                    <span class="view-more-text">View Full Team</span>
+                    <span class="view-less-text">Hide Team</span>
                 </button>
             </div>
         </section>
@@ -453,7 +453,10 @@
             });
 
             // Tap-to-flip for touch devices (hover doesn't work on phones)
-            const isTouchLike = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+            const isTouchLike =
+                window.matchMedia('(hover: none) and (pointer: coarse)').matches ||
+                window.matchMedia('(pointer: coarse)').matches ||
+                (navigator.maxTouchPoints && navigator.maxTouchPoints > 0);
             if (isTouchLike) {
                 const teamCards = document.querySelectorAll('.team-card');
 
@@ -461,7 +464,15 @@
                     card.addEventListener('click', (e) => {
                         // Prevent immediate close when tapping the card
                         e.stopPropagation();
-                        card.classList.toggle('flipped');
+                        const wasFlipped = card.classList.contains('flipped');
+
+                        // Only allow one flipped card at a time on mobile
+                        teamCards.forEach(c => c.classList.remove('flipped'));
+
+                        // Second tap on same card should flip it back
+                        if (!wasFlipped) {
+                            card.classList.add('flipped');
+                        }
                     });
                 });
 
