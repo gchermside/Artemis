@@ -101,14 +101,19 @@ html {
 
 .hero-content {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    max-width: 1200px;
+    /* Give the hero headline more room so Typed.js strings don't wrap/reflow */
+    max-width: 2400px;
     margin: 0 auto;
     padding: 0 20px;
+    padding-left: 32px;
 }
 
 .hero-content h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    line-height: 1.2;
+    /* Reserve space so Typed.js never changes hero height */
+    min-height: 2.4em; /* 2 lines */
 }
 
 .hero-content p {
@@ -125,6 +130,17 @@ html {
     color: #f47a23;
     font-weight: bold;
     
+}
+
+/* On smaller screens, reserve a bit more vertical space for wrapping */
+@media (max-width: 900px) {
+    .hero-content h1 {
+        min-height: 3.6em; /* 3 lines */
+    }
+
+    .hero-content {
+        padding-left: 20px;
+    }
 }
 
 .hero-description {
