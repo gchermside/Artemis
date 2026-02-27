@@ -452,27 +452,16 @@
                 autoInsertCss: true
             });
 
-            // Tap-to-flip for touch devices (hover doesn't work on phones)
-            const isTouchLike =
-                window.matchMedia('(hover: none) and (pointer: coarse)').matches ||
-                window.matchMedia('(pointer: coarse)').matches ||
-                (navigator.maxTouchPoints && navigator.maxTouchPoints > 0);
-            if (isTouchLike) {
-                const teamCards = document.querySelectorAll('.team-card');
+            const teamCards = document.querySelectorAll('.team-card');
+            const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
 
+            // On touch devices (no reliable hover): tap-to-flip (supports multiple open; tap again to flip back)
+            if (!canHover) {
                 teamCards.forEach(card => {
                     card.addEventListener('click', (e) => {
-                        // Prevent immediate close when tapping the card
+                        // Prevent "outside click" handler from immediately closing it
                         e.stopPropagation();
-                        const wasFlipped = card.classList.contains('flipped');
-
-                        // Only allow one flipped card at a time on mobile
-                        teamCards.forEach(c => c.classList.remove('flipped'));
-
-                        // Second tap on same card should flip it back
-                        if (!wasFlipped) {
-                            card.classList.add('flipped');
-                        }
+                        card.classList.toggle('flipped');
                     });
                 });
 

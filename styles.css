@@ -254,8 +254,11 @@ html {
     transform-style: preserve-3d;
 }
 
-.team-card:hover .team-card-inner {
-    transform: rotateY(180deg);
+/* Hover-to-flip on devices that actually support hover (desktop/laptop) */
+@media (hover: hover) and (pointer: fine) {
+    .team-card:hover .team-card-inner {
+        transform: rotateY(180deg);
+    }
 }
 
 .team-card.flipped .team-card-inner {
