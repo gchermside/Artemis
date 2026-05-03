@@ -1,0 +1,16 @@
+body {
+	background: white;
+}
+hl{
+	font-size: 100px;
+	font-family: Arial;
+}
+div#dontSpeak {
+	background-color:lightblue;
+}
+div#SundayMorning {
+	background-color: lightyellow;
+}
+div#ExcuseMe {
+	background-color: #7BDBE2;
+}

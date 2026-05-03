@@ -1,0 +1,64 @@
+body {
+	background: #4d0000;
+} 
+h1{
+	font-size: 45px;
+	font-family:'Indie Flower', cursive;
+	font-weight: normal;
+	color:#4d0000;
+}
+h2 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 25px;
+	color: white;
+}
+h3{
+	font-family: 'Indie Flower', cursive;
+	font-size: 15px;
+	color:white;
+}
+p{
+	font-family: 'Indie Flower', cursive;
+	font-size:20px;
+	color:white;
+
+}
+ul{
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	color:white;
+}
+
+
+td {
+	width: 350px;
+
+}
+a{
+	color:#b3d9ff;
+	font-family: 'Indie Flower', cursive;
+	font-size:30px;
+}
+img#jillian{
+	position: relative;
+}
+img#topcorner{
+	position: absolute;
+	margin:35px 155px;
+}
+img#middle{
+	position:absolute;
+	margin:275px -795px;
+}
+
+img#bottom{
+	position: absolute;
+	margin: 575px -795px;
+}
+
+div#links{
+	margin:-150px 450px;
+}
+div#space{
+	margin: 250px 200px;
+}

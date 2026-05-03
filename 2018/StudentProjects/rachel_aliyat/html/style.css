@@ -1,0 +1,98 @@
+div#body { 
+	background-color: white;
+	color: black;
+	font-family: 'Amiri', sans-serif;
+	font-size: 50px;
+}
+
+div#poLITics {
+	background-color: navy;
+	color: white;
+}
+
+div#sidebar {
+	background-color: firebrick;
+	color: white;
+	position: relative;
+	height: 2700px;
+	width: 200px;
+	font-size: 30px;
+	font-family: 'Amiri', sans-serif;
+	border: none;
+	float: left;
+	margin-right: 20px;
+	padding-top: 50px;
+}
+
+h1 {
+	font-size: 150px;
+	font-family: "Amiri", sans-serif;
+	font-weight: normal;
+	margin: 0px;
+	text-align: center;
+	
+}
+
+div#sidebar a {
+	color: white;
+	margin: auto 0px;
+}
+
+div#faces {
+	border: none;
+	position-top: 400px;
+	float: right;
+}
+
+
+}
+
+}
+h2 {
+	font-size: 80px;
+	font-family: "Amiri", sans-serif;
+	font-weight: normal;
+	
+}
+
+h3 {
+	font-size: 40px;
+	font-weight: normal;
+	margin-color: blue;
+}
+
+
+h4 {
+	font-size: 40px;
+}
+
+a {
+	color: navy;
+}
+h5 {
+	font-size: 30px;
+	font-weight: normal;
+}
+
+p {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+img {
+	border-image: 2px;
+	border-color: black;
+
+}
+
+div#people {
+	float: right;
+}
+
+body {
+	font-size: 25;
+}
+
+div#logo {
+	font-size: 10px;
+}

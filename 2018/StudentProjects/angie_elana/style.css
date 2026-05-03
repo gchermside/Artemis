@@ -1,0 +1,165 @@
+body{
+	background-color:white;
+}
+
+@font-face {font-family: "Rock's Death";
+    src: url("http://db.onlinewebfonts.com/t/aa2acd0fa06757879a62c07edc8de3ab.eot");
+    src: url("http://db.onlinewebfonts.com/t/aa2acd0fa06757879a62c07edc8de3ab.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/aa2acd0fa06757879a62c07edc8de3ab.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/aa2acd0fa06757879a62c07edc8de3ab.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/aa2acd0fa06757879a62c07edc8de3ab.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/aa2acd0fa06757879a62c07edc8de3ab.svg#Rock's Death") format("svg");
+}
+
+h1{
+	font-size: 70px;
+	font-family: "Rock's Death";
+	font-weight: normal;
+	margin: 0px;
+	padding-bottom: 0px;
+}
+
+h2{
+	font-size: 40px;
+	font-family: 'Cardo';
+	color: #3aa7a3;
+	margin: 0px;
+}
+
+li{
+	font-size: 30px;
+	font-family: 'Cardo';
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+table{
+	font-size: 20px
+	background-color: #cce64 ;
+	position: relative;
+	left: 0px;
+	width:650px;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Cardo';
+	color:lavender;
+	
+}
+
+a:hover{
+	color: white;
+
+}
+
+p{
+	font-size: 30px;
+	font-family: 'Cardo';
+}
+
+div#navigation{
+	background-color: #3aa7a3;
+	color:lavender;
+}
+
+div#header{
+	/*background-color: #8f37d7;*/
+	height: 200px;
+	padding: 25px;
+
+}
+
+div#body{
+	padding: 30px;
+
+}
+
+div#video{
+	padding: 100px;
+	height: 1000px;
+}
+
+div#box1{
+	border:solid;
+	margin:50px;
+	padding:20px;
+	border-radius:20px;
+	border-color:#cdd3d5;
+	border-style:outset;
+}
+div#box2{
+	border:solid;
+	margin:50px;
+	padding:20px;
+	border-radius:20px;
+	border-color:#cdd3d5;
+	border-style: outset;
+}
+
+div#box3{
+	border:solid;
+	margin:50px;
+	padding:20px;
+	border-radius:20px;
+	border-color:#cdd3d5;
+	border-style: outset;
+}
+
+div#box4{
+	border:solid;
+	margin:50px;
+	padding:20px;
+	border-radius:20px;
+	border-color:#cdd3d5;
+	border-style: outset;
+}
+
+img#logo{
+	height: 100px;
+	width: 100px;
+	position-top: 0px;
+	position:absolute;
+}
+
+div#logo1{
+	height: 100px;
+	width: 100px;
+	top: 125px;
+	position:absolute;
+	right: 30px
+
+}
+
+div#LOGO{
+	position: absolute;
+	top:1100px;
+	right:720px;
+}
+div#LOGO img{
+	width: 500px;
+	height: 500px;
+	left:700px;
+}
+
+div#pic img{
+	height:500px;
+	width:500px;
+	float:left;
+
+
+}
+
+a#special {
+	color:purple;
+}
+
+a#special:hover {
+	color:lavender;
+}
