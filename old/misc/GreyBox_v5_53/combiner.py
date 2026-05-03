@@ -6,7 +6,7 @@ Used to combine the different parts of GreyBox.
 - Dojo's JavaScript compressor (http://alex.dojotoolkit.org/shrinksafe/). Place it under compression_lib/custom_rhino.jar
 """
 import os, sys, shutil
-from compression_lib import AJS_minify
+from old.misc.GreyBox_v5_53.compression_lib import AJS_minify
 
 
 if __name__ == '__main__':

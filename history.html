@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Artemis program history and archived websites from 1996 to today.">
+    <title>Artemis — History</title>
+    <link rel="icon" type="image/png" href="img/artemis_logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .history-hero {
+            background: #2d6c90;
+            color: white;
+            padding: 7rem 0 3.5rem;
+            text-align: center;
+        }
+
+        .history-hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .history-hero p {
+            font-size: 1.1rem;
+            max-width: 680px;
+            margin: 0 auto;
+            opacity: 0.9;
+            line-height: 1.7;
+        }
+
+        .history-blurb {
+            padding: 3rem 0 2rem;
+            background: white;
+        }
+
+        .history-blurb p {
+            max-width: 760px;
+            margin: 0 auto;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #444;
+        }
+
+        .archives-section {
+            padding: 3rem 0 4rem;
+            text-align: center;
+        }
+
+        .archives-section h2 {
+            font-size: 1.6rem;
+            color: #2d6c90;
+            margin-bottom: 0.4rem;
+        }
+
+        .archives-section .section-note {
+            color: #777;
+            font-size: 0.92rem;
+            margin-bottom: 2rem;
+        }
+
+        .archive-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 1rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .archive-card {
+            background: white;
+            border: 2px solid #2d6c90;
+            border-radius: 8px;
+            padding: 1.2rem 1rem;
+            text-align: center;
+            transition: background 0.2s, color 0.2s, transform 0.15s;
+        }
+
+        .archive-card.linked {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            cursor: pointer;
+        }
+
+        .archive-card.linked:hover {
+            background: #2d6c90;
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        .archive-card.no-link {
+            border-color: #ccc;
+            color: #aaa;
+            cursor: default;
+        }
+
+        .archive-card .year-label {
+            font-family: monospace;
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        .archive-card .year-status {
+            font-size: 0.78rem;
+            letter-spacing: 0.5px;
+        }
+
+        .archive-card.linked .year-status {
+            color: #2d6c90;
+        }
+
+        .archive-card.linked:hover .year-status {
+            color: rgba(255,255,255,0.8);
+        }
+
+        .archive-card.no-link .year-status {
+            color: #bbb;
+        }
+
+        .back-link-bar {
+            text-align: center;
+            padding: 1.5rem 0;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .back-link-bar a {
+            color: #2d6c90;
+            text-decoration: none;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 1rem;
+            letter-spacing: 1px;
+        }
+
+        .back-link-bar a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .history-hero h1 {
+                font-size: 2rem;
+            }
+
+            .archive-grid {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .hamburger {
+                display: none !important;
+            }
+
+            .nav-links {
+                position: static !important;
+                width: auto !important;
+                height: auto !important;
+                background: none !important;
+                flex-direction: row !important;
+                padding-top: 0 !important;
+                right: auto !important;
+            }
+
+            main {
+                margin-top: 75px !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo h1 {
+                font-size: 1.3rem;
+            }
+
+            .logo-img {
+                height: 28px;
+            }
+
+            .nav-links a {
+                font-size: 0.85rem;
+                letter-spacing: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="img/artemis_logo.png" alt="Artemis Logo" class="logo-img">
+                <h1>Artemis</h1>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">← Back to Current Site</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="history-hero">
+            <div class="container">
+                <h1>Our History</h1>
+                <p>Three decades of empowering young women in CS</p>
+            </div>
+        </section>
+
+        <section class="history-blurb">
+            <div class="container">
+                <p>
+                    The Artemis Project was founded in 1996 as a summer program with the mission of XXX.
+                    What began as a small initiative has grown into a program that has inspired hundreds of students across the Providence area over three decades. 
+                    Each year, Brown undergraduates volunteer as mentors, bringing fresh energy and new curriculum while carrying forward a tradition of making CS accessible and fun. 
+                    The archived websites below offer a window into each era of the program.
+                </p>
+            </div>
+        </section>
+
+        <section class="archives-section">
+            <div class="container">
+                <h2>Archived Websites</h2>
+                <div class="archive-grid">
+                    <a href="archives/1996/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <span class="year-label">1996</span>
+                        <span class="year-status">not preserved</span>
+                    </a>
+                    <a href="archives/1997/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <span class="year-label">1997</span>
+                        <span class="year-status">not preserved</span>
+                    </a>
+                    <a href="archives/1998/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <span class="year-label">1998</span>
+                        <span class="year-status">not preserved</span>
+                    </a>
+                    <a href="archives/2000/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <span class="year-label">2000</span>
+                        <span class="year-status">not preserved</span>
+                    </a>
+                    <a href="archives/2001/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <span class="year-label">2001</span>
+                        <span class="year-status">not preserved</span>
+                    </a>
+                    <a href="archives/2002/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <span class="year-label">2002</span>
+                        <span class="year-status">not preserved</span>
+                    </a>
+                    <a href="archives/2003/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <span class="year-label">2003</span>
+                        <span class="year-status">not preserved</span>
+                    </a>
+                    <a href="archives/2004/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <span class="year-label">2004</span>
+                        <span class="year-status">not preserved</span>
+                    </a>
+                    <a href="archives/2005/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <span class="year-label">2005</span>
+                        <span class="year-status">not preserved</span>
+                    </a>
+                    <a href="archives/2006/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <span class="year-label">2006</span>
+                        <span class="year-status">not preserved</span>
+                    </a>
+                    <a href="archives/2007/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <span class="year-label">2007</span>
+                        <span class="year-status">not preserved</span>
+                    </a>
+                    <a href="archives/2008/index.html" class="archive-card linked">
+                        <span class="year-label">2008</span>
+                        <span class="year-status">view site →</span>
+                    </a>
+                    <a href="archives/2009/index.html" class="archive-card linked">
+                        <span class="year-label">2009</span>
+                        <span class="year-status">view site →</span>
+                    </a>
+                    <a href="archives/2010/index.html" class="archive-card linked">
+                        <span class="year-label">2010</span>
+                        <span class="year-status">view site →</span>
+                    </a>
+                    <a href="archives/2011/index.html" class="archive-card linked">
+                        <span class="year-label">2011</span>
+                        <span class="year-status">view site →</span>
+                    </a>
+                    <a href="archives/2012/index.html" class="archive-card linked">
+                        <span class="year-label">2012</span>
+                        <span class="year-status">view site →</span>
+                    </a>
+                    <a href="archives/2014/index.html" class="archive-card linked">
+                        <span class="year-label">2014</span>
+                        <span class="year-status">view site →</span>
+                    </a>
+                    <a href="archives/2014.5/index.html" class="archive-card linked">
+                        <span class="year-label">2014½</span>
+                        <span class="year-status">view site →</span>
+                    </a>
+                    <a href="archives/2015/index.html" class="archive-card linked">
+                        <span class="year-label">2015</span>
+                        <span class="year-status">view site →</span>
+                    </a>
+                    <a href="archives/2017/index.html" class="archive-card linked">
+                        <span class="year-label">2017</span>
+                        <span class="year-status">view site →</span>
+                    </a>
+                    <a href="archives/2018/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <span class="year-label">2018</span>
+                        <span class="year-status">not preserved</span>
+                    </a>
+                    <a href="archives/2019/index.html" class="archive-card linked">
+                        <span class="year-label">2019</span>
+                        <span class="year-status">view site →</span>
+                    </a>
+                    <a href="index.html" class="archive-card linked">
+                        <span class="year-label">Present</span>
+                        <span class="year-status">current site →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="back-link-bar">
+        <a href="index.html">← Back to the current Artemis site</a>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p class="disclaimer">The content of UCS/GSC recognized student organization websites is generated independently from Brown University. The statements, views, opinions, and information contained on the site are personal to those of the authors and student organization and do not necessarily reflect those of Brown University. The content on the site is not reviewed, approved, or endorsed by Brown University or its faculty or staff.</p>
+        </div>
+    </footer>
+</body>
+</html>
