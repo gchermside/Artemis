@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<link href="layout/style_08.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>Artemis 2013</title>
+</head>
+
+<body>
+
+<div id="header">
+	</div>
+
+<div id="nav">
+        <a href="index.html">Home </a><br />
+        <a href="about.html">About Artemis </a><br />
+        <a href="coordinators.html">Coordinators </a><br />
+        <a href="students.html">Students </a><br />
+        <a href="pictures.html">Pictures </a><br />
+        <a href="lessons.html">Lessons </a><br />
+        Weekly Schedule <br/>
+        <a href ="calendar.html">Calendar </a><br />
+        <a href="resources.html">Resources </a><br />
+        <a href="applications.html">Applications </a><br />
+        <a href="sponsors.html">Sponsors </a><br />
+        <a href="contact.html">Contact Us </a><br />
+        <a href="../old/home.html">Past Years </a>
+</div>
+
+<div id="content">
+<img src="layout/content_bg_2.gif" width="605" height="120" alt="Artemis" />
+<br/><br/>
+<p> TBA. </p>
+<!--
+<p> Here is this year's weekly schedule.  Note that certain things are subject to change: </p>
+<ul>
+<li> <a href= "#week1"> Week 1 </a></li>
+<li> <a href= "#week2"> Week 2 </a></li>
+<li> <a href= "#week3"> Week 3 </a></li>
+<li> <a href= "#week4"> Week 4 </a></li>
+<li> <a href= "#week5"> Week 5 </a></li>
+</ul>
+
+<p> To see a calendar of all field trips, guest speakers, and other special events, please visit our <a href="calendar.html"> calendar </a> page. 
+</p>
+</p>
+
+<h2> <a name="week1"> Week 1 Schedule: </a></h2>
+<p>
+<big><b> Monday: </b></big>
+<ul>
+<li> 9:00-9:30          Connection
+<li> 9:30-9:45		      Snack break
+<li> 9:45-10:15         Powerpoint mini-lesson
+<li> 10:15-11:45        About me presentations
+<li> 11:45-12:15        Photoshop: introduction
+<li> 12:15-1:00         Lunch
+<li> 1:00-3:00          Photoshop: building a house
+</ul>
+
+<big><b> Tuesday: </b></big>
+<ul>
+<li> 9:00-10:00         Photoshop: LOL animal
+<li> 10:00-10:15		   Snack break
+<li> 10:15-11:30        Photoshop: LOL animal
+<li> 11:30-12:00        Tour of Brown
+<li> 12:00-12:15        Speaker Ettiquite
+<li> 12:15-1:00         Lunch
+<li> 1:00-3:00          Hardware
+</ul>
+
+<big><b> Wednesday: </b></big>
+<ul>
+<li> All Day Field Trip: Wheeler School ropes course
+</ul>
+
+<big><b> Thursday: </b></big>
+<ul>
+<li> 9:00-10:00         Photoshop: putting yourself in a picture
+<li> 10:00-10:15		   Snack break
+<li> 10:15-11:00        Photoshop: Ripples and changing colors
+<li> 11:00-12:15        Cryptography: Caesar ciphers and photo encryption 
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Speaker: James Hays
+<li> 2:00-3:00          Cryptography: public key encryption/RSA
+</ul>
+
+<big><b> Friday: </b></big>
+<ul>
+<li> 9:00-9:45          HTML session 1
+<li> 9:45-10:15		   Snack and game break
+<li> 10:15-11:00        HTML session 2
+<li> 11:00-12:15        Excel 
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Nerf capture the flag
+<li> 2:00-3:00          HTML session 3
+</ul>
+</p>
+
+
+<h2><a name = "week2"> Week 2 Schedule: </a></h2>
+<p>
+<big><b> Monday: </b></big>
+<ul>
+<li> 9:00-9:45          HTML session 4
+<li> 9:45-10:15		   Snack and game break
+<li> 10:15-11:00        HTML session 5
+<li> 11:00-11:15        break
+<li> 11:15-12:15        HTML session 6 
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Nerf gun war or water gun fight
+<li> 2:00-3:00          HTML session 7
+</ul>
+
+<big><b> Tuesday: </b></big>
+<ul>
+<li> 9:00-9:45          Alice: intro and tutorials
+<li> 9:45-10:15		   Snack and game break
+<li> 10:15-11:00        Alice: methods
+<li> 11:00-11:15        break
+<li> 11:15-12:15        Alice: events and functions
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Speaker: Betsy Hilliard
+<li> 2:00-3:00          Alice: free time
+</ul>
+
+<big><b> Wednesday: </b></big>
+<ul>
+<li> No camp today. Have a happy Fourth of July!
+</ul>
+
+<big><b> Thursday: </b></big>
+<ul>
+<li> 9:00-9:45          Alice: intro to lists
+<li> 9:45-10:00		   Snack break
+<li> 10:00-11:00        Linux command line
+<li> 11:00-11:15        break
+<li> 11:15-12:15        Alice: arrays and loops
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          The last lecture screening
+<li> 2:15-3:00          Alice: free time
+</ul>
+
+<big><b> Friday: </b></big>
+<ul>
+<li> 9:00-9:45          Alice: camera control and light
+<li> 9:45-10:15		   Snack and game break
+<li> 10:15-12:15        Alice: final project
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Speaker: Google
+<li> 2:15-3:00          Alice: final project presentations
+</ul>
+</p>
+
+
+<h2><br /><a name="week3">Week 3 Schedule:</a></h2>
+<p>
+<big><b>Monday</b></big>
+<ul>
+<li> 9:00-9:45          Introduction to Binary
+<li> 9:45-10:00		   Snack break
+<li> 10:00-11:00        Truth tables and logic circuits 
+<li> 11:00-12:15        Python: lesson 1
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Nerf gun war or water gun fight
+<li> 2:00-3:00          Python: lesson 2 (variables)
+</ul>
+
+<big><b>Tuesday</b></big>
+<ul>
+<li> 9:00-9:45          Simple data structures
+<li> 9:45-10:15		   Snack and game break
+<li> 10:15-11:00        Simple data structures
+<li> 11:00-12:15        Python: lesson 3 (loops and lists)
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Speaker: Maurice Herlihy
+<li> 2:00-3:00          Python: lesson 4 (strings and conditionals)
+</ul>
+
+<big><b>Wednesday</b></big>
+<ul>
+<li> All Day Field Trip: MIT Museum and robotics lab
+</ul>
+
+<big><b>Thursday</b></big>
+<ul>
+<li> 9:00-9:45          Peruvian coin flips
+<li> 9:45-10:15		   Snack and game break
+<li> 10:15-11:00        Logism
+<li> 11:00-12:15        Python: lesson 5 (functions)
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Speaker: Microsoft
+<li> 2:00-3:00          Python: lesson 6 (debugging, tracing)
+</ul>
+
+<big><b>Friday</b></big>
+<ul>
+<li> 9:00-9:45          Teach and play Nim
+<li> 9:45-10:15		   Snack and game break
+<li> 10:15-12:15        Nim project
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Speaker: Genevieve Patterson
+<li> 2:00-3:00          Nim project
+</ul>
+</p>
+
+
+<h2><br /><a name="week4">Week 4 Schedule:</a></h2>
+<p>
+<big><b>Monday</b></big>
+<ul>
+<li> 9:00-9:45          Sorting
+<li> 9:45-10:15		   Snack and game break
+<li> 10:15-11:00        Python: lesson 7 (graphics)
+<li> 11:00-11:15        break
+<li> 11:00-12:15        Python: lesson 8 (animation)
+<li> 12:15-1:00         Lunch
+<li> 1:00-1:45          Nerf gun war or water gun fight
+<li> 1:45-3:00          Game theory: dollar auction and prisoner's dilemma 
+</ul>
+
+<big><b>Tuesday</b></big>
+<ul>
+<li> 9:00-10:00         Searching
+<li> 10:00-10:30		   Snack and game break
+<li> 10:30-11:00        Searching in python
+<li> 11:00-12:15        Game Theory: nim
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Speaker: Eugene Charniak
+<li> 2:00-3:00          Python: graphics project
+</ul>
+
+<big><b>Wednesday</b></big>
+<ul>
+<li> All Day Field Trip: Boston Museum of Science
+</ul>
+
+<big><b>Thursday</b></big>
+<ul>
+<li> 9:00-9:45          Pathfinding
+<li> 9:45-10:15		   Snack and game break
+<li> 10:30-11:00        Python: graphics project
+<li> 11:00-12:15        AI/machine learning
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Speaker: Iris Bahar 
+<li> 2:00-3:00          Python: graphics project presentations
+</ul>
+
+<big><b>Friday</b></big>
+<ul>
+<li> 9:00-9:30		      AI/machine learning
+<li> 9:30-10:30		   Learning Nim project
+<li> 10:30-11:00		   Snack and game break
+<li> 11:00-12:15        Learning Nim project
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Speaker: Erik Sudderth 
+<li> 2:00-2:45          Learning Nim project and choosing research topics
+<li> 2:45-3:00          AI demostration
+</ul>
+</p>
+
+
+<h2><br /><a name="week5">Week 5 Schedule:</a></h2>
+<p>
+<big><b>Monday</b></big>
+<ul>
+<li> 9:00-9:45          Robotics: intro to robotics, assigning teams and roles
+<li> 9:45-10:15		   Snack and game break
+<li> 10:15-11:00        Robotics: the VEX kit and hand tool basics 
+<li> 11:00-12:15        Research
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Speaker: Tom Doeppener
+<li> 2:00-3:00          Robotics: the VEX kit and hand tool basics 
+</ul>
+
+<big><b>Tuesday</b></big>
+<ul>
+<li> 9:00-9:45          Robotics: building the sample robot
+<li> 9:45-10:15		   Snack and game break
+<li> 10:15-11:00        Robotics: easyc
+<li> 11:00-12:15        Research and powerpoints
+<li> 12:15-1:00         Lunch
+<li> 1:00-2:00          Speaker: Tom Philip Klein
+<li> 2:00-3:00          Robotics: easyc 
+</ul>
+
+<big><b>Wednesday</b></big>
+<ul>
+<li> 9:00-9:45          Robotics: maze project
+<li> 9:45-10:00		   Snack  break
+<li> 10:00-11:45        Robotics: maze project
+<li> 11:45-12:15        Finalize presentations
+<li> 12:15-1:00         Lunch
+<li> 1:00-3:00          Robotics: maze project
+</ul>
+
+<big><b>Thursday</b></big>
+<ul>
+<li> 9:00-10:00			Final Presentations to Coordinators
+<li> 10:00-10:15			Snack break
+<li> 10:15-11:45			Final Presentations to Coordinators
+<li> 11:45-12:15			Public Speaking Exercise
+<li> 12:15-1:00			Lunch
+<li> 1:00-1:30				Set Up Final Presentations
+<li> 1:30-2:30				Final Presentation to Faculty
+<li> 2:30-3:00				Game
+</ul>
+
+<big><b>Friday - LAST DAY OF CAMP!</b></big>
+<ul>
+<li>9:00-1:00		Field Trip to United Skates of America
+<li>1:00-3:00		Movie and goodbyes
+</ul>
+</p>
+-->
+</div>
+
+<div id="footer">
+	<a href="http://validator.w3.org/check?uri=referer">xhtml</a> <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a> 
+	&#169; 2012 The Artemis Project 
+</div>
+
+</body>
+</html>
