@@ -1,0 +1,593 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Emacs Tutorial</title>
+  </head>
+
+  <body link="#5966A8" vlnk="#5966A8" alink="green" bgcolor="white">
+    <h1>Emacs</h1>
+
+
+    <hr>
+    <center>
+      <table border=0 cellpadding=3 cellspacing=0>
+	  <tr>
+	    <td bgcolor="#cccccc">
+	      <a href="MailInternet.html">
+		<img src="images/arrow_left.gif" align=top border=1></a>
+	    </td>
+	<td valign="top" bgcolor="#cccccc" align=right>
+	      <font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Mail, Internet, and More</b></font>
+	    </td>
+	    
+	    <td>&nbsp;</td>
+	    
+	    <td valign="top" bgcolor="#cccccc">
+	      <font face="Arial, Helvetica" size=2><u>NEXT</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>First Program</b></font>
+	    </td>
+	    <td bgcolor="#cccccc">
+	  <a href="Programming.html">
+		<img src="images/arrow_right.gif" align=top border=1></a>
+	    </td>
+	  </tr>
+      </table>
+    </center>
+    <hr>
+    
+    <img src="images/xemacs-scaled.jpg">
+
+    <h2>What is Emacs?</h2>
+
+
+    <p>
+      Emacs (technically XEmacs) is a text editor, similar in function to a
+      lot of word processing programs that you may have used. It has a ton
+      of features that will help you create and edit programs in CS15. This
+      little tutorial will give you a <b>very basic</b> introduction to
+      creating, editing, and saving files with Emacs, but we are only 
+      giving you the very tip of the iceberg. Emacs is a <b>huge</b> program.
+      The <b><a href=Appendix.html>Appendix</a></b> gives you a good list
+      of some common commands and shortcuts, which you should definitely
+      come back to.
+    </p>
+    
+    <p>
+      This introduction will cover some of the more idiosyncratic elements of
+      Emacs. However, it also has most of the standard functionality you
+      would expect from a text editor, including <b>undo</b> (but no redo,
+      sorry), <b>copy</b>, <b>paste</b>, <b>search</b>, etc. The toolbar
+      at the top of the window has some of the most common functions. Other
+      functions can be found in the pull-down menus. Poke around.
+    </p>
+
+    
+    <h2>Opening Emacs</h2>
+
+    <p>
+      First things first, you can open Emacs by typing <code>xemacs &</code>
+      in a shell, or by selecting "<code>XEmacs</code>" from the
+      <b>Root Menu</b>.
+    </p>
+    
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    Open Emacs.
+	  </em>
+	</p>
+    </ul>
+	  
+    
+    <h2>Buffers and Files</h2>
+
+    <p>
+      The Emacs menu bars often make reference to "buffers". Do not be fooled;
+      this is not a reference to a nail file, or machines to make
+      your floor shiny. "Buffer" is another word for document or file in
+      Emacs. Buffers get their name from the fact that they
+      temporarily "buffer" a file by
+      storing your changes to a document, without immediately writing them to a
+      file. Think of it just as the graphical display of your file and the 
+changes you have made to it since saving. While this is useful at times, you will want to be sure that all of
+      your buffers are actually saved into the right files before you 
+      log out and lose your changes.
+    </p>
+
+    <p>
+      Every time you open Emacs, you will start on a buffer called
+      "<b>*scratch*</b>." As will be printed on top of the buffer as soon as 
+      you click on the screen, *scratch* is typically a place for you to
+      put notes as you are working. However, you can save changes you
+      make to scratch.
+    </p>
+
+    <p>
+      If you have more than one buffer open, the "Buffers" menu allows 
+      you to switch between them. Simply select the one you want to view or 
+      edit. The file menu allows you to save buffers to files, or revert (go
+      back to) to the last saved version of a file, erasing all your
+      recent changes. 
+    </p>
+
+    <br>
+
+    <table border=1 cellpadding=5 bgcolor="#eaeaea"><tr><td>
+	    <image src="images/lightbulb.gif" width=75> 
+
+    <h3>Sidenote: Keyboard Shortcuts</h3>
+    
+    <p>
+      As you look through the Emacs menus, you will see a bunch of funny 
+      symbols next to menu options, like:
+    </p>
+
+    <ul>
+	<p><code>
+	    Open...               C-x C-f<br>
+	    Save Some Buffers...  C-x s<br>
+	    Replace...            M-%<br>
+	  </code>
+	</p>
+    </ul>
+    
+    <p>
+      These are the keyboard shortcuts for the commands. Emacs uses two
+      modifier keys: <code>&lt;control&gt;</code> and 
+      <code>&lt;meta&gt;</code>. While you are probably familiar with the
+      <code>&lt;control&gt;</code> key, what's this funny
+      <code>&lt;meta&gt;</code> thing?
+    </p>
+    
+    <p>
+      <code>&lt;meta&gt;</code> is a holdover from Linux's UNIX roots. 
+      If you have ever used a UNIX computer, like a Sun SPARC, you may have noticed
+      a funny little key with a diamond on it. (If you haven't, just take our 
+      word for it.) That is the <code>&lt;meta&gt;</code> key. It
+      is just like the <code>&lt;control&gt;</code> or 
+      <code>&lt;shift&gt;</code> key -- a key that you can use to signal
+      that a keyboard entry should be interpreted as a special command.
+      However, since we are using PC hardware, our keyboards don't have
+      a <code>&lt;meta&gt;</code> key. Never fear, your accounts have
+      been set up to see the <code>&lt;alt&gt;</code> key
+      as <code>&lt;meta&gt;</code>.
+    </p>
+
+    <p>
+      Anyway, your life will be a lot easier of you learn some keyboard
+      shortcuts. There is a list of the most common shortcuts in the 
+      <b><a href="Appendix.html">Appendix</a></b>, but here's a quick
+      rundown of how to read them:
+    </p>
+
+    <ul>
+      <li>
+	A keyboard shortcut will be made up of one or more grouping of 
+	characters, separated by spaces. 
+      </li>
+      <li>
+	The '<code>C</code>' and the '<code>M</code>' stand for 
+	<code>&lt;control&gt;</code> and <code>&lt;meta&gt;</code>, 
+	respectively.
+      </li>
+      <li>
+	Keys separated by hyphens should be held down together, while two
+	keys or groups of keys separated by a space should be executed 
+	sequentially.
+      </li>
+      <li>
+	Sometimes there will be a character in a shortcut that requires more
+        than one key press to be produced (like '%,' which requires both
+	<code>&lt;shift&gt;</code> and <code>&lt;5&gt;</code>). In that
+	case, press all of the keys necessary to produce the character.
+      </li>
+    </ul>
+
+    <p>
+      <b>Examples:</b>
+    </p>
+
+    <ul>
+	<p>
+	  <code><b>Save some buffers (C-x s):</b></code> Press and hold
+	  <code>&lt;control&gt;</code> while you press <code>&lt;x&gt;</code>.
+	  Release both keys. Press and release <code>&lt;s&gt;</code>.
+	</p>
+	<p>
+	  <code><b>Replace (M-%):</b></code> Press and hold 
+	  <code>&lt;meta&gt;</code> (really left <code>&lt;alt&gt;</code>
+	  key). Press and hold <code>&lt;shift&gt;</code>. Press 
+	  <code>&lt;5&gt;</code>. Release all keys.
+	</p>
+
+    </ul>
+
+    <br>
+
+	</tr></td>
+    </table>
+
+
+    <h2>Deleting Text</h2>
+
+    <p>
+      Before we get you editing files, we'll tell you what to do if you screw
+      up :) This may seem really basic, but some of Emacs' delete behavior
+      is different from that of other programs you may have used. (If you 
+      highlight text and just press backspace or delete, you will not delete
+      it!)
+      There are 3 ways to delete text in Emacs.
+    </p>
+
+    <ul>
+      <li>
+	Place the cursor to the right of what you want to delete and
+	press <code>&lt;Backspace&gt;</code> repeatedly to 
+	remove character-by-character.
+      </li>
+      <li>
+	Place the cursor to the left of what you want to delete and
+	press <code>&lt;Delete&gt;</code> repeatedly to 
+	remove character-by-character.
+      </li>
+      <li>
+	To remove a whole block of text, select it with the cursor, and press
+	the <code>&lt;Cut&gt;</code> button on the toolbar, or select
+	"<code>Cut</code>" from the Edit menu. <i>Note that the text
+	  you removed will now be on your clipboard, and will be pasted
+	  the next time you call paste if you don't copy or cut something
+	  else first.</i>
+      </li>
+    </ul>
+
+    <br>
+
+    <h2>Editing Files and Dynamic Expansion</h2>
+
+    <p>
+      Typically, you will be editing pre-existing files in Emacs, or you
+      will be opening new ones. However, just to practice  a little, we
+      are going to have you modify the *scratch* buffer.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    Type yourself a note in the Emacs window. Specifically, make sure
+	    to include the words "complete" and "compost." (Make sure that
+	    you have your mouse cursor over the Emacs window so it is
+	    active. Don't worry about the Emacs logo, if you start typing, 
+	    it will take you to *scratch*.)
+	  </em>
+	</p>
+    </ul>
+
+    <p>
+      Dynamic expansion will save you a million (exactly one million)
+      errors and mistakes when you start programming (which will
+      be in about 5 minutes--getting excited?). It's a lot like tab completion
+      in the shells, but, in this case, it looks at what you have already 
+      written. You activate dynamic expansion with:
+    </p>
+    
+    <p><code>M-/</code></p>
+
+    <p>
+      That is <code>&lt;meta&gt;</code> and <code>&lt;/&gt;</code> at
+      the same time. (If you can't find the <code>&lt;meta&gt;</code>
+      key, go back and read the box on keyboard shortcuts.)
+    </p>
+
+    <p>
+      Dynamic expansion will look over what you have already written and
+      try give you a completion for the characters immediately to the 
+      left of the cursor. If there are multiple possibilities, it 
+      will give you the most recent one, but multiple presses of
+      <code>M-/</code> will cycle through all the possibilities.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    Now type the letters "</em><code>com</code><em>" in your note and 
+	    press </em><code>M-/</code><em> a few times to see how the dynamic
+	    expansion works. Pretty neat, huh? (You may see words you haven't 
+	    typed, like "compile" come up as you cycle through the options.
+	    That is because Emacs will look at other buffers for a completion
+	    if it can't find one on the current buffer. It has some
+	    setup buffers that might have other words on them. You will see
+	    a message on the lower-left corner of your window if the word was
+	    taken from another buffer.)
+	  </em>
+	</p>
+    </ul>
+
+    <br>
+
+    
+    <h2>Saving Buffers</h2>
+    
+    <p>
+      To save your current buffer, select 
+      "<code>Save &lt;nameofbuffer&gt;</code>" from the File menu. To save
+      all of your open buffers, select"<code>Save Some Buffers</code>."
+      Unless you select "<code>Save As</code>," buffers you got by 
+      opening a pre-existing file will
+      be saved to their original file. If you save *scratch*, you will
+      have to give a name.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>Try saving the current buffer, using either the Menu entry
+	    or the Toolbar.</em>
+	</p>
+    </ul>
+    
+    <p>
+      You should now see this window (called the minibuffer).:
+    </p>
+
+    <center>
+      <img src="images/xemacs-save.jpg">
+    </center>
+
+    <p>
+      To the left, you have a list of all the directories in the current 
+      directory, and the right side displays all of the files in the current
+      directory. If you wanted to switch directories (without just typing
+      the name at the prompt at the bottom), you could click the
+      directory you want with the <b>middle</b> mouse button. If you
+      wanted to save the buffer into one of the files in the current
+      directory (overwriting whatever is currently in that file), click the
+      file's name with the middle mouse button. (All of the files you see
+      that start with a period are configuration files, called "dot files.")
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Move your mouse pointer over the minibuffer and type in
+	    "notes" as the name of the file.  When you are finished, 
+	    press 'enter.'
+	  </em>
+	</p>
+    </ul>
+
+    <p>
+      When Emacs successfully saves your file, it will display the message:
+    </p>
+
+    <p>
+      <code>Wrote &lt;full path and name of file&gt;</code>
+    </p>
+
+    <p>
+      in the lower-left corner of the window.
+    </p>
+
+    <br>
+
+    <h2>Killing Buffers</h2>
+
+    <p>
+      For the moment, we are done with this file called "notes".  In
+      order to remove it from your working environment in Emacs, you
+      must <b>kill</b> or <b>delete</b> it.  Killing a buffer will
+      remove it from your 
+      Buffer Menu, and you won't be able to edit it until you open it
+      again.  Despite the violent name, killing buffers does not
+      delete them from the file system, although you must still make sure
+      to save them before killing.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    Go to the Buffers Menu and select the entry called "Delete Buffer
+	    notes".
+	  </em>
+	</p> 
+    </ul>
+
+    <center>
+      <img src = "images/xemacsmenu.jpg">
+    </center>
+
+    <p>
+      The "notes" buffer should be gone, replaced by a *scratch*
+      buffer, which is the default buffer that Emacs always has open.
+    </p>
+   
+    <br>
+
+    <h2>Opening New Buffers</h2>
+    
+    <p>
+      To create a new file, without using the *scratch* buffer, simply 
+      select <b>Open</b> from the menu or toolbar and 
+      enter the name you want to give it.  Unlike in most word processors
+      you might have used, "Opening" a nonexistent file
+      in Emacs causes it to be created.  
+    </p>
+
+    <p>This is easy:</p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>Select "Open" from the file menu or the toolbar.</em>
+	</p>
+    </ul>
+
+    <p>
+      You should get a minibuffer with the prompt:
+    </p>
+
+    <p><code>Find file: ~/</code></p>
+
+    <p>
+      By default, Emacs looks for files in the directory where you started
+      the program (your home directory in this case). If you want to open a 
+      file somewhere else, you can enter the directory name at the prompt.
+      Emacs supports "tab completion" like the shell windows.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>Type in a unique name for a new file, like "oohlala" and press
+	    'enter.' </em>
+	</p>
+    </ul>
+
+    <p>
+      Emacs will tell you this a new file in the bottom left of the
+      frame. 
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Type a short message in the new buffer.
+	  </em>
+	</p> 
+    </ul>
+
+    <p>
+      Though this buffer has a name, it is not yet saved.  You must
+      explicitly tell Emacs to save the file, or else you could lose
+      it.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>Save this buffer.</em>
+	</p>
+    </ul>
+
+    <p>
+      Since you already told Emacs where this file belongs, it will
+      automatically write it there, without asking where you want to
+      put it. See how this file is now listed in the Buffers menu.
+    </p>
+    
+    <br>
+
+    <h2>Opening Existing Files</h2>
+    
+    <p>
+      Now, suppose, you would like to take a look at your old file
+      called "notes".  Remember that we deleted it before, but that
+      deletion only closes the file in Emacs, the file still exists on the
+      system if it was saved.
+    </p>
+    
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>Open your file "notes." (You know it was in your home directory.
+	    Try using tab completion to find it.)
+	  </em>
+	</p>
+    </ul>
+    
+    <p>
+      You should now have two real buffers (buffers that correspond to
+      real files) open.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>Try switching around between buffers with the Buffer Menu
+	  or the tabs immediately below the toolbar.</em>
+	</p>
+    </ul>
+
+    <br>
+
+    <h2>Closing up</h2>
+    
+    <p>
+      Emacs is pretty good at keeping temporary backups of your work, 
+      just in case the computer crashes or you accidentally kill the
+      application.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    Add another bit of text to your "notes" buffer.
+	</p>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  Without saving, try to delete the "notes" buffer using the "Buffers"
+	  menu.
+	</em>
+	</p>
+    </ul>
+    
+    <p>
+      Emacs will notify you that, you are trying to kill a buffer
+      that you have changed but not saved.  You then have the
+      option of killing it, or canceling.  Note: This is <b>not</b>
+      asking you whether you want to save your file; you must do that
+      separately.
+    </p>
+    
+    <p>
+      You can try to save all of your buffers at once by using the
+      File Menu command, <b>Save Some Buffers</b>.  It's a pretty
+      stupid name, but it will save you some time if you have a lot of 
+      files that need saving.  Select this command and Emacs will ask
+      you if you want to save each file that is not already saved.
+    </p>
+
+    <hr>
+    <center>
+      <table border=0 cellpadding=3 cellspacing=0>
+	  <tr>
+	    <td bgcolor="#cccccc">
+	      <a href="MailInternet.html">
+		<img src="images/arrow_left.gif" align=top border=1></a>
+	    </td>
+	<td valign="top" bgcolor="#cccccc" align=right>
+	      <font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Mail, Internet, and More</b></font>
+	    </td>
+	    
+	    <td>&nbsp;</td>
+	    
+	    <td valign="top" bgcolor="#cccccc">
+	      <font face="Arial, Helvetica" size=2><u>NEXT</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>First Program</b></font>
+	    </td>
+	    <td bgcolor="#cccccc">
+	  <a href="Programming.html">
+		<img src="images/arrow_right.gif" align=top border=1></a>
+	    </td>
+	  </tr>
+      </table>
+    </center>
+    <hr>
+
+
+    <hr>
+    <address><a href="mailto:jgoodwin@cs.brown.edu"></a></address>
+<!-- Created: Wed Jul 17 23:24:08 EDT 2002 -->
+<!-- hhmts start -->
+Last modified: Tue Sep  2 23:10:34 EDT 2003
+<!-- hhmts end -->
+  </body>
+</html>

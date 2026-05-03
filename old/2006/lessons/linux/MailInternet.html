@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Mail, Internet, and More</title>
+  </head>
+
+  <body link="#5966A8" vlnk="#5966A8" alink="green" bgcolor="white">
+
+    <h1>Mail, Internet, and More</h1>
+
+    <hr>
+    <center>
+      <table border=0 cellpadding=3 cellspacing=0>
+	  <tr>
+	    <td bgcolor="#cccccc">
+	      <a href="Shell.html">
+		<img src="images/arrow_left.gif" align=top border=1></a>
+	    </td>
+	<td valign="top" bgcolor="#cccccc" align=right>
+	      <font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Linux Shells</b></font>
+	    </td>
+	    
+	    <td>&nbsp;</td>
+	    
+	    <td valign="top" bgcolor="#cccccc">
+	      <font face="Arial, Helvetica" size=2><u>NEXT</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Emacs</b></font>
+	    </td>
+	    <td bgcolor="#cccccc">
+	  <a href="Emacs.html">
+		<img src="images/arrow_right.gif" align=top border=1></a>
+	    </td>
+	  </tr>
+      </table>
+    </center>
+    <hr>
+    <h2>Mail</h2>
+
+    <p>
+      Your CS account allows you to receive mail at the address
+      &lt;yourlogin&gt;@cs.brown.edu. There are various programs for checking 
+      mail, but <b>pine</b> is the easiest. To run pine, just type
+      <code>pine</code> in a shell. The menus are fairly self-explanatory, 
+      but you can ask a consultant if you have any problems.
+    </p>
+
+    <p>
+      <b>We will be sending you important notices via your CS email, so be 
+	sure to check it!</b> Alternatively, you can have your email forwarded
+        to an address of your choosing.  If you want to have your email forwarded
+        you can choose to either have a copy of your emails saved locally or not.
+    </p>
+
+    <p>
+      If you want to have your email forwarded and you want to keep a local copy
+      of your emails (recommended), do the following: 
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    In a shell, type </em><code>cs015_mailForward -c blah@blah.com</code>
+	    <em> (where 'blah@blah.com' is your preferred email address) and
+	    press 'enter.'
+	  </em>
+	</p>
+    </ul>
+
+    <p>
+      If you want to have your email forwarded but you do not want to keep a local
+      copy, do the following: 
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    In a shell, type </em><code>cs015_mailForward blah@blah.com</code>
+	    <em> (where 'blah@blah.com' is your preferred email address) and
+	    press 'enter.'
+	  </em>
+	</p>
+    </ul>
+
+    <br>
+    <h2>Internet</h2>
+
+    <p>
+      There are a few browsers available on the department network, but we
+      recommend that you use Mozilla because it is easy to use, and it
+      performs better on Linux than most alternatives. 
+      You can run Mozilla by typing
+      <code>mozilla</code> in a shell, or by selecting "<code>Mozilla</code>"
+      from the <b>Root Menu</b>, which you get by pressing the left 
+      mouse button on the desktop.
+    </p>
+
+    <br>
+
+
+    
+    <h2>Ergonomics</h2>
+    
+    <p>
+      Repetitive-stress injuries are becoming more and more of a concern as
+      computer use increases. The CS Lab has excellent chairs and monitors
+      to keep you safe, but you have to know how to use them. Please 
+      take a look at the
+      <a href="http://www.cs.brown.edu/system/services/ergo.html">
+	CS Ergonomics Page
+      </a>(<a href="http://www.cs.brown.edu/system/services/ergo.html">
+	www.cs.brown.edu/system/services/ergo.html
+	</a>).
+    </p>
+
+    <br>
+
+    <h2>Tab Completion</h2>
+
+    <p>
+      So far, you have been doing a lot of typing to get all these commands and
+      their arguments running. Fortunately, Linux has a great feature to 
+      save you some time and some errors: <b>tab completion</b>.
+    </p>
+
+    <p>
+      If you type part of a command, file, or directory name that is 
+      visible from your current directory and hit the 'tab' key,
+      Linux will either complete your word (if there are no other possible
+      completions), or give you a list of possible matches. This saves a 
+      lot of heartaches with misspellings, along with some typing.
+    </p>
+
+    <p>
+      If you try out tab completion a few times, you should get a pretty good
+      idea of how it works. If your prefix is really general, like 'l,' then
+      you will get a huge list of possible completions that runs off the top
+      of your shell. If your prefix is unique, Linux will complete your word 
+      and insert a space. (Try typing "rmd" and then 'tab.') If your 
+      prefix is part of a larger common prefix of numerous words, Linux
+      will add letters until the prefix matches the longer prefix. Another
+      'tab' will then list all choices. (For example, "xem" and 'tab' will
+      extend to "xemacs," but a further tab will show that you can pick 
+      just "xemacs" or a few other commands that begin with "xemacs.") 
+      Finally, if your prefix has no possible completions, the computer
+      will beep at you and nothing will happen. This
+      sounds really confusing, but give it a try; it's actually your new 
+      best friend.
+    </p>
+      
+    <br>
+
+    <h2>Copying and Pasting</h2>
+    <p>
+      Another really convenient feature of Linux is super-easy copying and 
+      pasting. If you want to copy something, either within a frame, or between
+      two frames, simply highlight the text by holding down the left mouse 
+      button and dragging the cursor over the text. To paste that highlighted
+      text somewhere, just click the <b>middle</b> mouse button over the
+      destination. That's it!
+    </p>
+
+    <h2>Command History (Up Arrow)</h2>
+    <p>
+      Your shell remembers all the commands you have 
+      given it. Press the up arrow to move through
+      previous commands, starting with most recent.
+      This is helpful when you are editing programs and
+      constantly running <code>javac</code> and <code>java.</code> (You'll see what these are in a second!)
+    </p>
+
+    <br>
+   
+    <h2>Background Processes</h2>
+    
+    <p>
+      If you have fooled around with Mozilla or any other programs yet, 
+      you may have noticed that you cannot use your shell after you
+      run a graphical program in it until you quit the program. That is
+      because the shell interprets your command to run the program as
+      its sole duty until the program has finished running. 
+    </p>
+
+    <p>
+      You can solve that problem by putting an ampersand ('&') after 
+      a call to run a program that will display a window outside of your shell.
+      For example, to run Mozilla and keep use of your shell, you would
+      enter <code>mozilla &</code> into your shell instead of just
+      <code>mozilla</code>.
+    </p>
+      
+    <br>
+
+    <hr>
+    <center>
+      <table border=0 cellpadding=3 cellspacing=0>
+	  <tr>
+	    <td bgcolor="#cccccc">
+	      <a href="Shell.html">
+		<img src="images/arrow_left.gif" align=top border=1></a>
+	    </td>
+	<td valign="top" bgcolor="#cccccc" align=right>
+	      <font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Linux Shells</b></font>
+	    </td>
+	    
+	    <td>&nbsp;</td>
+	    
+	    <td valign="top" bgcolor="#cccccc">
+	      <font face="Arial, Helvetica" size=2><u>NEXT</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Emacs</b></font>
+	    </td>
+	    <td bgcolor="#cccccc">
+	  <a href="Emacs.html">
+		<img src="images/arrow_right.gif" align=top border=1></a>
+	    </td>
+	  </tr>
+      </table>
+    </center>
+    <hr>
+
+
+    <hr>
+    <address><a href="mailto:jgoodwin@cs.brown.edu"></a></address>
+<!-- Created: Wed Jul 17 22:51:48 EDT 2002 -->
+<!-- hhmts start -->
+Last modified: Wed Sep  3 23:55:05 EDT 2003
+<!-- hhmts end -->
+  </body>
+</html>
