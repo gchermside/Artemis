@@ -120,6 +120,33 @@
             color: #bbb;
         }
 
+        .archive-card.multi-linked {
+            border-color: #2d6c90;
+        }
+
+        .archive-card.multi-linked .card-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+            margin-top: 0.5rem;
+        }
+
+        .archive-card.multi-linked .card-link {
+            display: block;
+            font-size: 0.78rem;
+            color: #2d6c90;
+            text-decoration: none;
+            letter-spacing: 0.5px;
+            padding: 0.15rem 0.4rem;
+            border-radius: 4px;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .archive-card.multi-linked .card-link:hover {
+            background: #2d6c90;
+            color: white;
+        }
+
         .back-link-bar {
             text-align: center;
             padding: 1.5rem 0;
@@ -219,100 +246,130 @@
         <section class="archives-section">
             <div class="container">
                 <h2>Archived Websites</h2>
+                <p> Note: sites are preserved as is; some functionality may be degraded.</p>
+                <br>
                 <div class="archive-grid">
-                    <a href="old/1996/home.html" class="archive-card linked">
+                    <div class="archive-card multi-linked">
                         <span class="year-label">1996</span>
-                        <span class="year-status">view site →</span>
-                    </a>
-                    <a href="old/1997/home.html" class="archive-card linked">
+                        <div class="card-links">
+                            <a href="old/1996/home.html" class="card-link">view site →</a>
+                        </div>
+                    </div>
+                    <div class="archive-card multi-linked">
                         <span class="year-label">1997</span>
-                        <span class="year-status">view site →</span>
-                    </a>
-                    <a href="old/1998/home.html" class="archive-card linked">
+                        <div class="card-links">
+                            <a href="old/1997/home.html" class="card-link">view site →</a>
+                        </div>
+                    </div>
+                    <div class="archive-card multi-linked">
                         <span class="year-label">1998</span>
-                        <span class="year-status">view site →</span>
-                    </a>
-                    <a href="old/1999/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <div class="card-links">
+                            <a href="old/1998/home.html" class="card-link">view site →</a>
+                        </div>
+                    </div>
+                    <div class="archive-card no-link">
                         <span class="year-label">1999</span>
                         <span class="year-status">not preserved</span>
-                    </a>
-
-                    <a href="old/2000/home.html" class="archive-card linked">
+                    </div>
+                    <div class="archive-card multi-linked">
                         <span class="year-label">2000</span>
-                        <span class="year-status">view site →</span>
-                    </a>
-                    <a href="old/2001/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <div class="card-links">
+                            <a href="old/2000/home.html" class="card-link">view site →</a>
+                            <a href="old/2000/students/home.html" class="card-link">view projects →</a>
+                        </div>
+                    </div>
+                    <div class="archive-card no-link">
                         <span class="year-label">2001</span>
                         <span class="year-status">not preserved</span>
-                    </a>
-                    <a href="old/2002/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                    </div>
+                    <div class="archive-card no-link">
                         <span class="year-label">2002</span>
                         <span class="year-status">not preserved</span>
-                    </a>
-                    <a href="old/2003/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                    </div>
+                    <div class="archive-card no-link">
                         <span class="year-label">2003</span>
                         <span class="year-status">not preserved</span>
-                    </a>
-                    <a href="old/2004/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                    </div>
+                    <div class="archive-card no-link">
                         <span class="year-label">2004</span>
                         <span class="year-status">not preserved</span>
-                    </a>
-                    <a href="old/2005/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                    </div>
+                    <div class="archive-card no-link">
                         <span class="year-label">2005</span>
                         <span class="year-status">not preserved</span>
-                    </a>
-                    <a href="old/2006/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                    </div>
+                    <div class="archive-card no-link">
                         <span class="year-label">2006</span>
                         <span class="year-status">not preserved</span>
-                    </a>
-                    <a href="old/2007/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                    </div>
+                    <div class="archive-card no-link">
                         <span class="year-label">2007</span>
                         <span class="year-status">not preserved</span>
-                    </a>
-                    <a href="old/2008/index.html" class="archive-card linked">
+                    </div>
+                    <div class="archive-card multi-linked">
                         <span class="year-label">2008</span>
-                        <span class="year-status">view site →</span>
-                    </a>
-                    <a href="old/2009/index.html" class="archive-card linked">
+                        <div class="card-links">
+                            <a href="old/2008/index.html" class="card-link">view site →</a>
+                        </div>
+                    </div>
+                    <div class="archive-card multi-linked">
                         <span class="year-label">2009</span>
-                        <span class="year-status">view site →</span>
-                    </a>
-                    <a href="old/2010/index.html" class="archive-card linked">
+                        <div class="card-links">
+                            <a href="old/2009/index.html" class="card-link">view site →</a>
+                        </div>
+                    </div>
+                    <div class="archive-card multi-linked">
                         <span class="year-label">2010</span>
-                        <span class="year-status">view site →</span>
-                    </a>
-                    <a href="old/2011/index.html" class="archive-card linked">
+                        <div class="card-links">
+                            <a href="old/2010/index.html" class="card-link">view site →</a>
+                        </div>
+                    </div>
+                    <div class="archive-card multi-linked">
                         <span class="year-label">2011</span>
-                        <span class="year-status">view site →</span>
-                    </a>
-                    <a href="old/2012/index.html" class="archive-card linked">
+                        <div class="card-links">
+                            <a href="old/2011/index.html" class="card-link">view site →</a>
+                        </div>
+                    </div>
+                    <div class="archive-card multi-linked">
                         <span class="year-label">2012</span>
-                        <span class="year-status">view site →</span>
-                    </a>
-                    <a href="old/2014/index.html" class="archive-card linked">
+                        <div class="card-links">
+                            <a href="old/2012/index.html" class="card-link">view site →</a>
+                        </div>
+                    </div>
+                    <div class="archive-card multi-linked">
                         <span class="year-label">2014</span>
-                        <span class="year-status">view site →</span>
-                    </a>
-                    <a href="old/2014.5/index.html" class="archive-card linked">
+                        <div class="card-links">
+                            <a href="old/2014/index.html" class="card-link">view site →</a>
+                        </div>
+                    </div>
+                    <div class="archive-card multi-linked">
                         <span class="year-label">2014½</span>
-                        <span class="year-status">view site →</span>
-                    </a>
-                    <a href="old/2015/index.html" class="archive-card linked">
+                        <div class="card-links">
+                            <a href="old/2014.5/index.html" class="card-link">view site →</a>
+                        </div>
+                    </div>
+                    <div class="archive-card multi-linked">
                         <span class="year-label">2015</span>
-                        <span class="year-status">view site →</span>
-                    </a>
-                    <a href="old/2017/index.html" class="archive-card linked">
+                        <div class="card-links">
+                            <a href="old/2015/index.html" class="card-link">view site →</a>
+                        </div>
+                    </div>
+                    <div class="archive-card multi-linked">
                         <span class="year-label">2017</span>
-                        <span class="year-status">view site →</span>
-                    </a>
-                    <a href="old/2018/" class="archive-card no-link" aria-disabled="true" onclick="return false;">
+                        <div class="card-links">
+                            <a href="old/2017/index.html" class="card-link">view site →</a>
+                        </div>
+                    </div>
+                    <div class="archive-card no-link">
                         <span class="year-label">2018</span>
                         <span class="year-status">not preserved</span>
-                    </a>
-                    <a href="old/2019/index.html" class="archive-card linked">
+                    </div>
+                    <div class="archive-card multi-linked">
                         <span class="year-label">2019</span>
-                        <span class="year-status">view site →</span>
-                    </a>
+                        <div class="card-links">
+                            <a href="old/2019/index.html" class="card-link">view site →</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
