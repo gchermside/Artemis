@@ -1,0 +1,72 @@
+<HTML> 
+<HEAD> 
+<TITLE> trials </TITLE>  
+<script language = "Javascript">
+<!-- hide from old browsers
+function preload(url)
+{
+	i = new Image;
+	i.src = url;
+	return i;
+}
+
+function rolloverLinks()
+{
+	for(var i=0; i<linkArray.length; i++)
+	{
+		var name = linkArray[i];
+		document.write("<tr> <td>");
+		document.write("<a href=\"" + name + ".html\" target=\"content\">");
+		document.write("<img name=\"" + name + "\""); 
+		document.write("onmouseover='mouseOver(\"" 
+				+ name + "\"," + i + ")'");
+		document.write("onmouseout='mouseOut(\"" 
+				+ name + "\"," + i + ")'");
+		document.write("src='" + imgOff[i].src + 				"'border='0'></a></td></tr>"); 
+	
+	}
+
+}
+
+var imgOff = new Array();
+var imgOn = new Array();
+var linkArray = new Array('motd','coordinators', 'students', 'pictures', 
+'lessons', 'calendar', 'resources', 'sponsors', 'old');
+
+// preloading nav_bar images.
+if(document.images)
+{
+	for(var i = 0; i < linkArray.length; i++)
+	{
+		imgOff[i] = new Image(); 
+		imgOff[i].src = "img/links/" + linkArray[i] + "_off.jpg";
+
+		imgOn[i] = new Image(); 
+		imgOn[i].src = "img/links/" + linkArray[i] + "_on.jpg";
+	}
+}
+
+function mouseOver(name, id)
+{
+	document.images[name].src = imgOn[id].src;
+}
+
+function mouseOut(name, id)
+{
+	document.images[name].src = imgOff[id].src;
+}
+-->
+</script>
+
+</HEAD> 
+<BODY>
+
+<TABLE width='150' cellpadding='0' cellspacing='0' border='0' align="left">
+<script language="Javascript"> 
+rolloverLinks();
+</script> 
+
+</TABLE>
+
+</BODY> 
+</HTML>

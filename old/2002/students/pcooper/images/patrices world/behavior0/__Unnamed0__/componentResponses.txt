@@ -1,4 +1,0 @@
-edu.cmu.cs.stage3.alice.core.Response
-1
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[behavior0.__Unnamed0__.__Unnamed0__]

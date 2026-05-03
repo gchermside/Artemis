@@ -1,0 +1,71 @@
+
+body {
+	background-image: url("http://thumbs.dreamstime.com/z/seamless-music-notes-background-black-white-eps-33641264.jpg")
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+h2 {
+	font-family: Candara;
+	font-size: 20px;
+	text-align: center;
+}
+
+h3 {
+	font-family: Candara;
+	font-size: 16px;
+	text-align: center;
+}
+
+li {
+	font-family: Candara;
+	font-size: 14px;
+	text-align: left;
+	font-weight: bold;
+}
+
+#music {
+	text-align: center;
+	border: none;
+
+}
+
+#instruments {
+	border: 8px dotted;
+	color: #0c64e8;
+	background-color: #B4D2F0;
+}
+
+#clarinet {
+	text-align: center;
+	border: none;
+}
+
+#couch {
+	text-align: center;
+	border: none;
+}
+
+p {
+	font-family: Candara;
+	font-size: 16
+	px;
+	text-align: center;
+}
+
+a{
+	font-family: Candara;
+	font-size: 16px;
+	text-align: center;
+	color: #0c64e8;
+}
+
+#handbell {
+	text-align: center;
+	border: none;
+}

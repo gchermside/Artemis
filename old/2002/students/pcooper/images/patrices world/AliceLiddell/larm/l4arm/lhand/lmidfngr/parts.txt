@@ -1,4 +1,0 @@
-edu.cmu.cs.stage3.alice.core.Transformable
-1
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[AliceLiddell.larm.l4arm.lhand.lmidfngr.lendfngr]

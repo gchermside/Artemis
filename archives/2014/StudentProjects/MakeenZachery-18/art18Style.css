@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+	font-family: 'Amatic SC', cursive;
+	color: #FF9F59;
+	text-size: 49px;
+}
+*{
+	background-color: #E1FFFE;
+	border-width: medium;
+	border-color:#002F2F; 
+}

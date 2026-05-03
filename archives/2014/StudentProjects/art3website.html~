@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html> 
+<head> <link rel="stylesheet" type="text/css" href="website.css"> 
+<title> Fashion blog!</title>
+</head>
+<body>
+	
+  <a href="fashiontips .html"> <h2>Fashion Tips </h2></a>
+  <a href="hairtips.html"><h3> Hair Tips</h3></a>
+   
+
+
+</body>
+</html>

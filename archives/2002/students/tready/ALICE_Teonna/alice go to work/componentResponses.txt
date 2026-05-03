@@ -1,0 +1,6 @@
+edu.cmu.cs.stage3.alice.core.Response
+2
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[alice go to work.__Unnamed0__]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[alice go to work.__Unnamed1__]

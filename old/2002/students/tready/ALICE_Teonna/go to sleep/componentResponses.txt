@@ -1,8 +1,0 @@
-edu.cmu.cs.stage3.alice.core.Response
-3
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[go to sleep.__Unnamed0__]
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[go to sleep.__Unnamed1__]
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[go to sleep.__Unnamed2__]

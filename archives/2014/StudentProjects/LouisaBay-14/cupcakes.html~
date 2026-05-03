@@ -1,0 +1,42 @@
+<!DOCTYPE html >
+<html>
+<head>
+<title>Delightful Desserts</title>
+<link type ="text/css" rel= "stylesheet" href="cupcakes.css">
+</head>
+
+<body>
+	<h1>Delightful Desserts</h1>
+    
+<div class="words">
+<p>Most  people  enjoy  the  delisious  tastes  of  desserts,  but  there  is  more  than  just  the  taste. Its  about  the  looks  and  aromas. </p>
+</div>
+
+    <div><img src="http://blog.dressmycupcake.com/wp-content/uploads/2012/01/strawberry-cupcakes.jpg" alt="stuff" width="270" height="255">  
+    <img src="http://www.slate.com/content/dam/slate/archive/2009/09/1_123125_123051_2207791_2226920_090903_b_cupcaketn.jpg.CROP.original-original.jpg" alt= "stuff" width="270" height="255"></div>
+    
+<div class="words">
+    <p>Cupcakes  have  been  rising  in  popularity.  Top  cupcake  flavors  include  pmpkin,  vanilla,  lemon,  penut  butter,  red  velvelt,  and  coconut. However,  cupcakes  are  not  the  only  pretty  desserts  even  though  it  may  seem  like  it.  Chocolate  in  certain  dishes,  can  be  tasty  and  visualy  appealing.</p>
+    </div>
+    
+    <div><img src="http://glambistro.com/wp-content/uploads/2012/10/easy-mexican-desserts-for-kids.jpg" alt= "deserts" width="275" height="230">
+    <img src="http://img2.sarahhearts.com/wp-content/uploads/2012/08/chocolate-shot-glass-5.jpg" alt= "desserts" width="275" height="230"></div>
+    
+<div class="words">
+    <p>Macaroons, are a personal favorite. The texture is like a soft but stable cookie on the outside, but a sweet filling on the inside. Perfect in every way.</p>
+    </div>
+    
+    <div><img src="http://sassyhongkong.com/wp-content/uploads/2012/12/Laduree-hk-macarons.jpg" alt= "deserts" width=400 height=600></div>
+  
+ 
+    
+    <div class="words">
+    <p> Here are some great bakeries to check out!!</p>
+    <div class="list">
+    <li><a href="http://pastichefinedesserts.com/">Pastiche</a></li>
+    <li><a href="https://www.laduree.com/en_int/">Laduree</a></li>
+    <div>
+    
+    <p3>
+</body>
+</html>

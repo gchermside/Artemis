@@ -1,4 +1,0 @@
-edu.cmu.cs.stage3.alice.core.Variable
-1
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[Camera.Original Point Of View]

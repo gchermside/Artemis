@@ -1,6 +1,0 @@
-To circle_and_square
- REPEAT 4 [forward 200 left 90]
- forward 100
- REPEAT 360 [forward 2 right 1]
-end
-

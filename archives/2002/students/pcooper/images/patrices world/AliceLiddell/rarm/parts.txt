@@ -1,0 +1,6 @@
+edu.cmu.cs.stage3.alice.core.Transformable
+2
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[AliceLiddell.rarm.rshouldr]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[AliceLiddell.rarm.r4arm]

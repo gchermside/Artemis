@@ -1,0 +1,75 @@
+
+
+body {
+	background:#8ED2C9;
+}
+
+*{
+font-size:14px;
+font-family: 'Kalam', cursive;
+}
+h1 {
+font-size: 50px;
+color:#462066;
+font-family: 'Kalam', cursive;
+text-align:center;
+margin:-1rem;
+margin-left:-10px;
+margin-right:-10px;
+width:100%;
+}
+h2 {
+font-size: 24px;
+color:#FCF4D9;
+text-align:center;
+}
+p {
+font-size: 20px;
+color:#462066;
+text-align:center;
+background-color:#8ED2C9;
+}
+#body{
+background:#462066;
+text-align:center;	
+}
+/* #462066,#FFB85F,#FF7A5A, #00AAA0, #8ED2C9, #FCF4D9*/ 
+#footer ul{
+font-size: 20px;
+color:#462066;
+text-align:center;
+background-color:#FFB85F;
+margin-right:850px;
+margin-left:850px;	
+}
+#image{
+	float:left;
+	display:inline-block;
+	margin:-10px;
+	
+}
+#header{
+	background:#00AAA0;
+	width:100%;  
+	
+}
+#Levels_logo.jpg{
+margin-right:25%;
+margin-left:25%; 	
+}
+#content{
+text-align:center;	
+}
+#nav li{
+display: inline-block;
+text-align:center;
+}
+#list{
+text-align:center;
+font-size:24px;
+}
+IMG.displayed{
+margin-left:auto;
+margin-right:auto;
+display:block;
+}

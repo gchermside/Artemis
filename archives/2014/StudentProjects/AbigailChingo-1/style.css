@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url(http://1.bp.blogspot.com/_N-kNlOSy6Y4/TCeAtAIDgRI/AAAAAAAAARI/5epU4moEgb0/s1600/tumblr_l4ncwkiOqh1qamn8xo1_400_large.png);
+	width:15;
+	height: 50;
+	background-repeat: repeat;
+}
+#content{
+	background: #FCF;
+	text-align: center;
+}
+p{
+	font-family:Pristina;
+	font-size: 20px;
+}
+ul{
+	font-family: Pristina;
+}
+div img{
+	text-align:center;
+}
+ul{
+	color:#F3C;
+	font-size:18px;
+}
+div{
+	color: #F0F;
+	font-size:24px;
+}
+
+

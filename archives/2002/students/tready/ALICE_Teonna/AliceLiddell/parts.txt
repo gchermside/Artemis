@@ -1,0 +1,10 @@
+edu.cmu.cs.stage3.alice.core.Transformable
+4
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[AliceLiddell.rarm]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[AliceLiddell.larm]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[AliceLiddell.neck]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[AliceLiddell.dress]

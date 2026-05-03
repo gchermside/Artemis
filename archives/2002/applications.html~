@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<!-- Created: Mon Apr  9 13:34:04 EDT 2001 -->
+<!-- Last updated: Thurs Fri 21 2002 @sraub -->
+
+<html>
+  <head>
+    <title>Applications Page for The Artemis Project 2002</title>
+  </head>
+
+<body bgcolor="#7646FF" text="#FFFFFF" link="#ff9999" alink="#29209d" vlink="#fc9306">
+<!-- <body bgcolor="#FFFFFF" 
+  text="#29209d" link="#fc9306" alink="#29209d" vlink="#fc9306"> -->
+
+    <h1>Artemis Application</h1>
+    
+    <img src="img/person.jpg" align=right vspace = 8 hspace = 30 alt="Artemis!">
+
+    <br>
+    Here is the student application:
+    <UL>
+      <LI>in <a href="application.pdf" target=new>PDF format</a>
+      <LI>in <a href="application.html" target=new>HTML format</a>
+    </UL>
+    
+    <br>
+    And the teacher recommendation form:
+    
+    <UL>
+      <LI>in <a href="teachrec.pdf" target=new>PDF format</a>
+      <LI>in <a href="teachrec.html" target=new>HTML format</a>
+    </UL>
+    
+    Our brochure contains some specific information about Artemis:
+
+    <UL>
+      <LI>in <a href="brochure2002.pdf" target=new>PDF format</a> only
+    </UL>
+
+
+
+<br>
+To read PDF files, you may need Acrobat Reader
+<p><a href="http://www.adobe.com/prodindex/acrobat/readstep.html" target=new><img src="img/getacro.gif"  alt="Acrobat"></a>
+<br>
+
+<center>
+<small>
+<p><hr><b><a href="home.html">home</a> |
+<a href="students.html">students</a> |
+<a href="coordinators.html">coordinators</a> |
+<a href="pictures.html">pictures</a> | 
+<a href="lessons.html">lessons</a> |
+<a href="old/">previous years</a> |
+<a href="sponsors.html">sponsors</a> |
+<a href="links.html">resources</a> |
+<a href="calendar.html">calendar</a> |
+<font color="#ff9999">applications</font></b>
+
+</small>
+</center>
+<hr>
+<br><br>
+<small><small>
+Please mail questions and comments to <a href="mailto:artemis@cs.brown.edu">
+artemis@cs.brown.edu</a><br>
+Copyright 2001 The Artemis Project, All Rights Reserved<br>
+</small></small>
+  </body>
+</html>

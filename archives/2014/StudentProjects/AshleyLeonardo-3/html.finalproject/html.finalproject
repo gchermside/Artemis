@@ -1,0 +1,61 @@
+body {
+    font-family:'Raleway',sans-serif
+}
+
+h1 { 
+	text-align: center;
+}
+
+h3 { 
+	text-align: center;
+}
+
+p { 
+
+
+
+		
+}
+
+#header {
+}
+
+#nav a{
+	display: block;
+	margin: 5px;
+	float: left;
+}
+
+#nav ul{
+	list-style-type: none;
+}
+
+#nav li{
+}
+
+#content {
+	float: right; 
+}
+
+#image {
+	float:left;	
+	height:500px;
+	width:200px;
+	
+}
+
+#lower{
+	float:right;
+	widt
+}
+
+#footer {
+
+
+}
+
+#para { 
+	float:right;
+	width: 400px;
+	
+}

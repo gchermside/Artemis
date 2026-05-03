@@ -1,0 +1,70 @@
+to circle
+repeat 360 [forward 1 right 1]
+end
+
+to crop_circle
+repeat 4 [forward 100 circle back 100 right 90]
+end
+
+to dostuff :butler
+forward :butler
+Right :butler
+Back :butler
+Right :butler
+Forward :butler
+end
+
+to pentagon
+repeat 5 [forward 75 right 72]
+end
+
+to square
+right 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+right 90
+end
+
+to square_circle_dance
+repeat 4 [circle forward 200 right 90]
+
+
+to waltz
+repeat 5 [circle forward random 300 right random 360 circle]
+end
+
+to triangle
+repeat 3 [forward 100 right 120]
+end
+
+to writecode
+make "nextline questionbox [UserInput][Enter the next line of code]
+until [:nextline = [end]] [
+label :nextline
+pu
+rt 90
+fd 30
+lt 90
+pd
+make "nextline questionbox [UserInput][Enter the next line of code]
+]
+label :nextline
+end
+
+Make "black 0
+Make "blue 1
+Make "boo 25
+Make "butler 100
+Make "hotpink 5
+Make "lightblue 3
+Make "lime 2
+Make "nextline [End]
+Make "red 4
+Make "white 7
+Make "yay 10
+Make "yellow 6

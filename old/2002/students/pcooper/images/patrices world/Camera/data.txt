@@ -1,4 +1,0 @@
-java.lang.String
-edu.cmu.cs.stage3.alice.authoringtool.editors.sceneeditor.aspectRatioString
-java.lang.String
-4/3

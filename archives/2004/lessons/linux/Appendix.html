@@ -1,0 +1,863 @@
+  <html>
+
+    <head>
+      <title>Appendix</title>
+    </head>
+    
+    <body link="#5966A8" vlnk="#5966A8" alink="green" bgcolor="white">
+      
+      <h1>Appendix</h1>
+      
+      <hr>
+	<center>
+	  <table border=0>
+	    <tr>
+	      <td bgcolor="#cccccc">
+		<a href="Programming.html">
+		  <img src="images/arrow_left.gif" align=top border=1></a>
+	      </td>
+	      <td valign="top" bgcolor="#cccccc" align=right>
+		<font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+		  <font face="Arial, Helvetica" size=4><b>Programming</b></font>
+	      </td>
+	      
+	    </tr>
+	  </table>
+	</center>
+	<hr>
+    
+	  <h1>Contents:</h1>
+
+<ul>
+<a href="#fscommands">File System Commands</a><br>
+<a href="#utilities">Utilities</a><br>
+<a href="#programs">Useful Programs</a><br>
+<a href="#xemacskeys">XEmacs Keyboard Shortcuts</a><br>
+<a href="#menus">Desktop Menus</a><br>
+<a href="#linuxhints">Linux Hints</a><br>
+    <ul>
+	<li><a href="#cancelsuspend">Canceling and Suspending Processes
+        </a></li>
+        <li><a href="#chmod">Changing Permissions</a></li>
+        <li><a href="#custom">Customizing your Environment</a></li>
+        <li><a href="#numlock">Num Lock</a></li>
+        <li><a href="#pipe">Pipe</a></li>
+    </ul>
+		
+</ul>
+
+<hr>
+
+
+
+<p>&nbsp;</p>
+<p><i>NOTE: square brackets (</i><code>[]</code><i>) around an argument mean that it is
+optional. Angle brackets (</i><code>&lt;&gt;</code><i>) mean that it is necessary.</i></p>
+<a name="fscommands">
+<h2>File System Commands</h2>
+<table border="1" width="100%">
+  <tr>
+    <td width="18%">
+      <p align="center"><b>Command</b></td>
+    <td width="48%">
+      <p align="center"><b>Description</b></td>
+    <td width="34%">
+      <p align="center"><b>Common Options</b></td>
+  </tr>
+  <tr>
+    <td width="18%"><code>chmod &lt;level&gt; &lt;file&gt;</code></td>
+    <td width="48%">Changes the permissions of <code>file</code> to <code>level</code><i>. </i>See Linux Hints below or
+      man page for description of levels</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="18%"><code>cp [options] &lt;src&gt; &lt;dest&gt;</code></td>
+    <td width="48%">Copies <code> src</code> to <code> dest</code>.</td>
+    <td width="34%"><code>-r </code> - recursive (for directories) </td>
+  </tr>
+  <tr>
+    <td width="18%"><code>du [options] [directory]</code></td>
+    <td width="48%">Lists size of files in <code>directory</code>. If no directory is
+      specified, lists current dir.</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="18%"><code>ls [options] [directory]</code></td>
+    <td width="48%">Lists contents of <code>directory</code><i>. </i>If no dir is specified,
+      lists current dir.</td>
+    <td width="34%"><code>-l </code> - &quot;long&quot; lists owner, permissions, size, last
+      modified<br><code>-a </code> - &quot;all&quot; includes files beginning with '.' (Options
+      can be combined, like &quot;<code>ls -al</code>&quot;</td>
+  </tr>
+  <tr>
+    <td width="18%"><code>mkdir &lt;dir&gt;</code></td>
+    <td width="48%">Creates <code>dir</code>.</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="18%"><code>mv &lt;src&gt; &lt;dest&gt;</code></td>
+    <td width="48%">Renames <code>src</code> to <code>dest</code><i>.</i></td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="18%"><code>rm [options] &lt;file&gt;</code></td>
+    <td width="48%">Deletes <code>file</code>.</td>
+    <td width="34%"><code>-r </code> - recursive (for directories)</td>
+  </tr>
+  <tr>
+    <td width="18%"><code>rmdir &lt;dir&gt;</code></td>
+    <td width="48%">Deletes <code>dir</code>, if it is empty.</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="18%"><code>touch &lt;file&gt;</code></td>
+    <td width="48%">If <code>file</code> does not exist, creates an
+		  empty file of that name. If <code>file</code> does exist,
+		  does not affect it.</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<a name="utilities">
+<h2>Utilities</h2>
+<table border="1" width="100%">
+  <tr>
+    <td width="24%" align="center"><b>Command</b></td>
+    <td width="48%" align="center"><b>Description</b></td>
+    <td width="28%" align="center"><b>Common Options</b></td>
+  </tr>
+  <tr>
+    <td width="24%"><code>finger [name or account or @machine]</code></td>
+    <td width="48%">If no argument is given, lists users of your machine. If a <code>
+      name</code> or <code> account </code> is given (or piece thereof) lists information for any
+      accounts matching string. If <code> @machine </code> is given, lists all users of
+      <code>machine</code>.</td>
+    <td width="28%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>grep &lt;pattern&gt; &lt;file&gt;</code> </td>
+    <td width="48%">Displays all lines in <code>file</code> containing <code>pattern</code>.
+      (Surround multi-word patterns with quotation marks.)</td>
+    <td width="28%"><code>-i </code>- ignore case<br>  <code>-r </code>- recurse 
+into directories (without this, only looks at files in current dir)<br>  
+<code>-v </code>- invert (display lines not matching the pattern. useful
+if you are chaining multiple searches together with <code>'|'</code>
+(See Linux Hints below)</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>less &lt;file&gt;</code></td>
+    <td width="48%">Displays <code>file</code> in a shell. Allows you to scroll backwards
+      and forwards through file, and to search by pressing <code> '/.'</code></td>
+    <td width="28%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>lpr [options] &lt;file&gt;</code></td>
+    <td width="48%">Prints <code>file. </code>Defaults to cis dispatch window.</td>
+    <td width="28%"><code>-P&lt;printer&gt;</code> - specify printer</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>lpq [options]</code></td>
+    <td width="48%">Lists the print queue. Defaults to cis dispatch printer.</td>
+    <td width="28%"><code>-P&lt;printer&gt;</code> - specify printer</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>lw</code></td>
+    <td width="48%">Displays text diagram of lab, with the name of everyone logged in.</td>
+    <td width="28%"><code>-f </code>- show full names (default)<br>
+	      <code>-n </code>- show logins<br>
+	      <code>-t </code>- show amount of time each user has been logged in <br>
+	      <code>-i </code>- show how long each user has been idle</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>man &lt;Linux command&gt;</code></td>
+    <td width="48%">Displays the man (manual) page for the specified command.
+      Good way to move beyond this Appendix, as we are eliding all but the most
+      common options for most commands.</td>
+    <td width="28%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>more &lt;file&gt;</code></td>
+    <td width="48%">Displays <code>file</code> in shell. Only allows forward
+      scrolling. (<code>more</code> is less than <code>less</code> =] )</td>
+    <td width="28%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>passwd</code></td>
+    <td width="48%">Changes password.</td>
+    <td width="28%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>pwd</code></td>
+    <td width="48%">Prints the full path or your current working directory.</td>
+    <td width="28%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>qwaitlist</code></td>
+    <td width="48%">Gives the status of the waitlist, if there is one, including
+      how many people will be kicked off before you.</td>
+    <td width="28%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>tar [options] &lt;outputfile&gt; &lt;files or dir&gt;</code></td>
+    <td width="48%">Creates a type of archive (&quot;Tape Archive&quot;) of
+      files and names it <code>outputfile</code>.</td>
+    <td width="28%"><code>cvf </code>- to create an archive (<code>tar cvf
+      package.tar *.java</code>)
+      <p><code>xvf </code>- to extract from archive (<code>tar xvf package.tar</code>)</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="24%"><code>top</code></td>
+    <td width="48%">Real-time display of all processes active on your computer. Useful if your computer seems to be going really slow. (Sometimes, a user won't properly exit a program before logging off, and it becomes a "zombie" process, just eating up the processor. If you <code>top</code> and see a process that you don't own taking up a large percentage of your processor, talk to the consultant.)</td>
+    <td width="28%">&nbsp;</td>
+  </tr>
+
+
+  <tr>
+    <td width="24%"><code>unzip [options] &lt;archive&gt;</code></td>
+    <td width="48%">Extracts files from a zip archive.</td>
+    <td width="28%"><code>-l </code>- just list files, don't extract them</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>xlock [options]</code></td>
+    <td width="48%">Password protected screen saver. Use this EVERY time you
+      leave your computer.</td>
+    <td width="28%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>xv [file]</code></td>
+    <td width="48%">Viewer for .jpg (.jpeg), .tiff, .gmp, and .bmp images.</td>
+    <td width="28%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>zip [options] &lt;outputfile&gt; &lt;files or dir&gt;</code></td>
+    <td width="48%">Like <code>tar</code>, but creates a <code>.zip</code>
+      compressed file.</td>
+    <td width="28%"><code>-r </code>- recursive (for directories)</td>
+  </tr>
+  <tr>
+    <td width="24%"><code>zwrite &lt;login&gt;</code></td>
+    <td width="48%">Sends a sort of instant message to the user specified.</td>
+    <td width="28%">&nbsp;</td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+<a name="programs">
+<h2>Programs</h2>
+<table border="1" width="70%" height="198">
+  <tr>
+    <td width="20%" align="center" height="19"><b>Command</b></td>
+    <td width="51%" align="center" height="19"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td width="20%" height="19"><code>acroread [file]</code></td>
+    <td width="51%" height="19">Reader for <code>.pdf</code> files.</td>
+  </tr>
+  <tr>
+    <td width="20%" height="19"><code>gimp [file]</code></td>
+    <td width="51%" height="19">Pretty powerful photo editor.</td>
+  </tr>
+  <tr>
+    <td width="20%" height="19"><code>mozilla [url or file (file must be preceded by "file://")]</code></td>
+    <td width="51%" height="19">Web browser.</td>
+  </tr>
+  <tr>
+    <td width="20%" height="19"><code>pico [file]</code></td>
+    <td width="51%" height="19">Simple, shell-based text editor.</td>
+  </tr>
+  <tr>
+    <td width="20%" height="19"><code>pine</code></td>
+    <td width="51%" height="19">Shell-based mail client.</td>
+  </tr>
+  <tr>
+    <td width="20%" height="19"><code>xemacs [file]</code></td>
+    <td width="51%" height="19">Text editor.</td>
+  </tr>
+  <tr>
+    <td width="20%" height="17"><code>xterm</code></td>
+    <td width="51%" height="17">Shell.</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<a name="xemacskeys">
+<h2>XEmacs Keyboard Shortcuts</h2>
+<table border="1">
+  <tr>
+    <td align="center"><b>Command</b></td>
+    <td align="center"><b>Shortcut</b></td>
+  </tr>
+  <tr>
+    <td><code>Dynamic Expansion</code></td>
+    <td><code>M-/</code></td>
+  </tr>
+  <tr>
+    <td><code>Exit XEmacs</code></td>
+    <td><code>C-x C-c</code></td>
+  </tr>
+  <tr>
+    <td><code>Find and Replace</code></td>
+    <td><code>M-%</code></td>
+  </tr>
+  <tr>
+    <td><code>Goto Line</code></td>
+    <td><code>M-g</code></td>
+  </tr>
+  <tr>
+    <td><code>Goto Buffer</code></td>
+    <td><code>C-x b</code></td>
+  </tr>
+  <tr>
+    <td><code>Open</code></td>
+    <td><code>C-x C-f</code></td>
+  </tr>
+  <tr>
+    <td><code>Save (current buffer)</code></td>
+    <td><code>C-x C-s</code></td>
+  </tr>
+  <tr>
+    <td><code>Save Some Buffers</code></td>
+    <td><code>C-x s</code></td>
+  </tr>
+  <tr>
+    <td><code>Search (forward, press over and over to find next)</code></td>
+    <td><code>C-s</code></td>
+  </tr>
+    <td><code>Search (backward, press over and over to find next)</code></td>
+    <td><code>C-r</code></td>
+  </tr>
+  <tr>
+    <td><code>Undo</code></td>
+    <td><code>C-x u</code></td>
+  </tr>
+  <tr>
+    <td><code>Un-split (keep this)</code></td>
+    <td><code>C-x 1</code></td>
+  </tr>
+  <tr>
+    <td><code>Un-split (keep other)</code></td>
+    <td><code>C-x 0</code></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+
+<a name="menus">
+<h2>Desktop Menus</h2>
+<h3>Root Menu (left mouse button):</h3>
+<ul>
+  <li><b>XTerm </b>- Opens a new XTerm (X Terminal), the type of shell we have
+    been using.</li>
+  <li><b>Mozilla - </b>Open new browser.</li>
+ <li><b>XEmacs</b> - Open new Emacs window.
+  <li><b>Applications </b>- Opens the Applications Menu - contains a bunch
+	  of useful programs.</li>
+  <li><b>XLock</b> - Launches password-protected screen saver.</li>
+</ul>
+
+<h3>Window List (middle mouse button)</h3>
+<ul>
+	<p>
+	  Not really a menu. Lists all of the windows you have open. If you
+	  click one, makes that window your active window.
+	</p>
+</ul>
+
+
+<h3>Special Menu (right mouse button):</h3>
+<ul>
+  <li><b>Refresh</b> - Refreshes display.</li>
+  <li><b>Restart fvwm2</b> - Restarts the FVWM2 window manager. If you make
+	    any changes to your <code>.fvwm2rc</code>, you can use this
+	    instead of logging out and logging back in.</li>
+  <li><b>Reload XDefaults</b> - Reloads the <code>.Xdefaults</code> file,
+	    which dictates the initial appearance of windows.</li>
+  <li><b>Quit Fvwm2</b> - Exits you from the system. <b>Always exit all programs before quitting!</b></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<a name="linuxhints">
+<h2>Linux Hints</h2>
+
+			<ul>
+			  <a name="cancelsuspend">
+			  <li>
+			    <h3>Canceling and Suspending processes:</h3>
+			    Sometimes, you will find that a program 
+			    (yours or otherwise) will start to go hay-wire and
+			    seem to hang (often an infinite loop). In these
+			    cases, or even if you decide that you don't want
+			    something to keep running (maybe you decided to
+			    find all of the uses of "new" in your program, and
+			    decided that you weren't going to get anything 
+			    out of the results when you started to get 
+			    4000 matches), you can either cancel or
+			    suspend the program. Typing <code>&lt;CTRL&gt;-c
+			      </code> in a shell will cancel any active process
+			    in the foreground (one that is controlling your
+			    shell). Typing <code>&lt;CTRL&gt;-z</code> will
+			    suspend the process.
+			    <p>
+			      When to use which? Well, unless you plan on
+			      resuming the process (see the CS Linux
+			      page about suspending then backgrounding 
+			      processes), you probably WANT to cancel the
+			      program with <code>&lt;CTRL&gt;-c</code>. 
+			      However, sometimes programs don't respond
+			      to <code>&lt;CTRL&gt;-c</code>, but they
+			      will respond to 
+			      <code>&lt;CTRL&gt;-z</code>. We don't know why.
+			      So basically, try to cancel, and, if that
+			      doesn't work, try to suspend.
+			    </p>
+			  </li>
+
+			    <a name="chmod">
+			  <p>
+			  <li>
+			      <h3>Changing Permissions with chmod
+				(brief tutorial):</h3>
+			    To really get an idea of chmod, take a look at the 
+			    <code>man</code> page. There are a ton of different
+			    ways to define the permissions, and some ways
+			    are better for certain contexts. This guide
+			    should give you some of the basics though--enough
+			    to protect your files.
+
+			    <p>
+			      Anyway, one way to think about permissions is
+			      that there are 3 tiers of access you have to 
+			      define: world, group, and owner. <b>Owner</b>
+			      is the person who created the file (better
+			      be you if you're hoping to change the permissions). <b>Group</b> refers to other users that belong to the "group" associated
+			      with the file. To see the groups for a file,
+			      do <code>ls -l</code>. Some example of groups
+			      are ugrad (all undergrads), cs015ta (CS15 tas), 
+			      etc. <b>World</b> is everyone else.
+			    </p>
+			    <p>
+			      For each of the segments of users listed above,
+			      you can grant or withhold three permissions:
+			      <b>read (r)</b>, <b>write (w)</b>, and <b>execute (x)</b>.
+			      Read and write are fairly self-explanatory
+			      (note, however, that you need write permission
+			      to a directory in order to save files in it).
+			      Execute refers to both the permission to execute
+			      a file, like a program or script, and the
+			      permission to enter a directory. So, if you want
+			      someone to be able to <code>cd</code> into
+			      a directory, they must have execute permission
+			      for it.
+			    </p>
+			    <p>
+			      Let's look at a sample output from 
+			      <code>ls -l</code>:
+			    </p>
+			    <p>
+			      <ul>
+				<pre><code>
+drwxr-xr-x    2 jgoodwin nougrad      4096 Jul 10 13:44 bin/
+drwx------    5 jgoodwin ugrad        4096 Jun 10 16:14 course/
+-rw-r--r--    1 jgoodwin nougrad     77829 Jun 20 15:00 escalatorlg.jpg
+				</pre></code>
+			      </ul>
+			    </p>
+			    <p>
+			      This is a partial listing of John's home directory.
+			      You can see the owner and group for the
+			      files, and, on the left, the permissions.
+			      Lets start with the <code>bin/</code> directory.
+			      The permissions are in the order: owner, group,
+			      world. The leading <code>'d'</code> just
+			      marks this as a directory. You then see that
+			      John has given himself full permissions (rwx = 
+			      read, write, and execute), and has given
+			      members of his group, and the rest
+			      of the world, read and execute permissions.
+			      For the <code>course/</code> directory, John has
+			      given himself full permission and no access
+			      to anyone else. Finally, 
+			      <code>escalatorlg.jpg</code> (his background 
+			      picture) has read and write permission to him, and
+			      read to everyone else. Notice that there
+			      is no execute permission, as this is neither
+			      an executable nor
+			      a directory, so there is no reason
+			      for anyone to be able to execute it.
+			    </p>
+
+			    <p>
+			      OK, so you can read permissions, what about
+			      assigning them? One way to code permissions is
+			      using:
+			    </p>
+			    <p>
+			      <code>chmod ABC &lt;file&gt;</code>
+			    </p>
+			    <p>
+			      Where <i><code>A</code></i> is an integer
+			      representing owner permission level, 
+			      <i><code>B</code></i> represents group level,
+			      and <i><code>C</code></i> world level. These
+			      integers must be from 0-7, and they have the 
+			      following permissions associated with them:
+			    </p>
+
+			    <ul>
+			    <table border=1 width="15%">
+				<tr>
+				  <td>
+				    <center>
+				    <code>0</code>
+				    </center>
+				  </td>
+				  <td>
+				    <center>
+				    <code>---</code>
+				    </center>
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+				    <center>
+				    <code>1</code>
+				    </center>
+				  </td>
+				  <td>
+				    <center>
+				    <code>--x</code>
+				    </center>
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+				    <center>
+				    <code>2</code>
+				    </center>
+				  </td>
+				  <td>
+				    <center>
+				    <code>-w-</code>
+				    </center>
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+				    <center>
+				    <code>3</code>
+				    </center>
+				  </td>
+				  <td>
+				    <center>
+				    <code>-wx</code>
+				    </center>
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+				    <center>
+				    <code>4</code>
+				    </center>
+				  </td>
+				  <td>
+				    <center>
+				    <code>r--</code>
+				    </center>
+				  </td>
+				</tr>
+
+				<tr>
+				  <td>
+				    <center>
+				    <code>5</code>
+				    </center>
+				  </td>
+				  <td>
+				    <center>
+				    <code>r-x</code>
+				    </center>
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+				    <center>
+				    <code>6</code>
+				    </center>
+				  </td>
+				  <td>
+				    <center>
+				    <code>rw-</code>
+				    </center>
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+				    <center>
+				    <code>7</code>
+				    </center>
+				  </td>
+				  <td>
+				    <center>
+				    <code>rwx</code>
+				    </center>
+				  </td>
+				</tr>
+
+			      </table>
+			    </ul>
+
+			    <p>
+			      Some examples:
+			    </p>
+			    <ul>
+			      <table border=1>
+				<tr>
+				  <td>
+				    <b><center>
+				      Command
+				    </b></center>
+				  </td>
+				  <td>
+				    <b><center>
+				      Permissions
+				    </b></center>
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+				    <code>
+				      chmod 755 myDir
+				    </code>
+				  </td>
+				  <td>
+				    <code>
+				      drwxr-xr-x
+				    </code>
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+				    <code>
+				      chmod 700 myPrivateDir
+				    </code>
+				  </td>
+				  <td>
+				    <code>
+				      drwx------
+				    </code>
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+				    <code>
+				      chmod 644 myFile
+				    </code>
+				  </td>
+				  <td>
+				    <code>
+				      -rw-r--r--
+				    </code>
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+				    <code>
+				      chmod 600 mySensitiveFile
+				    </code>
+				  </td>
+				  <td>
+				    <code>
+				      -rw-------
+				    </code>
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+				    <code>
+				      chmod 660 myGroupFile
+				    </code>
+				  </td>
+				  <td>
+				    <code>
+				      -rw-rw----
+				    </code>
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+				    <code>
+				      chmod 755 myScript
+				    </code>
+				  </td>
+				  <td>
+				    <code>
+				      -rwxr-xr-x
+				    </code>
+				  </td>
+				</tr>
+			      </table>
+
+			    </ul>
+			  </li>
+			</p>
+			      
+
+
+				<a name="custom">
+			    <p>
+			      <li><h3>
+				Customizing your Environment: </h3>
+			  One of the great things about Linux and FVWM2 (the
+		window manager we are using) is that you have a ton of control
+		over the appearance and feel of your environment. For example,
+		 you might want to change the colors of your desktop or 
+		put a picture up.
+
+			      <p>
+	        Customizing your environment involves changing some 
+		<b>configuration files</b>. Configuration files are 
+				simply text files that contain information
+				that programs use to initialize themselves.
+				(Windows and other operating systems also 
+				use configuration files, but you don't 
+				typically edit them directly. They are all
+				those .ini files in your C:\Windows
+				directory.) In Linux and other UNIX
+				dialects, configuration files are identified
+				by their leading period ('.'). As a result
+				they are often called "dot files." Editing these files may
+				seem a little intimidating at first (they
+				<i>are</i> pretty important),
+				but once you get the gist of how
+		everything fits together, you will really appreciate the power
+		of the system. This little tutorial won't make you an expert, 
+				but 
+		it will get you started.
+			      </p>
+
+	      <p>There are four main configuration files responsible for
+		setting up your environment: <code>.xsession</code>,
+		<code>.fvwm2rc</code>, <code>
+		  .Xdefaults</code>, and <code>
+		  .cshrc</code>. All of theses files are
+		written in something called <b>Shell
+		  Script</b>, which is like a simple programming language. 
+		(Don't get intimidated if you don't know anything about
+		scripting. It is really easy to learn enough to change your
+		colors and customize your desktop a little.)
+		When you log in, the files get executed, creating your
+		environment. Their roles are as follows:
+	      </p>
+	      
+	      <ul>
+		<li><code><b>.xsession</b></code> – This is what is 
+		  actually executed when you log in. It is responsible
+		  launching the FVWM2 window manager and creating any initial 
+		  windows. It is also where your system colors are set, so if
+		  you aren't partial to blue, this is where you want to go. 
+		  Modify this file if you want to change the programs and 
+		  windows that are launched when you log in.
+		</li>
+		
+		<li><code><b>.fvwm2rc</b></code> – </b>This is the 
+		  configuration file for the FVWM2 window manager. This file
+		  sets up your window manager display, specifies the contents
+		  and appearance of system menus, and is responsible for
+		  key and mouse bindings. (Key and mouse bindings dictate what
+		  happens when a mouse button or key is pressed. For
+		  example, you could make a binding that said shift-e will 
+		  always open Mozilla to the Google homepage, or you can 
+		  define keys that will move your mouse cursor.)
+		</li>
+
+		<li><code><b>.Xdefaults</span></b></code> – Your X defaults
+		  control the initial appearance of your shells and other 
+		  programs. If you wanted to change the default size of your
+		  xterm (shell) or something like that, go here.
+		</li>
+		
+		<li><code><b>.cshrc</b></code> – This file is not
+		  responsible for anything visual, but it is a very important
+		  configuration file. It is executed every time you create a 
+		  shell, and it defines all of the information the shells need
+		  to operate, like where to look for programs and things like 
+					  that.
+		</li>
+	      </ul>
+
+	      <p>Not to discourage you, but <b>be careful when you are 
+		  modifying configuration files! </b>While it
+		is unlikely that you will cause any major disasters (the 
+		department makes a lot of back-ups), you can cause yourself
+		some headaches if you're not careful. For more information on
+		customizing your environment, talk to a Sun Lab consultant, 
+		attend some of the Mini-Courses that will be held in
+		the Sun Lab over the year, or check out the CS15 website.
+	      </p>
+			    </li>
+			  </p>
+
+				  <a name="numlock">
+				  <p>
+			    <li>
+			      <h3>Num Lock:</h3> The number lock does not agree
+			      with FVWM2. If you ever find yourself unable
+			      to raise or lower windows, or if your
+			      keys are acting strangely, see if your number lock
+			      is on; it might be the problem.
+			    </li>
+			  </p>
+
+				    <a name="pipe">
+				    <li>
+			    <h3>Pipe:</h3> You can use the '|' ("pipe" It's on the same key
+			    as '\,' above 'enter.') to send the output from 
+			    one command to another. For example, let's
+			    say you were using <code>grep</code>
+			    to find a pattern in a
+			    bunch of files, but there were too many results
+			    to fit in a shell. You could "pipe" the output
+			    to <code>more</code> so you could page through it
+			    like:
+			    <p>
+			      <ul>
+				<code>grep ROOT_BG .* | more</code>
+			      </ul>
+			    </p>
+			    <p>
+			      That would find all the references to 
+			      <code>ROOT_BG</code> (one of your account
+			      colors) in all your configuration files so
+			      you could see what all would change if you 
+			      changed the color. This is a very simple
+			      example. You can create very powerful 
+			      commands using pipe.
+			    </p>
+			  </li>
+
+
+			</ul>
+		      </p>
+
+
+    <hr>
+    <center>
+      <table border=0 cellpadding=3 cellspacing=0>
+	  <tr>
+	    <td bgcolor="#cccccc">
+	      <a href="Programming.html">
+		<img src="images/arrow_left.gif" align=top border=1></a>
+	    </td>
+	<td valign="top" bgcolor="#cccccc" align=right>
+	      <font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Programming</b></font>
+	    </td>
+	    
+	  </tr>
+      </table>
+    </center>
+    <hr>
+</body>
+
+</html>

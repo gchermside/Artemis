@@ -1,0 +1,20 @@
+to circles 
+repeat 360[forward 1 right 1]
+repeat 360[forward 1 right 1]
+end
+
+to flower
+repeat 
+
+
+
+to rectangle :width :height
+forward :height 
+right 90
+forward :width
+right 90
+forward :height
+right 90
+forward :width
+end
+

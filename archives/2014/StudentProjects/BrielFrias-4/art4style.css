@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	text-align:center;
+	background-image:url(http://onlybackground.com/wp-content/uploads/2014/01/summer-tumblr-background-twllpke7.jpg);
+}
+h1{
+	color:purple;
+	font-family:Lobster;
+	font-size:100px;
+}
+h2{
+	text-align:center;
+	color:purple;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+#justin{
+	height:551px;
+	width:500px;
+	text-align:center;
+	border: 3px solid #93F;
+}
+li{
+	color:#90F;
+	font-family:"MS Serif", "New York", serif;
+	font-size:20px;
+}
+#content{
+	background:#999;
+	text-align:center;
+	width:3;
+}
+h3{
+	text-align:center;
+	color:purple;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+p{
+	color:#C09;
+	font-size:20px;
+	font-family:"Courier New", Courier, monospace;
+}
+#bob{
+	height:400px;
+	width:400px;
+	text-align:center;
+	border:3px solid #93F;
+}
+#ronaldo{
+	border:3px solid #93F;
+}
+#frozen{
+	border:3px solid #93F;
+}
+#friends{
+	border:3px solid #93F;
+}
+#talking{
+	border:3px solid #93F;
+}
+
+
+
+
+
+
+

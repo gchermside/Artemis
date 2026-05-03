@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<element>
+  <class>edu.cmu.cs.stage3.alice.core.Model</class>
+  <children>
+    <child>ita</child>
+    <child>TextureMap</child>
+  </children>
+  <properties>
+    <property name="name" type="java.lang.String">
+      <![CDATA[Groucho]]>
+    </property>
+    <property name="isFirstClass" type="java.lang.Boolean">true</property>
+    <property name="responses" type="java.lang.Object">null</property>
+    <property name="behaviors" type="java.lang.Object">null</property>
+    <property name="variables" type="java.lang.Object">null</property>
+    <property name="questions" type="java.lang.Object">null</property>
+    <property name="textureMaps" type="java.io.File">java.io.File[textureMaps.txt]</property>
+    <property name="sounds" type="java.lang.Object">null</property>
+    <property name="geometries" type="java.lang.Object">null</property>
+    <property name="misc" type="java.lang.Object">null</property>
+    <property name="eventsStopAscending" type="java.lang.Object">null</property>
+    <property name="isBoundingBoxShowing" type="java.lang.Boolean">false</property>
+    <property name="isBoundingSphereShowing" type="java.lang.Boolean">false</property>
+    <property name="parts" type="java.lang.Object">null</property>
+    <property name="localTransformation" type="edu.cmu.cs.stage3.math.Matrix44">edu.cmu.cs.stage3.math.Matrix44[rc00=1.0,rc01=4.3148731835860915E-17,rc02=2.9976021664879227E-15,rc03=0.0,rc10=-7.890780374186539E-21,rc11=0.9999999999999999,rc12=-1.4866431010538107E-21,rc13=0.0,rc20=1.021405182655144E-14,rc21=-8.585279784419292E-17,rc22=1.0,rc23=0.0,rc30=-10.44447165416997,rc31=0.5069998502731323,rc32=14.618724302710906,rc33=1.0]</property>
+    <property name="vehicle" type="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[]</property>
+    <property name="isPivotShowing" type="java.lang.Boolean">false</property>
+    <property name="color" type="edu.cmu.cs.stage3.alice.scenegraph.Color">edu.cmu.cs.stage3.alice.scenegraph.Color[r=1.0,g=1.0,b=1.0,a=1.0]</property>
+    <property name="ambientColor" type="java.lang.Object">null</property>
+    <property name="opacity" type="java.lang.Double">1.0</property>
+    <property name="fillingStyle" type="edu.cmu.cs.stage3.alice.scenegraph.FillingStyle">edu.cmu.cs.stage3.alice.scenegraph.FillingStyle[SOLID]</property>
+    <property name="shadingStyle" type="edu.cmu.cs.stage3.alice.scenegraph.ShadingStyle">edu.cmu.cs.stage3.alice.scenegraph.ShadingStyle[SMOOTH]</property>
+    <property name="specularHighlightColor" type="edu.cmu.cs.stage3.alice.scenegraph.Color">edu.cmu.cs.stage3.alice.scenegraph.Color[r=0.0,g=0.0,b=0.0,a=1.0]</property>
+    <property name="specularHighlightExponent" type="java.lang.Double">0.0</property>
+    <property name="emissiveColor" type="edu.cmu.cs.stage3.alice.scenegraph.Color">edu.cmu.cs.stage3.alice.scenegraph.Color[r=0.0,g=0.0,b=0.0,a=1.0]</property>
+    <property name="diffuseColorMap" type="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[Groucho.TextureMap]</property>
+    <property name="opacityMap" type="java.lang.Object">null</property>
+    <property name="emissiveColorMap" type="java.lang.Object">null</property>
+    <property name="specularHighlightColorMap" type="java.lang.Object">null</property>
+    <property name="bumpMap" type="java.lang.Object">null</property>
+    <property name="detailMap" type="java.lang.Object">null</property>
+    <property name="interactionMap" type="java.lang.Object">null</property>
+    <property name="visualScale" type="edu.cmu.cs.stage3.math.Matrix33">edu.cmu.cs.stage3.math.Matrix33[rc00=1.0,rc01=0.0,rc02=0.0,rc10=0.0,rc11=1.0,rc12=0.0,rc20=0.0,rc21=0.0,rc22=1.0]</property>
+    <property name="isShowing" type="java.lang.Boolean">true</property>
+    <property name="disabledAffectors" type="java.lang.Object">null</property>
+    <property name="geometry" type="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[Groucho.ita]</property>
+  </properties>
+</element>
+

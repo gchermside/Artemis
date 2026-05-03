@@ -1,0 +1,117 @@
+body {
+    font-family:'Raleway',sans-serif;
+	
+}
+
+h1 {
+	background-color:#B7EFF9;
+	display: inline-block;
+	width: 200px;
+}
+#header h3 {
+
+	background-color:#B7EFF9;
+	display: inline-block;
+	width: 500px;
+}
+
+p {
+}
+
+#header {
+	position: relative;
+	text-align: center;
+	top: 10px;
+	background-image: url(http://shrani.si/f/3U/134/2G0tmJR3/tumblrmma6guouwi1rxl1vmo.jpg);
+	background-size: 1000px; 
+	background-repeat: no-repeat;
+	font-family: 'Indie Flower', cursive;
+	border: 1px black;
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#nav a{
+	display: block;
+	
+}
+
+#nav ul{
+	list-style-type: none;
+	text-align: left;
+}
+
+#nav li{
+	margin-left: -40px;
+}
+
+#nav {
+	list-style-type: none;
+	width: 148px;
+	height: 170px;
+	text-align: left;
+	padding: 10px;
+	background-color: #B7EFF9;
+	float: left;
+	text: 200px;
+	border:3px black;
+	
+}
+
+#content {
+	margin-left: 180px;
+	/*width: 1730px;*/
+	background-color: #B7EFF9;
+	background-position: left;
+	padding: 10px;
+	width: 800px;
+}
+
+#image {
+	float: right;
+	padding: 2px;
+	margin: 15px;
+}
+
+#lower{
+}
+
+#footer {
+	padding-top: 20px;
+
+	height: 105px;
+	border: 1px dashed black;
+	width: 1000px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 4px;
+}
+
+#menucontent {
+	margin: auto;
+	width: 1000px;
+}
+#name {
+	font-size: 13px;
+	font-family: 'Titillium Web', sans-serif;
+}
+/* unvisited link */
+a:link {
+    color: #000;
+}
+
+/* visited link */
+a:visited {
+    color: #C3C;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFF;
+}
+
+/* selected link */
+a:active {
+    color: #B7EFF9;
+}

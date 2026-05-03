@@ -1,0 +1,75 @@
+
+
+
+<html>
+<!--last updated 06.18.02 - jrosenb1-->
+<!--turns out one has to type 'webupdate' in the shell for changes to take place!!:) -->
+
+<head>
+  <title>The Artemis Project 2002 Picture Gallery</title>
+</head>
+
+<body bgcolor="#7646ff" text="#FFFFFF" link="#FF9999" alink="#29209d" vlink="#fc9306">
+
+<table><tr valign=bottom><td>
+<img src="img/person.teeny.jpg">
+</td><td>
+<h1>The Artemis Project 2002 Picture Gallery</h1>
+</td></tr></table>
+<br><br>
+<table><tr valign=top><td>
+<img src="Pictures2002/Ropes/HumanKnot2.jpg">
+</td>
+<td>
+<ul>
+<li><a href="Pictures2002/Dessert/dessert.html">Artemis welcome dessert</a>
+<br><br>
+<li><a href="Pictures2002/Ropes/ropes.html">A Day at the Ropes Course</a>
+<br><br>
+<li><a href="Pictures2002/MIT/mit.html">Robots and More at MIT</a>
+<br><br>
+<li><a href="Pictures2002/GS/gs.html">Surprises with Goldman-Sachs</a>
+<br><br>
+<li><a href="Pictures2002/CIT/typical.html">A Typical Day</a>
+<br><br>
+<li><a href="Pictures2002/CIT/paperbags.html">Understanding Sensors: Wearing Paperbags</a>
+<br><br>
+<li><a href="Pictures2002/CIT/lanceday.html">An Afternoon of Fun with Lance</a>
+<br><br>
+<li><a href="Pictures2002/Robots/robots.html">The Robot Dance Show</a>
+<br><br>
+<li><a href="Pictures2002/Bowling/bowling.html">Duckpin Bowling</a>
+</ul>
+</td>
+</tr>
+</table>
+
+<center>
+<br><br>
+<small>
+
+
+<p><hr><b><a href="home.html">home</a> | 
+<a href="students.html">students</a> |
+<a href="coordinators.html">coordinators</a> |
+<font color="#ff9999">pictures</font> | 
+<a href="lessons.html">lessons</a> |
+<a href="../old/">previous years</a> |
+<a href="sponsors.html">sponsors</a> |
+<a href="links.html">resources</a> |
+<a href="calendar.html">calendar</a> |
+<a href="applications.html">applications</a></b>
+
+</small>
+</center>
+
+<br><br><br>
+<img src="img/bluebar.jpg"><br>
+<small><small>
+Please mail questions and comments to <a href="mailto:artemis@cs.brown.edu">
+artemis@cs.brown.edu</a><br>
+Copyright 2001 The Artemis Project, All Rights Reserved<br>
+</small></small>
+
+</body>
+</html>

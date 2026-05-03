@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<link href="layout/style_08.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>Artemis 2011</title>
+
+<!-- The following code is for the GreyBox photo gallery. -->
+<script type="text/javascript">
+    var GB_ROOT_DIR = "http://cs.brown.edu/orgs/artemis/2011/gallery/";
+</script>
+<script type="text/javascript" src="gallery/AJS.js"></script>
+<script type="text/javascript" src="gallery/AJS_fx.js"></script>
+<script type="text/javascript" src="gallery/gb_scripts.js"></script>
+<link href="gallery/gb_styles.css" rel="stylesheet" type="text/css" />
+<!-- End gallery code. -->
+
+</head>
+
+<body>
+
+<div id="header">
+	</div>
+
+<div id="nav">
+	<a href="index.html">Home</a><br />
+	<a href="about.html">About Artemis</a><br />
+	<a href="coordinators.html">Coordinators</a><br />
+	<a href="students.html">Students</a><br />
+	Pictures<br />
+	<a href="lessons.html">Lessons</a><br />
+	<a href="schedule.html">Weekly Schedule </a><br />
+	<a href="calendar.html">Calendar</a><br />
+	<a href="resources.html">Resources</a><br />
+	<a href="applications.html">Applications</a><br />
+	<a href="sponsors.html">Sponsors</a><br />
+	<a href="contact.html">Contact Us</a><br/>
+	<a href="../old/home.html">Past Years</a>
+</div>
+
+<div id="content">
+<img src="layout/content_bg_2.gif" width="605" height="120" alt="Artemis" /><br /><br />
+		
+<h2>Become a fan of us on <a href="https://www.facebook.com/TheArtemisProject"> Facebook</a> and see tons of awesome photos from this summer!</h2>
+
+<!-- The following code creates the photo galleries. -->
+	
+<!--<script type="text/javascript">
+var ropes = [	{'caption': 'Practicing Spotting', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/dsc00859.jpg'},
+		{'caption': 'Trust falls', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/dsc00865.jpg'},
+		{'caption': 'Balancing', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/dsc00874.jpg'},
+  		{'caption': 'Grabbing the next rope', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/dsc00885.jpg'},
+    		{'caption': 'Keeping the platform balanced', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/dsc00892.jpg'},
+      		{'caption': 'Spiderweb', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/dsc00894.jpg'},
+		{'caption': 'Spiderweb', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/dsc00899.jpg'},
+  		{'caption': 'Spiderweb', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/dsc00906.jpg'},
+   		{'caption': 'Spiderweb', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/dsc00910.jpg'},
+    		{'caption': 'Grabbing the rope', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/dsc00917.jpg'},
+     		{'caption': 'Balancing on the platform', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/dsc00921.jpg'},
+       		{'caption': 'Playing bear hug', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/dsc00945.jpg'},
+		{'caption': 'Blindfolded', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/img_0415.jpg'},	
+ 	 	{'caption': 'Finding partners', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/img_0418.jpg'},
+    		{'caption': 'Reunited', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/img_0419.jpg'},
+      		{'caption': 'Grabbing the rope', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/img_0421.jpg'},
+		{'caption': 'Ready to catch', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/img_0434.jpg'},
+  		{'caption': 'Ready to catch', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/img_0440.jpg'},
+    		{'caption': 'Success!', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/img_0442.jpg'},
+      		{'caption': 'Swinging log!', 'url': 'http://cs.brown.edu/orgs/artemis/2011/pics/ropes/img_0445.jpg'}];
+      			
+
+</script>
+var bosmos = [	{'caption': 'Arriving at the Museum', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/DSCF0414.JPG'},
+		{'caption': 'Grab a Map, Everyone!', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/DSCF0415.JPG'},
+                {'caption': 'I Need My Space', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/DSCF0419.JPG'},
+                {'caption': 'Loving the AC', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/DSCF0421.JPG'},
+                {'caption': 'Spaceship', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/DSCF0426.JPG'},
+                {'caption': 'Artemis <3', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/DSCF0437.JPG'},
+                {'caption': 'Birds', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/DSCF0443.JPG'},
+                {'caption': 'Bugs', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/DSCF0444.JPG'},
+                {'caption': 'Lightning Show', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/DSCF0447.JPG'},
+                {'caption': 'Spaceship', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/DSCF0453.JPG'},
+                {'caption': 'Frances & Annie', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/DSCF0457.JPG'},
+                {'caption': 'Lunch!', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/DSCF0461.JPG'},
+		{'caption': 'Beyond the X-Ray', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/IMG_0107.JPG'},
+                {'caption': 'Dinosaur Exhibit', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/IMG_0109.JPG'},
+                {'caption': 'Shadow Wall', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/IMG_0113.JPG'},
+                {'caption': 'Balance', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/bosmos/IMG_0117.JPG'}];
+var fractals = [{'caption': 'Drawing Fractals', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0119.JPG'},
+		{'caption': 'Drawing Fractals', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0121.JPG'},
+                {'caption': 'Mary\'s Triangle', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0122.JPG'},
+                {'caption': 'Mary\'s Triangle', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0123.JPG'},
+                {'caption': 'Adianna\'s Triangle', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0124.JPG'},
+                {'caption': 'Adianna\'s Triangle', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0125.JPG'},
+                {'caption': 'Frances & Natalie', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0126.JPG'},
+                {'caption': 'Brieana', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0127.JPG'},
+                {'caption': 'Jessica & Elisa', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0128.JPG'},
+                {'caption': 'Tara', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0129.JPG'},
+                {'caption': 'Tara', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0130.JPG'},
+                {'caption': 'Stephanie\'s Tree', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0131.JPG'},
+                {'caption': 'Natalie\'s Arrows', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0132.JPG'},
+                {'caption': 'Miranda\'s Tree', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0133.JPG'},
+                {'caption': 'A Hand Fractal', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0136.JPG'},
+                {'caption': 'A Face Fractal', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0137.JPG'},
+                {'caption': 'A Katherine Fractal?', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0139.JPG'},
+                {'caption': 'Having Too Much Fun!', 'url': 'http://cs.brown.edu/orgs/artemis/2010/pics/fractals/IMG_0143.JPG'}];
+var microsoft =[{'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/microsoft/IMG_0157.JPG'},
+		{'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/microsoft/IMG_0158.JPG'},
+                {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/microsoft/IMG_0159.JPG'},
+                {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/microsoft/IMG_0163.JPG'},
+                {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/microsoft/IMG_0164.JPG'},
+                {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/microsoft/IMG_0169.JPG'},
+                {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/microsoft/IMG_0170.JPG'}];
+var skates = [{'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0348.JPG'},
+	      {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0350.JPG'},
+	      {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0351.JPG'},
+              {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0353.JPG'},
+              {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0355.JPG'},
+              {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0356.JPG'},
+              {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0358.JPG'},
+              {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0366.JPG'},
+              {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0367.JPG'},
+              {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0369.JPG'},
+              {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0374.JPG'},
+              {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0382.JPG'},
+              {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0383.JPG'},
+              {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0388.JPG'},
+              {'caption':'', 'url':'http://cs.brown.edu/orgs/artemis/2010/pics/skates/IMG_0391.JPG'}];
+</script>-->
+<!-- End photo galleries. -->
+
+<p>Photos from Artemis 2011!</p>
+
+<p><a href="#" onclick="return GB_showImageSet(ropes, 1)">Ropes Course at the Wheeler School</a><br /></p>
+<!--<a href="#" onclick="return GB_showImageSet(bosmos, 1)">Boston Museum of Science</a><br />
+<a href="#" onclick="return GB_showImageSet(fractals, 1)">Fractals</a><br />
+<a href="#" onclick="return GB_showImageSet(microsoft, 1)">Microsoft</a><br />
+<a href="#" onclick="return GB_showImageSet(skates, 1)">United Skates of America</a></p>-->
+
+
+<!--
+<p>  <h3>
+Photos from last year's Artemis Project can be found by clicking <a href= "http://picasaweb.google.com/lh/sredir?uname=tess.avitabile&target=ALBUM&id=5364359128620894385&authkey=Gv1sRgCKn3nsywpOThJg&feat=email"> here </a> . </h3>
+</p>
+-->
+
+<!-- <p> <big> If you have any photos taken from our field day or final presentations that you would like to share with the rest of the students and coordinators, please send them to artemis@cs.brown.edu. </big> </p> -->
+
+</div>
+
+<div id="footer">
+	<a href="http://validator.w3.org/check?uri=referer">xhtml</a> <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a>  
+	&#169; 2011 The Artemis Project 
+</div>
+
+</body>
+</html>

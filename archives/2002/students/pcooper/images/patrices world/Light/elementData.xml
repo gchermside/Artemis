@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<element>
+  <class>edu.cmu.cs.stage3.alice.core.light.DirectionalLight</class>
+  <children />
+  <properties>
+    <property name="name" type="java.lang.String">
+      <![CDATA[Light]]>
+    </property>
+    <property name="isFirstClass" type="java.lang.Boolean">true</property>
+    <property name="responses" type="java.lang.Object">null</property>
+    <property name="behaviors" type="java.lang.Object">null</property>
+    <property name="variables" type="java.lang.Object">null</property>
+    <property name="questions" type="java.lang.Object">null</property>
+    <property name="textureMaps" type="java.lang.Object">null</property>
+    <property name="sounds" type="java.lang.Object">null</property>
+    <property name="geometries" type="java.lang.Object">null</property>
+    <property name="misc" type="java.lang.Object">null</property>
+    <property name="eventsStopAscending" type="java.lang.Object">null</property>
+    <property name="isBoundingBoxShowing" type="java.lang.Boolean">false</property>
+    <property name="isBoundingSphereShowing" type="java.lang.Boolean">false</property>
+    <property name="parts" type="java.lang.Object">null</property>
+    <property name="localTransformation" type="edu.cmu.cs.stage3.math.Matrix44">edu.cmu.cs.stage3.math.Matrix44[rc00=-0.7071,rc01=0.0,rc02=-0.7071,rc03=0.0,rc10=0.5774,rc11=0.5774,rc12=-0.5774,rc13=0.0,rc20=0.4082,rc21=-0.8165,rc22=-0.4082,rc23=0.0,rc30=-5.0,rc31=5.0,rc32=8.0,rc33=1.0]</property>
+    <property name="vehicle" type="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[]</property>
+    <property name="isPivotShowing" type="java.lang.Boolean">false</property>
+    <property name="color" type="edu.cmu.cs.stage3.alice.scenegraph.Color">edu.cmu.cs.stage3.alice.scenegraph.Color[r=1.0,g=1.0,b=1.0,a=1.0]</property>
+    <property name="brightness" type="java.lang.Double">1.0</property>
+    <property name="range" type="java.lang.Double">256.0</property>
+  </properties>
+</element>
+

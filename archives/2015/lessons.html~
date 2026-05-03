@@ -1,0 +1,97 @@
+ul<html>
+<head>
+  <title>Artemis Lessons</title>
+  <link href='http://fonts.googleapis.com/css?family=Mystery+Quest' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div id="pagewrapper">
+    <div id="logo"></div>
+  <header>
+  <h1>The Artemis Project</h1>
+</header>
+<nav>
+  <script type="text/javascript" src="navmenu.js"> </script>
+
+  </nav>
+
+<div id="content">
+  <h2>Lessons</h2>
+<p>We will spend part of each day in a computer lab, learning computer literacy through the use of programs such as Microsoft Powerpoint and Adobe Photoshop, or learning the basics of computer programming through web design in HTML and CSS, and languages like Scratch and Python. We will also spend part of each day in a classroom, where students will be introduced to the more theoretical aspects of computer science. During this portion of the day, we will cover topics such as Cryptography and Artificial Intelligence through games and other hands-on activities.</p>
+
+<h3> Week 0</h3>
+<p>June 25th- June 27th</p>
+<ul class = "lesson">
+	<li><a href = "https://docs.google.com/presentation/d/1v8JkeFH92bNi3VQwE_cWTn1u5-tuKvlNag6OXJrgmm4/pub?start=false&loop=false&delayms=3000">How Computers Work</a></li>
+	<li><a href = "https://docs.google.com/presentation/d/1InfwKxM-W4th80ZM0M9Tapu-9p2TBp3WIs4XpeX0caA/pub?start=false&loop=false&delayms=3000">Binary Numbers</a> </li> 
+	<li>Intro to Scratch</li>
+	<li><a href = "https://docs.google.com/presentation/d/1psmLGuS_ZPFOJxbVerdSvrIIp-vbygqLanUK2CjvF08/pub?start=false&loop=false&delayms=3000">Booleans and Logic</a></li>
+	<li><a href = "https://docs.google.com/presentation/d/1s5Aw7wiqcsDyjQ-unQU4c-o-TIf7NDkZMuAf-dKUr3o/pub?start=false&loop=false&delayms=3000">Operators and Mod</a></li>
+	<li><a href = "https://docs.google.com/presentation/d/1HB31dUw-ys0JHMEKABbMk_Yd7mvG032AP8SsjVYZqwM/pub?start=false&loop=false&delayms=3000">Conditionals</a></li>
+	<li>Google Docs/Presentation</li>
+</ul>
+
+<h3> Week 1</h3>
+<p> June 30th - July 3</p>
+	<ul class = "lesson">
+		<li><a href="http://scratch.mit.edu/projects/23789194/">Loops and Variables</a></li>
+		<li>Making Scratch Games!</li>
+		<li><strong>Speaker:</strong><a href = 		"http://scratch.mit.edu/projects/23401851/"> Professor Littman!</a></li>
+        <li><strong>Field Trip:</strong> MIT Museum
+        
+	</ul>
+
+<h3> Week 2 </h3>
+<p> July 7- July 11</p>
+	<ul class = "lesson">
+		<li><a href= "https://docs.google.com/presentation/d/1ijlXCmm44GVEZrZSCHT0Oel4XOeUefSLBS3YukBp8gY/pub?start=false&loop=false&delayms=3000">Intro to Python- Variables, Types, Strings!</a></li>
+		<li><a href ="https://docs.google.com/presentation/d/1rfli2e2RqJcfVsw6t-WcAoqmGyJSZV5-Ohf9sygVRIY/pub?start=false&loop=false&delayms=3000">User Input</a></li>
+		<li><a href = "https://docs.google.com/presentation/d/1VLAmM05ZXYunbhNbMgO6hXTIKWdn9S3ps9O07iB3TYo/pub?start=false&loop=false&delayms=3000">Python Operators and Conditionals</a></li>
+		<li><a href = "https://docs.google.com/presentation/d/12yQmJouOh2oiL1MOMXz328LmWEcM6kkvz99iTHGWoFo/pub?start=false&loop=false&delayms=3000">Python Loops!</a></li>
+        <li><a href = "https://docs.google.com/presentation/d/1b5gZQHF6nhcms44ztaFqKSfURhK9DpxFAuIbIbxhvng/pub?start=false&loop=false&delayms=3000">Lists, Sets, Dictionaries</a></li>
+        <li><a href = "https://docs.google.com/presentation/d/1SlW7mt8BFP6H_B9CUyN8R9J8PhPTFZu2dhhqC4BhK4Q/pub?start=false&loop=false&delayms=3000"> Functions!</a></li>
+        <li><a href = "https://docs.google.com/presentation/d/1KnG13YosCGsJk38BJdV-SNeeGez3mZeewS2xwMIY_dE/pub?start=false&loop=false&delayms=3000">Sorting</a></li>
+        <li><strong>Speaker:</strong> Professor Bahar</li>
+        <li><strong>Field Trip:</strong> Museum of Science and Google!</li>
+        
+	</ul>
+
+<h3> Week 3 </h3>
+<p> July 15 - 18</p>
+	<ul class = "lesson">
+		<li><a href = "https://docs.google.com/document/d/1ftRCyj3-6taOxPGL3Q9uAsxnbgw9iS0cn_AKeI8-ROs/pub">Python References</a></li>
+		<li><a href = "https://docs.google.com/presentation/d/1tVAla7H30VDL1nm8GgJFySGvNNGuj6ax5zQf7zb6naA/pub?start=false&loop=false&delayms=3000">Tic Tac Toe</a></li>
+        <li>Photoshop</li>
+        <li><strong>Speakers:</strong> Professor Ramachandran, Professor Greenwald, Professor Kraus, Professor Klivans</li>
+        <li><strong>Field Trip:</strong> Wheeler Ropes Course!</li>
+	</ul>
+
+<h3> Week 4 </h3>
+<p> July 21 - July 25</p>
+	<ul class = "lesson">
+		<li><a href = "https://docs.google.com/presentation/d/1_7F3EdH4V9ra8ubQGjPH2yJzqah_KTTjqGmFLp3hjIw/pub?start=false&loop=false&delayms=3000">HTML</a></li>
+		<li><a href = "https://docs.google.com/presentation/d/1Mb-gm6YNoEBH-mvvo7_Hs5gstBDffus2nLCZfGSxKh4/pub?start=false&loop=false&delayms=3000">CSS</a></li>
+		<li><a href = "https://docs.google.com/document/d/1GY33SkNPZhoiZH4IatcVB-2tz_rU_1gnQE2-a0eZxfk/pub">HTML/CSS References</a></li>
+		<li><a href = "https://docs.google.com/presentation/d/1Wl3stUuzbHC0TrtzG8rgljiu6rny8ZIjTslhxXHA8rA/pub?start=false&loop=false&delayms=3000">Good Web Design </a></li>
+		<li><a href = "https://docs.google.com/presentation/d/1jdXfy_VLT0SWoIUbzkr0gAhCTRkQczfGun-_cmBrRlM/pub?start=false&loop=false&delayms=3000">Women In Computer Science</a></li>
+		<li><strong>Speakers:</strong> Professor Tellex, Professor Littman, Professor Van Dam</li>
+        	<li><strong>Field Trip:</strong> United Skates of America</li>
+	</ul>
+
+ <h3> Week 5 </h3>
+<p> July 28 - July 30</p>
+	<ul class = "lesson">
+		<li> Final Projects</li>
+	</ul>
+
+  
+  <footer>
+   <script type="text/javascript" src="footertext.js"> </script>
+  </footer>
+</div>
+
+
+</div>
+<body>
+</html>

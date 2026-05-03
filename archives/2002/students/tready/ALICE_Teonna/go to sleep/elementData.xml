@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<element>
+  <class>edu.cmu.cs.stage3.alice.core.response.DoInOrder</class>
+  <children>
+    <child>__Unnamed0__</child>
+    <child>__Unnamed1__</child>
+    <child>__Unnamed2__</child>
+  </children>
+  <properties>
+    <property name="name" type="java.lang.String">
+      <![CDATA[go to sleep]]>
+    </property>
+    <property name="isFirstClass" type="java.lang.Boolean">false</property>
+    <property name="isCommentedOut" type="java.lang.Boolean">false</property>
+    <property name="duration" type="java.lang.Double">1.0</property>
+    <property name="requiredFormalParameters" type="java.lang.Object">null</property>
+    <property name="keywordFormalParameters" type="java.lang.Object">null</property>
+    <property name="localVariables" type="java.lang.Object">null</property>
+    <property name="componentResponses" type="java.io.File">java.io.File[componentResponses.txt]</property>
+  </properties>
+</element>
+

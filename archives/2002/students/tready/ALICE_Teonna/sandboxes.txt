@@ -1,0 +1,12 @@
+edu.cmu.cs.stage3.alice.core.Sandbox
+5
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[Camera]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[Light]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[Ground]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[AliceLiddell]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[WhiteRabbit]

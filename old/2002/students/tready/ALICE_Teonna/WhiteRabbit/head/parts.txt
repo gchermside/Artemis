@@ -1,6 +1,0 @@
-edu.cmu.cs.stage3.alice.core.Transformable
-2
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[WhiteRabbit.head.rear]
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
-edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[WhiteRabbit.head.lear]

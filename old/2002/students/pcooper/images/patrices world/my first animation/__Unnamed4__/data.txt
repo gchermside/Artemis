@@ -1,4 +1,0 @@
-java.lang.String
-edu.cmu.cs.stage3.alice.authoringtool.visibleProperties
-java.lang.String
-subject,what

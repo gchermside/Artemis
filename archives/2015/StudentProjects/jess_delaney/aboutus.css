@@ -1,0 +1,10 @@
+#footer {
+	display: block;	
+	position: relative;
+	bottom: 350px;
+	right: 25px;
+}
+#image {
+	position: relative;
+	bottom: 870px;	
+}

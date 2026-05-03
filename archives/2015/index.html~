@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>Artemis Home</title>
+  <link href='http://fonts.googleapis.com/css?family=Mystery+Quest' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div id="pagewrapper">
+
+    <div id="logo"></div>
+  <header>
+    <h1>The Artemis Project</h1>
+</header>
+  <nav>
+
+  <script type="text/javascript" src="navmenu.js"> </script>
+  </nav>
+
+<div id="content">
+<h2>Welcome to Artemis!</h2>
+  <h3>What is Artemis?</h3>
+  <p>The Artemis Project is a free, five-week summer day camp for rising 9th grade girls in the Providence area who are interested in learning about science and technology. Founded in 1996, the camp has traditionally been run by four undergraduate women from Brown University in connection with <a href="http://www.cs.brown.edu/" target="_new">Brown's Computer Science Department.</a></p>
+
+<p>By teaching students computer skills, programming, and computer science concepts through engaging activities, the Artemis Project encourages young women to join the field of computer science.</p>
+
+
+  <h3>Artemis Club</h3>
+
+  
+  <p>
+  Starting this fall, recent alumnae from The Artemis Project are invited to join us for 
+  monthly coding meetings at the CIT. The next meeting of The Artemis Club 
+  will be <a href="calendar.html">Sunday, December 7th</a> from 2:00pm to 4:00pm in the MS Lab.</p>
+
+  
+  <footer>
+  <script type="text/javascript" src="footertext.js"> </script>
+  </footer>
+</div>
+
+
+</div>
+<body>
+</html>
