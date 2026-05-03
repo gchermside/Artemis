@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>look i can do it!!!</title>
+</head>
+
+<body bgcolor="#000000"
+      text="#3333ff"
+      link="#9900ff"
+      vlink="#cc00ff"
+      alink="#ffffff" >
+
+
+
+<h1>Friends? 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yes!they are my friends! </br></h1>
+
+
+<img src="img/welcome2.gif">
+
+<table cellspacing=40>
+
+<tr>
+<td><img src="img/friends1.jpg" alt="little girl"></td>
+<td><img src="img/julia1.jpg" alt="My friends"></td>
+<td>
+</tr>
+<tr>
+<td></td>
+<td><p><h2>They are all my best friends. This picture is of my last day in China, my friends came to my house to say good bye to me. Why are we wearing the same jacket? Because in China all the schools have their own uniform, and that picture was taken on a school day.</h2></td>
+</tr>
+<tr>
+<td>
+<ul>
+<li><h1><a href="home.html">Go Home</a>
+<li><a href="aboutMe.html">Go To See Me</a>
+<li><a href="myFavorites.html">Go To See My Favorites</a></h2></ul>
+<li><a href="mailto:juliajiang_2001@163.com" alt="E-mail to my friend"> <img src="img/E-mail 2.gif" border=0></a>
+<li>E-mail to my friend</li></td>
+<td><img src="img/julia20.jpg" alt="FRIENDSHIP FOREVER"></td>
+
+
+</body>
+</html>

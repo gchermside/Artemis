@@ -1,0 +1,154 @@
+
+ ___ ___   _   ___  __  __ ___
+| _ \ __| /_\ |   \|  \/  | __|  for the
+|   / _| / _ \| |) | |\/| | _|   default Computer Science account
+|_|_\___/_/ \_\___/|_|  |_|___|  startup files
+
+Introduction:
+~~~~~~~~~~~~~
+This file is designed to give you a basic introduction to the various
+"dotfiles" (configuration files whose names begin with ``.'' in your account).
+
+In particular, when you log in, these files are read:
+
+  .Xdefaults .alias .cshrc .fvwmrc .login .xinitrc ~/.modules/personal.mdl
+
+This file provides an introduction to when these files are read, and what
+types of customizations you might want to make to each one, and how to do so.
+Each dotfile also has inline comments to help you understand more about the
+file and what it's doing.  Here's an overview:
+
+Key: [path] ~ Program which is executed
+     (path) ~ Configuration file in your account which is processed
+     ?text? ~ Choice which you are presented with
+      Done  ~ You are now logged in and can begin working 
+
+  [/bin/csh] 
+      |
+      V
+  (~/.login)
+      |
+      V        Yes
+  ? Start X ? -----> [/usr/openwin/bin/openwin]
+      |                          |
+      | No                       |
+      V                          V              
+  (~/.cshrc)                (~/.xinitrc)
+      |                          |
+      V                          ----> [/usr/openwin/bin/xrdb]
+  modules system                                 |
+      |                                          V
+      V                                   (~/.Xdefaults)
+  (~/.modules/personal.mdl)                      |
+      |                          |<--------------|
+      V                          |
+    Done                         |---> [/usr/local/bin/fvwm]
+                                 |               |
+                                 |               V
+ [/usr/openwin/bin/xterm] <------|          (~/.fvwmrc)
+      |                          | 
+      V                          |
+   [/bin/csh]                    |
+      |                    Wait for fvwm
+      V                       logout 
+   (~/.cshrc)
+      |
+      V
+  modules system 
+      |
+      V
+  (~/.modules/personal.mdl)
+      |
+      V
+    Done
+
+
+When you log in:
+
+1. After you type your name and password, your shell (/bin/csh) is started
+   as a login shell.  This causes it to first read the file: ~/.login
+   in your home directory.  You should add options to .login which you want
+   to effect your entire login session.
+
+2. If you launch OpenWindows, your ~/.xinitrc script is executed.  Here you
+   launch your window manager (/usr/local/bin/fvwm), which controls the
+   way your windows and menus appear, and several programs to appear by
+   default, including two xterms with shells in them, and an XEmacs editor.
+   You should add commands to ~/.xinitrc that you want to execute when you
+   begin a new OpenWindows session.
+
+3. Your ~/.xinitrc script uses /usr/openwin/bin/xrdb to load your ~/.Xdefaults
+   file, which containing resource settings for many X-based programs.
+   If you want to change fonts or colors for particular programs, make those
+   changes here.
+
+4. Your ~/.xinitrc script launches your window manager (/usr/local/bin/fvwm),
+   which is responsible for managing your virtual screens, displaying window
+   title bars, and menus of commands which appear when you click on your
+   screen background.  fvwm reads your ~/.fvwmrc file, which you can modify
+   if you want to change your window colors or menu commands.
+
+5. Your ~/.xinitrc script launches one or more xterms, each of which launches
+   a separate instance of your shell (/bin/csh).  Each shell then reads the
+   ~/.cshrc file, which should contain settings you want each time a new 
+   shell is started.
+
+6. Your .cshrc file invokes the 'modules' system to provide flexible account
+   configuration.  man module(1) and modulefile(5) for detailed information.
+   The last module to get loaded is your personal module, which is in
+   ~/.modules/personal.mdl.  You should place most of your environment
+   customizations in this file: Path settings, environment variables, etc.
+   all belong here.
+
+Changing Fonts in Your Account:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+From a shell, run the ``xfontsel'' program.  It will let you play around
+with different font properties, and display a font string specifying what
+you are currently viewing at the top of its window.  Change these lines in
+your ~/.Xdefaults file:
+
+   *font:                  lucidasanstypewriter-12
+   *bodyFont:              lucidasanstypewriter-12
+   *boldFont:              lucidasanstypewriter-bold-12
+
+Now reload your resources using the "Reload Resources" command under your
+rightmost mouse button.  The changes will affect subsequent shells and other
+applications you start.
+
+Changing Colors in your Account:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+From a shell, run the ``xcolorsel'' program.  It will display tiles of the
+available named colors.  The default foreground and background application
+can be changed by modifying these lines in your ~/.Xdefaults file:
+
+  *foreground:            black
+  *background:            gray90
+
+Note that color names can simply be specified as one word, case-insensitive.
+Now reload your resources using the "Reload Resources" command under your
+rightmost mouse button.  The changes will affect subsequent shells and other
+applications you start.
+
+To change the default colors of your window title bars, you will need to
+modify the color settings at the top of your ~/.fvwmrc file:
+
+  StdForeColor            black
+  StdBackColor            lightsteelblue3
+  HiForeColor             black
+  HiBackColor             lightsteelblue2
+  StickyForeColor         black
+  StickyBackColor         lightsteelblue
+  MenuForeColor           black
+  MenuBackColor           lightsteelblue
+  MenuStippleColor        black
+  PagerBackColor          gray90
+
+After saving your changes, you can make them take effect immediately by
+selecting the "Restart Fvwm" command from under your rightmost mouse button.
+
+How To Get Help:
+~~~~~~~~~~~~~~~~
+If you have problems or questions about your account or startup files, send
+email to ``admin''.  If you have general questions about UNIX or the department,
+start up the Netscape web browser (available by selecting "Netscape" from
+under your leftmost mouse button) and go to: "http://localhost/"

@@ -1,0 +1,53 @@
+<html>
+<!--last updated 07.25.00 - crdavis-->
+<!--attempts at modification, 04.05.01 - mengel-->
+<!--turns out one has to type 'webupdate' in the shell for changes to take place!!:) -->
+
+<head>
+  <title>The Artemis Project 2001</title>
+</head>
+
+<body bgcolor="#FFFFFF" text="#29209d" link="#fc9306" alink="#29209d" vlink="#fc9306">
+<center>
+<img src="img/logo.now.jpg" vspace=10 hspace=10 alt="The Artemis Project">
+</center>
+
+<p> Welcome to the Artemis Project 2001!  Artemis is a five week summer
+day camp for rising 9th grade girls in the Providence area.  This summer it is being run by three
+Brown undergraduate women, in connection with the Brown University Computer Science Department. 
+<p> Artemis is designed to encourage its young women participants' interest in the
+sciences amd technology.  The students will learn both concrete computer skills and abstract
+computer science concepts through a variety of projects and activities, in
+a positive and encouraging environment.  These projects will include work with Lego Mindstorm robots, 
+and designing and writing their own webpages.
+<br>
+<!-- Read about us in the <a href="http://www.projo.com/cgi-bin/story.pl/news/04084623.htm"Providence Journal article</a of August 15th, 2000. >
+<br><br>
+<center>
+<p><h4>To learn more check out the <a href="brochure.pdf">Artemis Brochure for 2001</a> as an Acrobat file here!</h4>
+</center>
+<br>
+<center>
+<small>
+<p><a href="students/">students</a> |
+<a href="coordinators.html">coordinators</a> |
+<a href="pictures.html">pictures</a> | 
+<a href="lessons.html">lessons</a> |
+<a href="old/">previous years</a> |
+<a href="sponsors.html">sponsors</a> |
+<a href="links.html">resources</a> |
+<a href="calendar.html">calendar</a>
+
+</small>
+</center>
+
+<br><br><br>
+
+<small><small>
+Please mail questions and comments to <a href="mailto:artemis@cs.brown.edu">
+artemis@cs.brown.edu</a><br>
+Copyright 2001 The Artemis Project, All Rights Reserved<br>
+</small></small>
+
+</body>
+</html>

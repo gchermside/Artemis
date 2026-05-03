@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>susan is Da BEST</title>
+</head>
+
+<body BGCOLOR="#000000" TEXT="#cc0000" LINK="#0000ff" VLINK="#ccff66" ALINK="#990099" >
+<center>
+<img src="img/me.gif" alt="All About ME"></center>
+<br><br><br>
+
+<table width=100%>
+<tr>
+<td>susan at 2 years old</td>
+<td><img src="img/susan11.jpg"></td>
+<td><img src="img/susan10.jpg"></td>
+<td width = 200>
+<h1>
+<a href="home.html">home</a><br><br>
+<a href="family.html">my family</a><br><br>
+<a href="music.html">my jams</a><br><br>
+<a href="mailto:sestrela@cs.brown.edu">email me</a><br><br>
+</h1>
+</td>
+</tr>
+<tr>
+<td><img src="img/susan13.jpg"></td> 
+<td><img src="img/susan5.jpg"></td>
+
+</tr>
+</table>
+
+</body>
+</html>
