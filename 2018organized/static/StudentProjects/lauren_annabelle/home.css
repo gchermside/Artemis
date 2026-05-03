@@ -1,0 +1,192 @@
+
+h1 {
+	text-align: center;
+	padding-top:90px;
+	padding-bottom: 90px;
+	font-size: 80px;
+	font-family: Arial;
+	font-weight: normal;
+	margin:0;	
+	font-family: 'Cabin', sans-serif;
+	color:white;
+}
+
+div#water  {
+background-image: url(OCEAN.jpg);
+height:250px;
+}
+
+ul {
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+}
+
+li a {
+	display:block;
+	width: 60px;
+
+}
+
+ul#navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+ul#navigation li {
+	float: left;
+}
+
+ul#navigation li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+li a:hover {
+	background-color:gray;
+}
+
+
+div {
+	postion:fixed;
+	top:0;
+	width:100%;
+}
+
+
+h3 {
+	font-size: 20px;
+	font-family: 'Oxygen', sans-serif;
+	text-align: left;
+}
+ol {
+	font-size: 20px;
+	font-family: 'Oxygen', sans-serif;
+	text-align: left;
+}
+h4 {
+	font-size: 20px;
+	font-family: 'Oxygen', sans-serif;
+	text-align: left;
+	font-weight: normal;
+}
+h2 {
+	font-size: 35px;
+	font-family: 'Oxygen', sans-serif;
+	text-align: left;
+}
+ul#facts {
+	font-size: 20px;
+	font-family: 'Oxygen', sans-serif;
+	text-align: left;
+	float: left;
+}
+h2#links {
+	float: left;
+}
+a:link{
+	color:red;
+}
+a:visited {
+	color:blue;
+}
+a:hover {
+	color:transparent;
+}
+a:active {
+	color:blue;
+}
+
+div#oilandwater {
+background-image: url(oilandwater.jpg);
+height:250px;
+}
+
+ul {
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+}
+
+li a {
+	display:block;
+	width: 60px;
+}
+
+div#list1 {
+	float:right;
+}
+
+h3#BeachCleanup {
+	float:left;
+	margin-left: 1500px;
+
+}
+h4#hometext{
+	font-size: 35px;
+	font-family: 'Oxygen', sans-serif;
+	text-align: left;
+	font-weight: normal;
+}
+ol#factslist {
+	font-size: 25px;
+	font-family: 'Oxygen', sans-serif;
+	text-align: left;
+	font-weight: normal;
+}
+h3#joinanevent{
+	float:left;
+	margin-left: 1000px;
+}
+div#floatlinks {
+
+}
+
+h3#gametext{
+	font-size: 25px;
+	font-family: 'Oxygen', sans-serif;
+	text-align: left;
+	font-weight: normal;
+}
+
+ol#hychlist{
+	font-size: 25px;
+	font-family: 'Oxygen', sans-serif;
+	text-align: left;
+	font-weight: normal;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+<img src="water-pollution-1.jpg" alt="Dude">
+
+div#Dude{
+	<img src"="water-pollution-1.jpg" alt="Dude"
+	margin-left:100px;
+
+}
+div#aboutustext{
+	font-size: 25px;
+	font-family: 'Oxygen', sans-serif;
+	text-align: left;
+	font-weight: normal;
+}
+
+div#DirtyWater {
+	<img src"="" alt="DirtyWater"
+	margin:200px;
+}
+div#logo{
+	text-align: center;
+}

@@ -1,0 +1,60 @@
+body{
+	background: lightblue;
+	font-size: 20px;
+}
+h1 {
+	font-size: 100px;
+	font-family: Indie Flower;
+	color: black;
+}
+h2 {
+	font-size:40px;
+	font-family: 'Domine', serif;
+}
+div#navigation {
+	color: white;
+	background-color: #000066;
+}
+th {
+	width: 300px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: lightblue;
+}
+div#fat {
+	background-color: white;
+	position: relative;
+	top: 50px;
+	margin: 40px;
+}
+div#gif img {
+	border: solid 50px #000066;
+	margin-left: 50px;
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+div#footer {
+	color: white;
+	background-color: #000066;
+	position: relative;
+	bottom: 0px;
+	font-size: 15px;
+}
+div#story{
+	width: 90%;
+	display: block;
+	margin-left: 250px;
+	margin-top: -100px;
+}
+div#words{
+	width:60%;
+	display: inline-block;
+}
+div#picture{
+	width:20%;
+	display: inline-block;
+}
