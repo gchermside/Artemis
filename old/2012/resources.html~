@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<link href="layout/style_08.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>Artemis 2012</title>
+</head>
+
+<body>
+
+<div id="header">
+	</div>
+
+<div id="nav">
+	<a href="index.html">Home</a><br />
+	<a href="about.html">About Artemis</a><br />
+	<a href="coordinators.html">Coordinators</a><br />
+	<a href="students.html">Students</a><br />
+	<a href="pictures.html">Pictures</a><br />
+	<a href="lessons.html">Lessons</a><br />
+	<a href="schedule.html">Weekly Schedule </a><br />
+	<a href="calendar.html">Calendar</a><br />
+	Resources<br />
+	<a href="applications.html">Applications</a><br />
+	<a href="sponsors.html">Sponsors</a><br />
+	<a href="contact.html">Contact Us</a><br/>
+	<a href="../old/home.html">Past Years</a>
+</div>
+
+<div id="content">
+<img src="layout/content_bg_2.gif" width="605" height="120" alt="Artemis" />
+
+<h2> Classroom Lessons </h2>
+<ul>
+<li><a href="binary.pptx"> Binary Powerpoint </a>
+<li><a href="logicgates.pptx"> Logic Gates Powerpoint </a>
+<li><a href="powerpoint.pptx"> Powerpoint Powerpoint </a>
+<li><a href="excel.pptx"> Excel Powerpoint </a>
+</ul>
+
+<h2>HTML/CSS</h2>
+<ul>
+<li><a href="http://www.w3schools.com/Html/html_colors.asp">Color Chart</a></li>
+<li><a href="http://htmldog.com/reference/htmltags/">HTML/XHTML tags</a></li>
+<li><a href="http://www.w3schools.com/css/css_reference.asp">CSS properties</a></li></ul>
+
+<h3> HTML and CSS Powerpoints! </h3>
+<ul>
+<li><a href="HTMLpresentation.pptx"> HTML Powerpoint </a>
+<li><a href="2_CSS.pdf"> CSS Powerpoint </a>
+<li><a href="3_layouts.pdf"> Layouts Powerpoint (CSS Part 2) </a>
+<li><a href="4_websites.pdf"> Making Websites/File-Relative Links Powerpoint </a>
+</ul>
+<br>
+<ul>
+<li>w3schools tutorials: <a href="http://www.w3schools.com/html/default.asp">HTML</a> and <a href="http://www.w3schools.com/css/default.asp">CSS</a></li>
+<li>html.net tutorials: <a href="http://www.html.net/tutorials/html/">HTML</a> and <a href="http://www.html.net/tutorials/css/">CSS</a></li>
+<li><a href="http://csseasy.com/">CSS Easy layouts</a>
+<li><a href="http://snook.ca/archives/html_and_css/six_keys_to_understanding_css_layouts/">Understanding Modern CSS Layouts</a></li>
+<li><a href="http://www.digital-web.com/types/web_design_101/">Web Design 101</a></li>
+<li><a href="http://css-tricks.com/what-beautiful-html-code-looks-like/">What Beautiful HTML Code Looks Like</a></li>
+</ul>
+
+
+<h2>Photoshop</h2>
+<ul>
+<li><a href="http://www.getpaint.net/">paint.NET</a> is a graphics program with power similar to that of Photoshop. Free (compare to Photoshop CS4, $699).</li>
+<li>Smashing Magazine Tutorials: <a href="http://www.smashingmagazine.com/2007/01/12/hand-picked-photoshop-tutorials/">one</a> and <a href="http://www.smashingmagazine.com/2008/01/10/adobe-photoshop-tutorials-best-of/">two</a></li>
+<li><a href="http://psdtuts.com/">PSDTuts</a></li>
+<li><a href="http://www.photoshoproadmap.com/Photoshop-blog/2007/10/25/100-awesome-high-resolution-photoshop-brushes/">100 High-Resolution Brushes</a></li>
+<li><a href="http://tutorialblog.org/free-photoshop-brushes/">Free Photoshop Brushes</a></li>
+<li><a href="http://www.dafont.com/">Dafont (free fonts)</a></li>
+<li><a href="http://www.textureking.com/index.php/category/all-textures">TextureKing (free stock textures)</a></li>
+</ul>
+
+<h2>Programming</h2>
+<!--
+C/C++
+<ul>
+<li><a href="http://www.cprogramming.com/tutorial.html">Cprogramming.com Tutorials</a></li>
+<li><a href="http://www.le.ac.uk/cc/tutorials/c/">Introduction to C Programming</a></li>
+<li><a href="http://www.macs.hw.ac.uk/~pjbk/pathways/cpp1/cpp1.html">Introduction to C++ Programming I</a></li>
+</ul>-->
+
+
+Python
+<ul>
+<li><a href="http://www.ibiblio.org/swaroopch/byteofpython/read/">A Byte of Python</a></li>
+<li><a href="http://openbookproject.net//thinkCSpy/index.xhtml">How to Think Like a Computer Scientist</a></li>
+<li><a href="http://www.freenetpages.co.uk/hp/alan.gauld/">Learning to Program</a></li>
+<li><a href="http://www.livewires.org.uk/python/home">LiveWires Python Course</a></li>
+</ul>
+
+Scratch
+<ul>
+<li><a href = "http://info.scratch.mit.edu/Scratch_1.4_Download">Download Scratch!</a> (free, for your very own!)</li>
+</ul>
+
+
+
+<h2>Other Resources</h2>
+Sites for women in technology:
+<ul>
+<li><a href="http://www.iwt.org" target="new">The Institute of Women in Technology</a>
+<li><a href="http://www.systers.org" target="new">Systers</a>
+<li><a href="http://www.nasa.gov" target="new"> NASA's Webpage </a>
+	<ul>
+	<li><a href="http://quest.arc.nasa.gov/projects/won/" target="new"> Women of Nasa </a>
+	</ul>
+<li><a href="http://www.cs.brown.edu/orgs/wics" target="new">Brown's Women in Computer Science (WiCS)</a>
+<li><a href="http://www.sdsc.edu/Hopper/" target="new"> The Grace Hopper Celebration of Women in Computing</a>
+	<ul>
+	<li><a href="http://www.sdsc.edu/Hopper/GHC_INFO/hopper.html" target="new">Who was Grace Hopper Murray?</a>
+	</ul>
+<li><a href="http://www.cs.cmu.edu/~gendergap/" target="new"> Article: Women in Computer Science; Closing the Gender Gap in High Education</a>
+<li><a href="http://tap.mills.edu/" target="new">The ADA Project</a>
+	<ul>
+	<li><a href="http://www.mills.edu/ACAD_INFO/MCS/SPERTUS/Gender/gender.html" target="new">Article: Women and Computer Science</a>
+	</ul>
+<li><a href="http://www.swe.org/" target="new">Society of Women Engineers</a>
+<li><a href="http://serendip.brynmawr.edu/" target="new">Serendip</a>
+</ul>
+
+
+Fun Technology Sites:
+<ul>
+<li><a href="http://whyfiles.news.wisc.edu/" target="new"> The Why Files</a>
+<li><a href="http://www.computerhistory.org" target="new">Computer History</a>
+<li><a href="http://www.space/com" target="new">Space</a>
+<li><a href="http://www.sun.com/" target="new">Sun Microsystems</a>
+<li><a href="http://www.intel.com" target="new">Intel</a>
+</ul>
+
+
+Robots on the Web:
+<ul>
+<li><a href="http://www.kipr.org/" target="new">KISS Institute for Practical Robots</a>
+<li><a href="http://www.aaai.org/AITopics/bbhist.html" target="new">The History of Artificial Intelligence</a>
+<li><a href="http://www.beam-online.com/Robots/Galleria_other/tilden.html" target="new">Beam Online</a>
+<li><a href="http://www.uq.oz.au" target="new">University of Queensland</a>
+	<ul>
+	<li><a href="http://www.itee.uq.edu.au/~cogsci/" target="new">Cognitive Science Department</a>
+	<li><a href="http://psy.uq.oz.au/CogPsych/homepage/playroom/playroom.html" target="new">Robot Playroom</a>
+	</ul>
+<li><a href="http://www.parnasse.com/drwww.shtml" target="new">Dr. Werner Wilhelm Webowitz's Office</a>
+<li><a href="http://www.spaceports.com/~sjlaven/index.html" target="new">Chatterbots</a>
+<li><a href="http://www.necrobones.com/atrobots/" target="new">AT-Robots</a>
+<li><a href="http://www.ai.mit.edu/projects/humanoid-robotics-group/" target="new">MIT Robotics </a>
+</ul>
+
+
+Cool Graphics Sites:
+<ul>
+<li><a href="http://www.pixar.com" target="new">Pixar</a>
+<li><A HREF="http://www.cs.brown.edu/stc" target="new">NSF Center for Graphics and Visualization</A>
+
+<li><a href="http://www.povray.com" target="new">Precision Of Vision Ray-Tracing</a>
+<li><a href="http://www.etc.cmu.edu" target="new">Entertainment Technology Center at Carnegie Mellon University</a>
+<li><a href="http://www.kodak.com/digitalImages/samples/samples.shtml" target="new">Digital Cameras amd Technology</a>
+<li><a href="http://telegarden.aec.at/" target="new">The Telegarden Ars Electronica Center</a>
+<li><a href="http://www.arts.monash.edu.au/visual_culture/projects/diva/" target="new">Web Projects on Visual Culture</a>
+<li><a href="http://www.mtl.t.u-tokyo.ac.jp/%7Etakeo/research/teddy/teddy.htm" target="new">Teddy: A 3D Drawing System</a>
+<li><a href="http://www.mpeters.de/mpeweb/hop/gallery/gallery.htm" target="new">HOP Fractals In Motion</a>
+</ul>
+
+<br>
+High School Competitions:
+<ul>
+<li><a href="http://www.naclo.cs.cmu.edu/">North American Computational Linguistics Olympiad</a>
+<li><a href="http://www.intel.com/education/sts/" target="new">Intel Science Talent Search</a>
+<li><a href="http://www.geocities.com/soincus/" target="new">Science Olympiad</a>
+<li><a href="http://www.thinkquest.org/index.html" target="new">Think Quest</a>
+<li><a href="http://www.acm.org/" target="new">The First Society in Computing</a>
+<ul>
+<li><a href="http://www.acm.org/events/compete.html" target="new">Events and Competitions</a>
+</ul>
+
+</ul>
+
+<br>
+
+Local Links:
+<ul>
+<li><a href="http://www.providenceri.com" target="new">Providence, RI</a>
+<li><a href="http://www.provlib.org/" target="new">Providence Library</a>
+<li><a href="http://www.pawtucketlibrary.org" target="new">Pawtucket Library</a>
+<li><a href="http://www.brown.edu" target="new">Brown University</a>
+<ul><li><a href="catsoftheworld/CatsHTMLPractice.html"> Cats of the World <a>
+<li><a href="http://www.cs.brown.edu" target="new">Brown Computer Science Department</a>
+
+<li><a href="http://www.brown.edu/Facilities/University_Library/" target="new">Brown Library</a>
+</ul>
+</ul>
+
+<img src="printercat.jpg" width="350" height="315" alt="printer cat" />
+<img src="techkitty.jpg" width="300" height="200" alt="tech kitty" />
+
+</div>
+
+<div id="footer">
+	<a href="http://validator.w3.org/check?uri=referer">xhtml</a> <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a> 
+	&#169; 2012 The Artemis Project 
+</div>
+
+
+</body>
+</html>

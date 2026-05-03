@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shower-Busters</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Slabo+27px|Poiret+One|EB+Garamond' rel='stylesheet' type='text/css'>
+		<img src="App-Logo.png">
+		<h7>App Icon</h7>
+	</head>
+
+	<body>
+		<div id="header">
+			<h1><center><img src="Logo.png"></center></h1>
+		</div>
+
+		<div id="moreinfo">
+		<h2> Ways To Save Water</h2>
+			<p>
+				<ul>
+					 <li>Place a bucket under the faucet while the water either gets warmer or colder.  Keep the water in the bucket and you can use it to water your plants later on.
+            		 <li>While you are brushing your teeth and washing your hands, make sure to turn the water off unless necessary.
+            		 <li>Take shorter showers.
+            		 <li>Use your leftover pasta cooking water to water your plants(just make sure that it is completely cooled down!!)
+            		 <li>If you're hand washing your dishes, fill the sink with water and use that to scrub them instead of letting the water run.
+            		 <li>Using less electricity will also help save water.
+            		 <li>An average shower only takes 8.2 minutes which means you only use 16 gallons of water every time you shower.
+            		 <li>One way to help keep the water clean, is by using gravels, paver stones, wood, or porous materials whenever possible in your driveway.
+            		 <li> Do not throw away nondegradable products dow the toilet(only toilet paper) They can wind up being on our beach shores!
+            		 <li> Don't let paint, used oil, chemical cleaners or other questionable household products go down the drain. They may contain toxic ingredients.
+
+            	</ul>
+			</p>
+			<img src = "http://www.herndon-group.com/sites/default/files/styles/complete_small/public/news/fix_a_leak-infographic-household_leaks_waste.jpg">
+
+		<h2> Effects From Around The World</h2>
+			<p>
+				<ul>
+					<li>70% of industrial waste is dumped into waters where it then becomes polluted.
+					<li> Many sea creatures such as fish, blue crabs, and oysters die from lack of oxygen due to the water pollution.
+					<li> Water pollution can even have an effect on farms and various soils.
+					<li> More than 1 billion people lack access to clean water and 2.4 billion people don't have proper sanitation, putting them at risk of deadly diseases.
+					<li> One of the many ways that our oceans become polluted is from containers that fall off of ships during storms. Those containers usually hold toxic waste.
+					<li>Trash that washes off of city streets into rivers, then end up in the ocean.
+					<li> Pollution makes life difficult for people and animals all around the world.
+					<li>650 million people lack access to clean water.
+					<li>315 thousand <strong>CHILDREN</strong> pass away due to dieseases because they don't have clean water.
+					<li>Afghanistan, Ethiopia, Cambodia, India, and Haiti are just a few
+					of the places that don't have access to water, let alone clean water.
+				</ul>
+			</p>
+
+			<img src= "https://assets.weforum.org/article/image/large_RqckQViqZr2Ov7F7BZ7ycbkLje2USMmpAXexrACgwUA.jpg"/>
+
+            <h2>See it yourself @....</h2>
+			<p>
+				<ul>
+					<li><a href="http://wateruseitwisely.com/100-ways-to-conserve/"target="_blank">Ways to Save Water</a>
+					<li><a href="http://water.org/water-crisis/"target="_blank">Water Crsis</a>
+				</ul>
+
+		</div>
+
+		<div id="navigation4">
+				<ul>
+					<li><a href="Home%20Page">Home</a>
+					<li><a href="Introduction%20Page">Introduction</a>
+					<li><a href="About%20Page">About</a>
+					<li><a href="Contact%20Page">Contact</a>
+					<li>More Info.</li>
+				</ul>
+		</div>
+	</body>

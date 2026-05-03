@@ -1,0 +1,67 @@
+h1 {
+	text-align: center;
+	padding-top:90px;
+	padding-bottom: 90px;
+	font-size: 80px;
+	font-family: Arial;
+	font-weight: normal;
+	margin:0;	
+	font-family: 'Cabin', sans-serif;
+}
+
+div#water  {
+background-image: url(ocean_blue_by_zilenna_stock-d69e3ph.jpg);
+height:250px;
+}
+
+ul {
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+}
+li a {
+	display:block;
+	width: 60px;
+
+}
+
+ul#navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+{
+	li a:hover {
+	background-color:gray;
+}
+
+{
+	postion:fixed;
+	top:0;
+	width:100%;
+
+{
+	border: 1px solid #e7e7e7
+	background-color: #f3f3f3;
+}
+
+li a {
+    color: #666;
+}
+
+
+

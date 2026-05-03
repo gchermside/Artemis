@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shower-Busters</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Slabo+27px|Poiret+One|EB+Garamond' rel='stylesheet' type='text/css'>
+		<img src="App-Logo.png">
+		<h7>App Icon</h7>
+	</head>
+
+	<body>
+		<div id="header">
+			<h1><center><img src="Logo.png"></center></h1>
+		</div>
+
+		<div id="instructions">
+
+		<h5>Introduction:</h5>
+
+		<h5>How to Get Started</h5>
+
+		<p>
+			<ol>
+				<li>Go to the app store and download the app <em>Shower-Busters</em>.
+
+				<li>Once downloaded, open the app and wait for it to load.
+
+				<li>When you see a page with a button that says start and instructions on it, you are in the right place.
+
+				<li>Click on the instrctions button and read through how to play.
+
+				<li>Once you have the instructions go back to the start page and click the button that says play.
+
+				<li>That should take you to a calender.
+
+				<li>If it is your first time playing click Day 1, otherwise click the day you are on.
+
+				<li>If you click Day 1, there will be a page that has a timer on it.
+
+				<li>When you are ready to take a shower click start and take a regular shower.
+
+				<li>When you are done make sure to press stop.
+
+
+				<li>Next time you take a shower click the following day.
+
+				<li>Now the screen will tell you a shower time goal.
+
+				<li>The timer will read how long it took you to take a shower on Day 1.
+
+				<li>Start the timer and once again take a shower.
+
+				<li>To earn the highest amount of points, end your shower before the timer runs out.
+
+				<li>If you get out of the shower right when the timer goes off, you will earn the second highest amount of points.
+
+				<li>If are not finished when the timer goes off and have to stay in the shower longer, you will earn the least amount of points.
+
+				<li>Each time you take a shower you will click the next day and the timer will decrease by one minute until you reach you goal.</li>
+			</ol>
+		</div>
+
+			<div id="navigation">
+				<ul>
+					<li><a href="Home%20Page">Home</a>
+					<li>Introduction
+					<li><a href="About%20Page">About</a>
+					<li><a href="Contact%20Page">Contact</a>
+					<li><a href="More%20Info.">More Info.</li></a>
+				</ul>
+			</div>
+	</body>

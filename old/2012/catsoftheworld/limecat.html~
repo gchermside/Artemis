@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title> Cats of the World: Lime Cat </title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="fakelinks">
+<a href="CatsHTMLPractice.html">Back to <br> Cats of the World</a>
+</div>
+
+<div class="container">
+<h1 id="limecathead"> Lime Cat</h1>
+<center><img src="lime-cat.jpg" width="480px" height="408px"></center>
+<div id="limecat">
+
+<p> We sat down with Lime Cat over two glasses of ice-cold limeade and got the scoop on his new celebrity status. <blockquote> "I mean, it's not easy to be the funniest, most famous cat around... But somehow I manage. Though the lime on my head is starting to get a little old. It's not even practical. What am I, going into battle?! Still, it gets the ladies."</blockquote>
+</div>
+<center>
+<h2 id="limecathead"> Who does it better?? VOTE NOW!</h2>
+
+
+<div id="limecatpoll">
+<form method="post" action="http://poll.pollcode.com/l4PH"><table border=0 width=150 bgcolor="EEEEEE" cellspacing=0 cellpadding=2><tr><td colspan=2><font face="Verdana" size=-1 color="000000"><b>Who does it better?</b></font></td></tr><tr><td width=5><input type=radio name=answer value="1"></td><td><font face="Verdana" size=-1 color="000000">Rhianna</font></td></tr><tr><td width=5><input type=radio name=answer value="2"></td><td><font face="Verdana" size=-1 color="000000">Lime Cat</font></td></tr><tr><td colspan=2><center><input type=submit value="Vote">&nbsp;&nbsp;<input type=submit name=view value="View"></center></td></tr><tr><td bgcolor="white" colspan=2 align=right></td></tr></table></form> </div>
+
+<div id="limecatrhiannapic">
+<img src="rhiannalimecat.jpg" width="401px" height="271px"><div></center>
+
+
+</div>
+
+</body>
+</html>
+

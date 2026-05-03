@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<link href="layout/style_08.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>Artemis 2012</title>
+</head>
+
+<body>
+
+<div id="header">
+	</div>
+
+<div id="nav">
+	<a href="index.html">Home</a><br />
+	About Artemis<br />
+	<a href="coordinators.html">Coordinators</a><br />
+	<a href="students.html">Students</a><br />
+	<a href="pictures.html">Pictures</a><br />
+	<a href="lessons.html">Lessons</a><br />
+	<a href="schedule.html">Weekly Schedule </a><br />
+	<a href="calendar.html">Calendar</a><br />
+	<a href="resources.html">Resources</a><br />
+	<a href="applications.html">Applications</a><br />
+	<a href="sponsors.html">Sponsors</a><br />
+	<a href="contact.html">Contact Us</a><br/>
+	<a href="../old/home.html">Past Years</a>
+</div>
+
+<div id="content">
+<img src="layout/content_bg_2.gif" width="605" height="120" alt="Artemis" />
+
+<h3>What is Artemis?</h3>
+
+<p>The Artemis Project is a five-week summer program directed by four undergraduate women at Brown University. Artemis introduces rising 9th-grade girls to computer science, targeting them at the critical age when the disparity between males and females in the sciences becomes most pronounced. </p>
+
+<p>The program is free; students have the option to obtain free RIPTA bus passes, and lunch is provided every day.</p>
+
+<h3>When/where does Artemis take place?</h3>
+
+<p>Artemis 2012 will be in session from June 25 - July 27. We meet on the Brown University campus, in the Computer Science building (the CIT), which is located at 115 Waterman St. Our program will be held Monday through Friday, 9:00 am - 3:00 pm. This year, we will be meeting in CIT 167 and CIT 477. We will conduct all of our computer-based lessons and activities in CIT 167, also known as the MS-Lab. Non computer-based lessons, as well as lectures from guest speakers, will be held in CIT 477, also known as the Lubrano Conference Room. </p>
+ 
+<h3>What will I learn?</h3>
+
+<p>We will spend part of each day in a computer lab, learning computer literacy through the use of programs such as Microsoft Powerpoint and Adobe Photoshop, or learning the basics of computer programming through web design in HTML and CSS, and languages like Scratch and Python. We will also spend part of each day in a classroom, where students will be introduced to the more theoretical aspects of computer science. During this portion of the day, we will cover topics such as Cryptography and Artificial Intelligence through games and other hands-on activities. When the lesson plan is finalized, we will update the website with more information. For detailed information about last year's curriculum, please see our <a href="lessons.html">lessons page </a>. </p>
+
+<h3> What else will I do at camp? </h3>
+
+<p> Artemis will also have a variety of guest speakers, to be determined in the first few weeks of June. They will include representatives from our industry sponors, Brown professors and researchers, and other prominent women in the sciences. For complete listing of speakers for this year, please visit our <a href="lessons.html">lessons page </a>. </p>
+
+<p>In addition, we will go on field trips to the Wheeler School Ropes Course, the Boston Museum of Science, the MIT Museum and Microsoft, and the United Skates of America. You will get to hear speakers from companies like Google and from Brown's computer science department. </p>
+
+<p> And don't worry, we will <i>not</i> be sitting at the computers all day. We will have lots of fun outdoor activities, including a field day and a tour of Brown!  Finally, at the end of the program, we will hold a special event where all students will be able to present the work they have done over the course of the program to their families and to Brown faculty members.</p>
+
+
+<p> For a full calendar of all of this year's field trips, guest speakers, and other events, please visit our <a href="calendar.html"> calendar </a>. </p> 
+
+<p>By the end of the program, you will have had a rigorous introduction to many different applications of computer science and technology, and to the creative way of thinking and problem-solving that is prominent in the field of computer science. You will leave Artemis with both the practical skills and the conceptual background that will help allow you to follow your interests, in whatever direction they may lead you.</p>
+
+<h3>Who can apply?</h3>
+
+<p>Creative and motivated girls who are curious about math, science, or computers and are entering 9th grade in the fall following the summer they will attend Artemis are qualified to apply. No prior computer experience is necessary!</p>
+
+<h3>How do I apply?</h3>
+
+<p>Artemis 2012 applications are now closed. If you will be eligible for Artemis next Summer, please check the website next spring.</p>
+
+<h3>How do I contact Artemis?</h3>
+
+<p> For contact information, please visit <a href="contact.html"> this </a> page. </p>
+
+<!--
+<p> Our business hours are Monday-Friday, 10:00-3:00 until June 26th, and 8:30-3:30 from June 29-July 31.</p>
+
+<p>The best way to contact us is by  <b> email: </b> <a href="mailto:artemis@cs.brown.edu">artemis@cs.brown.edu</a>. We will generally only respond to emails during our business hours.</p>
+
+<p>Our <b>phone number</b> during business hours is (401) 339-0868.
+
+<p><b>Our address is: <br></b>
+
+The Artemis Project 2008<br />
+Computer Science Department<br />
+Brown University<br />
+Box 1910<br />
+Providence, RI 02912-1910</p>
+
+<p><b>Fax:</b> (401) 863-7657 attn Artemis</p>
+-->
+
+</div>
+
+<div id="footer">
+	<a href="http://validator.w3.org/check?uri=referer">xhtml</a> <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a> 
+	&#169; 2012 The Artemis Project 
+</div>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+div#body {
+	background-color: white; 
+	width: 70%;
+	margin: 0 auto;
+	border: 3px gold dotted;
+}
+h1 {
+	font-family: Courier;
+	font-size: 50px;
+	background-color: white;
+	text-align: center;
+	margin-botom:0px;
+}
+div#tabs {
+	background-color: #FFDBC4;
+	text-align: center;
+	color:black;
+	font-family: 'Courier'
+
+
+}
+p#triangle {
+	text-align: right;
+}
+h2 {
+	margin-left:25px;
+	font-family: courier;
+	background-color: white;
+
+	color: black;
+	
+}
+h3 {
+	margin-top: 25px;
+	margin-left:25px;
+	font-family: courier;
+	background-color: white;
+
+	color: black;
+	margin-bottom: 25px;
+	font-size: 25px;
+
+}
+h4 {
+	margin-top: 25px;
+	margin-left:25px;
+	font-family: courier;
+	background-color: white;
+
+	color: black;
+	margin-bottom: 25px;
+	font-size: 25px;
+}
+p#about{
+	margin-left: 25px;
+	margin-right:25px;
+	font-family: 'Courier', serif;
+	background-color: white;
+	text-align:left;
+}
+li {
+	margin-left: 25px;
+	margin-right:25px;
+	margin-bottom: 25px;
+	font-family: 'Courier', serif;
+	background-color: white;
+	
+}
+p#truth {
+	margin-left: 500px;
+	margin-right:25px;
+	font-family: 'Courier', serif;
+	background-color: white;
+	text-align: right;
+
+}
+p#convince {
+
+}
+div#image {
+	height: 100px;
+	width: 100px;
+
+}
+body {
+	background-color: #E9967A;
+}
+a{
+	color: #DAA520;
+	text-decoration: none;
+}
+p#start {
+	
+	margin-right:25px;
+	font-family: 'Courier', serif;
+	background-color: white;
+	color: #DAA520;
+}

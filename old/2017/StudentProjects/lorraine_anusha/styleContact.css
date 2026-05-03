@@ -1,0 +1,60 @@
+body {
+	background-color: #FFFFFF;
+}
+
+
+@font-face {
+    font-family: 'beyond the mountains';
+    src: url('beyond_the_mountains-webfont.woff2') format('woff2'),
+         url('beyond_the_mountains-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+	
+	font-family:beyond the mountains;
+	font-size:80px;
+	
+	width: 100%;
+	top: -10px;
+	margin:20px;
+	padding:50px;
+}
+
+
+a{
+	color: black;
+}
+ 
+table {
+	position:absolute;
+	
+	font-family:angostura;
+	right: 25%;
+	top:7%;
+	width: 1000px;
+	font-size: 50px;
+
+}
+div#header{
+	background-color: #F7CAC9;
+	height: 150px;
+}
+
+
+p{
+	font-size:45px;
+	font-family:angostura;
+	margin:50px;
+}
+div#logo{
+  	position: absolute;
+  	top:0;
+  	right:0;
+  	padding-top:10px;
+  	padding-right:7px;
+
+
+}
+
