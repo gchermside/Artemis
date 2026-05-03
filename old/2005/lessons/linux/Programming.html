@@ -1,0 +1,806 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Programming</title>
+  </head>
+  
+  <body link="#5966A8" vlnk="#5966A8" alink="green" bgcolor="white">
+    <h1>Programming</h1>
+
+    <hr>
+    <center>
+      <table border=0 cellpadding=3 cellspacing=0>
+	  <tr>
+	    <td bgcolor="#cccccc">
+	      <a href="Emacs.html">
+		<img src="images/arrow_left.gif" align=top border=1></a>
+	    </td>
+	<td valign="top" bgcolor="#cccccc" align=right>
+	      <font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Emacs</b></font>
+	    </td>
+	    
+	    <td>&nbsp;</td>
+	    
+	    <td valign="top" bgcolor="#cccccc">
+	      <font face="Arial, Helvetica" size=2><u>NEXT</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Appendix</b></font>
+	    </td>
+	    <td bgcolor="#cccccc">
+	  <a href="Appendix.html">
+		<img src="images/arrow_right.gif" align=top border=1></a>
+	    </td>
+	  </tr>
+      </table>
+    </center>
+    <hr>
+
+    <h2>Introduction</h2>
+    
+    <p>
+      You are now going to use everything that you have learned 
+      in the previous sections to complete
+      your first programming assignment. We are going to walk you step-by-step
+      through the general process you should use to complete all of your
+      projects in CS15, and, at the end, you will have your first, 
+      fully-functional program!
+    </p>
+
+    <p>
+      If you find that you are running out of time, you may want to
+      stop working and come back to this. This section will be most useful
+      if you take your time and understand it. If you do decide to stop,
+      make sure you get back to this and hand it in by 
+      <b>Monday, September 15th at 5:00 pm</b>.
+    </p>
+    
+    <br>
+
+    <h2>The Project</h2>
+
+    <p>
+      The TAs have assigned you an easy warm-up project, designed especially
+      for this tutorial, called CloudFace.  When it is completed, CloudFace will
+      open a window that looks like this:
+    </p>
+      
+    <center><img src="images/cloudface.jpg"></center>
+
+    <br>
+    <h2>The Process</h2>
+
+    <p>
+      In order to write a program, you'll need to write some Java code.
+      Programming in Java is writing lines of text
+      that act as instructions for the computer.  These files are saved
+      in the project directory that you will create. Once code has
+      been written and saved, it is ready to be compiled. Provided your code is
+      free of syntax errors, the compiler converts your Java code
+      into a lower-level language (Java bytecode) that can be executed
+      (run) by the computer. If errors are found, the java compiler will list
+      them for you to correct. If you change your code, you must save and
+      recompile your java files before the changes will take effect. 
+    </p>
+
+    <p>
+      To give you an idea of what to expect, these are the steps we are going
+      to follow. Each is explained in more detail below:
+    </p>
+
+    <ol>
+      <li>
+	<b><a href="#one">Specification</a></b> - Read the assignment 
+	specification to see what exactly must be done.
+      </li>
+      <li>
+	<b><a href="#two">Install</a></b> - Install project and any support
+	code.
+      </li>
+      <li>
+	<b><a href="#three">Edit Code</a></b> - Use Emacs to create a piece
+	of your program. (Incremental coding!)
+      </li>
+      <li>
+	<b><a href="#four">Compile</a></b> - In a shell, compile code you
+	have written. (The compiler translates program into bytecode, which
+	can be run on the computer.) If the compiler reports errors, go
+	back to Emacs and correct them.
+      </li>
+      <li>
+	<b><a href="#five">Run Program</a></b> - When there are no more
+	compile errors, run program from shell.
+      </li>
+      <li>
+	<b><a href="#six">Repeat Steps 3-5</a></b> - Continue to add code, compile,
+	and run until your program is complete.
+      </li>
+      <li>
+	<b><a href="#seven">Hand In</a></b> - When you are finished, hand 
+	in your program electronically so that it can be graded.
+      </li>
+
+    </ol>
+
+    <br>
+
+    <a name="one">
+    <h2>1. Specification</h2>
+
+    <p>
+      Each assignment in CS15 will have an Assignment Sheet. Normally we
+      will hand out paper copies in class and post a copy on the website.
+      For this assignment, we don't have a printed copy because we take
+      you through it step-by-step, but you can find the Assignment Sheet
+      online at <a href="http://www.cs.brown.edu/courses/cs015/current/asgn/Cloud/CloudFace.html">http://www.cs.brown.edu/courses/cs015/current/Asgn/Cloud/CloudFace.html</a>.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    Go to the above URL and read over the CloudFace specification.
+	  </em>
+      </p>
+    </ul>
+      
+
+    <br>
+    
+    <a name="two">
+    <h2>2. Install</h2>
+
+    <p>
+      A project is a collection of classes, packages, and
+      documentation about these classes and packages, as well as
+      support code. You will be making a project for each of your
+      programming assignments.  The project will basically correspond
+      to a subdirectory of your cs015 directory.
+    </p>   
+
+    <p>
+      In order to start programming, you will need to set up a project
+      directory to put your files in.  We call this 
+      <b>installing a project</b>.  We have written a program that
+      will take care of this process for you: 
+    </p>
+
+    <p>
+      <b><code>cs015_install &lt;project name&gt;</code></b>
+    </p>
+
+    <p>
+      This command will set up a subdirectory of your 
+      <code>~/course/cs015 </code> directory for you to work in. In 
+      general, the name of the new directory will be the same as the project 
+      name that you specified.
+    </p>
+
+    <p>
+      During installation, new
+      "skeleton" files will be created in this subdirectory for you to edit. 
+      These files contain useful portions of the program that will
+      save you some typing.
+      NOTE: CS15 uses super, high-tech grading robots that 
+      require that your files be placed in the right place.
+      Therefore, using this install program will ensure that your files 
+      are in the proper place and that everyone's happy!
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    Enter </em><code>cs015_install CloudFace</code><em> in a 
+	    shell to install the CloudFace project.
+	  </em>
+	</p>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <code>cd</code><em> into your </em><code>~/course/cs015/</code><em>&nbsp;
+	    directory and use </em><code>ls</code><em> to 
+	    verify that a directory "</em><code>Cloud</code><em>"
+	    was created.
+	  </em>
+	</p>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <code>cd</code><em> into the </em><code>Cloud</code><em> directory
+	    and </em><code>ls</code><em> to verify that it contains 2 files:
+	    </em><code>App.java</code><em> and </em><code>
+	    CloudFace.java.</code>
+	</p>
+    </ul>
+
+    <br>
+    <a name="three">
+    <h2>3. Edit Code</h2>
+
+    <p>
+      Since Java is written completely with classes, the first thing to
+      do is figure out what class you would like to start with.  As per the
+      suggestions in the CloudFace assignment sheet, you should work
+      incrementally.  Therefore, your first task is to get an empty window to
+      show up.  
+    </p>
+    
+    <p>
+      Part of the project installation put a file called
+      <code>App.java</code> in your 
+      <code>Cloud</code> directory. <code>App.java</code> is a stencil class
+      for you to fill in.  That is, we've written part of it already. You
+      need to add a couple of new lines of code to make it more functional,
+      but we'll get to that in a bit.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    Open the file </em><code>~/course/cs015/Cloud/App.java</code><em>&nbsp;
+	    in Emacs. (Note: case matters. Opening "app.java" won't work.)
+	  </em>
+      </p>
+    </ul>
+
+    <p>
+      This class 
+      takes care of showing a window to display your program. Note that it is
+      a "complete" program as far as Java is concerned because it is legal
+      syntax, although, from a semantics point of view, it is an incomplete
+      skeleton. It is syntactically legal but functionally incomplete. We will
+      actually edit it in a second, but first we are going to take advantage
+      of the fact that there is already some code written to show you how
+      to compile and run your program.
+    </p>
+    
+    <br>
+
+    <a name="four">
+    <h2>4. Compile</h2>
+
+    <p>
+      We will now compile the code we wrote for you, both to show you
+      how to compile and to make sure that we didn't make any mistakes
+      (always a good thing to check!). Although what is written is not a final
+      solution, it should get a window with a quit button to show up, which
+      is a good place to start. 
+      Compiling will determine if the syntax is valid, and, if not, it will
+      tell you where it spots errors.  First, you have to get to the directory
+      where your code is if you aren't there already:
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    Go to </em><code>~/course/cs015/Cloud/</code><em> &nbsp;in a shell.
+	</em>
+      </p>
+    </ul>
+
+    <p>
+      The program called <code>javac</code> is the standard Java
+      compiler that we will be using in CS15. It is invoked from the
+      command line in the shell.  
+    <p>
+
+    <p>
+      <b><code>javac &lt;files&gt;</code></b>
+    </p>
+
+    <p>
+      The <code>javac</code> will <b>C</b>ompile <b>Java</b> files. Type
+      <code>javac</code> and then the names of the Java files you want 
+      to compile.  All Java source files generally end in "<code>.java</code>".
+      Compiling will generate a "<code>.class</code>" file for each
+      class you've written.  These files store the Java bytecodes.
+      To compile all the <code>.java</code> files in the current directory, 
+      type <code>javac *.java</code> (<code>*</code> is a way of saying "all")
+      For every source file that ends in <code>.java</code>, a file with the
+      corresponding <code>.class</code> name will be created.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Type </em><code>javac *.java</code><em> in the shell to
+	    compile the App class.
+	  </em>
+	</p>
+    </ul>
+
+    <p>
+      If you have not touched the code or saved over anything, there
+      should be no errors. If you did make any changes to the code in Emacs, 
+      use the "Undo" command to restore it to its previous state. If you
+      saved it at any time, then you should save it again after performing the
+      Undos. If you do encounter errors (we'll show you some later), you have to
+      return to Emacs and fix them.
+</p>
+      
+<p> Often in Linux, no news is good news. Successful compilation results in
+    nothing being printed to the shell. After a successful compilation, you can
+    type
+      <code>ls</code> in your shell, and you should see a  
+      new <code>App.class</code> file.
+    </p>
+
+    <br>
+
+    <a name="five">
+    <h2>5. Run Program</h2>
+
+    <p>
+      You can run your project after a successful compilation. To run Java 
+      applications, you will be using a program called <code>java</code>: 
+    </p>
+
+    <p>
+      <b><code>java &lt;classname&gt;</code></b>
+    </p>
+
+    <p>
+      This command will run a specified java class. For now, just accept a 
+      little of this as magic, but, basically, you can run any class that
+      has a method called <code>main()</code> in it (called a "mainline"). 
+      We have written a
+      <code>main()</code> method for you in the App class. While we
+      will explain the mainline later in the course, we will always write one
+      for you in the skeleton code, and it will always be in the App class.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    Type </em><code>java Cloud.App</code><em> to run CloudFace's 
+	    App class.
+	  </em> 
+	</p>
+    </ul>
+
+    <p>
+      A blank window with a quit button should show up. If you didn't type this 
+      command exactly as shown (with capital 'C' and 'A'), you'll get an
+      error message.  
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    Close your program with the "Quit" button.
+	  </em> 
+	</p>
+    </ul>
+
+    <br>
+
+
+    <a name="six">
+    <h2>6. Repeat</h2>
+
+    <p>
+      You're probably not <em>too</em> impressed by this blank
+      window, so, lets get a CloudFace in there. You have now made your first
+      pass through the programming process, getting the empty window
+      to show up. We are now going to repeat steps 3, 4, and 5 to add more
+      pieces to your program. You should always program <b>incrementally</b>.
+      That way, you know where to look if any errors occur and you don't 
+      build errors upon errors. It is really depressing to write pages of code 
+      and then get 30 compile errors...
+    </p>
+
+    <h3>Edit Code (take 2)</h3>
+    <p>
+      We can model 
+      a CloudFace with a (you guessed it!) CloudFace class.  There is
+      no existing CloudFace class in the empty CloudFace.java file.  It is
+      your responsibility to add one--that's really the 
+      assignment.  
+    </p>
+
+    <p>
+      Java expects to have each class declared in a file of the
+      <b>same name</b> (including capitalization).  We'll go through
+      creating and filling in a simple class called CloudFace.  
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    In Emacs open up the file </em><code>CloudFace.java</code><em>
+	    in the Cloud directory.
+	  </em>
+	</p>
+    </ul>
+
+    <p>
+      This file will eventually contain the code for the class called
+      CloudFace.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    Edit </em><code>CloudFace.java</code><em> until it looks like
+	    this: (Hint: Don't type. Steal this from version of this
+	    tutorial linked off of the CS15 web page.)
+	  </em>
+	</p>
+    </ul>
+
+<pre><code>
+
+/* The following line tells which package this class should 
+   belong in.  The name must be the same as the subdirectory 
+   in which this file is stored. */
+
+package Cloud;
+
+/**
+ * This class models the Cloud's face.  
+ * 
+ * @author < your name here >
+ */
+
+public class CloudFace {
+    private cs015.SP.CloudShape _shape;
+    private cs015.SP.CloudRoundEyes _eyes;
+    private cs015.SP.CloudButtonNose _nose;
+    private cs015.SP.CloudHappyMouth _mouth;
+
+    public CloudFace() {
+       _shape = new cs015.SP.CloudShape();
+       _eyes = new cs015.SP.CloudRoundEyes();
+
+       /* The following line is missing a semicolon, therefore 
+       it will not compile and you will get to see what 
+       compiler errors look like in the shell. */
+
+       _nose = new cs015.SP.CloudButtonNose()
+
+       _mouth = new cs015.SP.CloudHappyMouth();
+    }
+
+} // End of code
+
+</code></pre>
+
+    <ul>
+	<p><img src="images/arrow_small.gif"> <em>Save this file.  </em></p>
+    </ul>
+
+    <p>
+      <b>Note:</b> If you had mistyped the filename "CloudFace" here,
+      or decided to name the class something different, this class would
+      not compile.  <b>Each public class you write must be located in
+	a file of the same name as the class. </b>
+    </p> 
+
+    <br>
+
+    <h3>Compile (take 2)</h3>
+
+    <p>
+      In a shell, recompile your Java code to see if your newly created class
+      uses the proper Java syntax and grammar.
+    </p> 
+
+    <ul>
+
+	<p><img src="images/arrow_small.gif"> <em>
+	    From the </em><code>Cloud</code><em> project directory, use 
+	  </em><code>javac *.java </code><em>(if you're in the same shell
+	    you used before, you can hit the up arrow a few times and 
+	    see previously typed commands reappear in reverse 
+	    order) to compile your new code.  The
+	    "</em><code>*.java</code><em>" will take into account all
+	    Java files. You don't need to worry about overwriting your old
+	    class files, that's what re-compilation is supposed to do.
+	  </em> 
+
+    </ul>
+
+    <p>Successful compilation results in no messages being displayed.
+      You should see, however, a message about an error in this
+      compilation:  </p>
+
+    <p><center><img src="images/compileerr.jpg"></center></p>
+
+    <p>This message displays a filename, followed by a line number,
+      and then the error message "';' expected." In addition, 
+      the line where the error 
+      occurred is displayed. As the error says, there is a semi-colon
+      missing from the end of the line. (Not all compile errors are this
+      easily interpreted.) You should use Emacs to
+      correct the 
+      error, save the file, and then compile again. </p>
+    
+    <ul>
+
+    <p><img src="images/arrow_small.gif"> <em>
+	In Emacs, go to the specified line number by using the "Goto 
+	Line..." command in the View Menu and specifying the line
+	number. In this small file it might be easier to just
+	move the cursor where you want it using the arrow keys.
+	</p><p><img src="images/arrow_small.gif"> 
+	Add a </em><code>';'</code><em> (a semicolon) to the end of this
+	line.
+	</p><p><img src="images/arrow_small.gif"> 
+	Save the file.
+	</p><p><img src="images/arrow_small.gif"> 
+	Recompile the Java files using </em><code>javac
+	*.java</code><em> in a shell.</em></p>  
+
+    </ul>
+
+    <p>The file should now compile successfully.  If it doesn't, fix any
+      other errors you get and continue recompiling.</p>
+
+    <p>This is merely one class that will draw a Cloud's face.
+      Now we need to make an "instance" of this class.  That is, we've 
+      declared that there <em>can be</em> such a thing as a CloudFace,
+      but we have yet to make one.  </p>
+
+    <br>
+    
+    <h3>Run Program (take 2)</h3>
+
+    <p>You can run the program again if you want to.  Keep in mind
+      though, that we have not changed the <code>App.java</code>
+      file.  Therefore, the App class is not any different than it
+      was.  Since the App class is the only class that you know is
+      instantiated by java, there should not yet be a
+      change in the way your program runs.  The CloudFace must be
+      instantiated in the App for anything different to take
+      place. </p> 
+
+    <br>
+    <h3>Edit Code (take 3)</h3>
+
+    <p>
+      Now it's time to instantiate a CloudFace.
+    </p>
+
+    <ul>	
+    <p><img src="images/arrow_small.gif"> <em>
+	Bring up the </em><code>App.java</code> <em>file
+	and edit it to make it look like this:</em> </p>
+    </ul>
+<pre>
+<code>
+package Cloud;
+
+/** 
+ * This is the App class.  In the constructor you should instantiate
+ * your top-level object.
+ * 
+ * @author <your name here>
+ **/
+
+public class App extends cs015.SP.Frame {
+
+  private CloudFace _face;
+
+  public App() {
+    super();
+
+    _face = new CloudFace();
+    
+  }
+
+
+  /**
+   * This is called a mainline.  When you type "java Cloud.App"
+   * this method gets called automatically.  Ignore the "String[] args"
+   * for now; you'll never need it in CS15.  All this method does is
+   * instantiate a real instance of your App class, which means that the
+   * constructor will be called.  So if you have your code in the constructor
+   * you're all set.
+   *
+   * DO NOT CHANGE THIS CODE!
+   */
+
+  public static void main(String[] args) {
+    App app = new App();
+  }
+
+}
+</code>
+</pre>
+
+    <br>
+
+    <h3>Compile (take 3)</h3>
+
+    <ul>
+    <p><img src="images/arrow_small.gif"> <em>
+	Make sure to save </em><code>App.java</code><em> and then
+	recompile all the Java files. There should be no errors.<br></em>
+    </p>
+    </ul>
+
+    <br>
+
+    <h3>Run Program (take 3)</h3>
+
+    <p>Your program should be all set to run.  <i>Go ahead and give it a
+      try by typing</i> <code>java Cloud.App</code> in a shell.
+      You'll always want to make sure that your 
+      program is runnable after a fresh compilation before turning it
+      in.  This is just in case some small error was made, maybe even
+      accidentally pressing the keyboard.  </p>
+
+    <br>
+
+    <a name="seven">
+    <h2>7. Hand In</h2>
+    
+    <p>If your program compiles, you can turn it in
+      electronically. It 
+      is preferable for your program to run correctly as well, of course,
+      but it will still work if it doesn't. Use the
+      <code>cs015_handin</code> command to turn in your projects.</p>
+
+    <p>
+      <b><code>cs015_handin &lt;Project Name&gt;</code></b>
+    </p>
+
+    <p>
+      This command will
+      <b>hand in</b> the specified Project to the CS15 TAs.  If you
+      misspell or omit the Project Name, a list of valid names will be 
+      given.  This program will attempt to compile your Java code and
+      make the appropriate entries.  You may hand projects in more
+      than once.  Keep in mind that the last handin is the one that
+      counts.  
+    </p> 
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em>
+	    Type </em><code>cs015_handin CloudFace</code><em> in a shell to
+	    turn in your assignment.
+	  </em>
+	</p>
+	<p>
+	  <img src="images/arrow_small.gif">
+	  <em> Follow the instructions. </em>
+	</p>
+    </ul>
+	
+    <p>You're done!</p>
+
+
+<!--    
+ <p>
+      <TABLE BGCOLOR="black" BORDER=0>
+	<tr><td colspan=2 align=center>
+	    <b><font color="#ffffff">Further Reading</font><b>
+	</td></tr>
+
+	<tr>
+	  <td bgcolor="#dddddd" valign=top>
+	    <b><font face="Arial, Helvetica">
+	      CloudFace Assignment Sheet
+	    </font></b>
+	  </td>
+	  <td bgcolor="#dddddd" valign=top><font face="Arial, Helvetica">
+	    <a href="http://www.cs.brown.edu/courses/cs015/2001/Asgn/Cloud/CloudFace.html"> 
+	      http://www.cs.brown.edu/courses/cs015/2001/Asgn/Cloud/CloudFace.html
+	    </a></font>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td bgcolor="#cccccc" valign=top>
+	    <b><font face="Arial, Helvetica">
+	      Java AWT Documentation (local)
+	    </font></b>
+	  </td>
+	  <td bgcolor="#cccccc" valign=top><font face="Arial, Helvetica">
+	    <a href="file:/pro/java/java/docs/api/index.html">
+	      file:/pro/java/java/docs/api/index.html
+	    </a></font>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td bgcolor="#dddddd" valign=top>
+	    <b><font face="Arial, Helvetica">
+	      Java AWT Documentation (at Sun)
+	    </font></b>
+	  </td>
+	  <td bgcolor="#dddddd" valign=top><font face="Arial, Helvetica">
+	    <a href="http://java.sun.com/products/jdk/1.2/docs/api/index.html">
+	      http://java.sun.com/products/jdk/1.2/docs/api/index.html
+	    </a></font>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td bgcolor="#cccccc" valign=top>
+	    <b><font face="Arial, Helvetica">
+	      cs015.SP Package Documentation
+	    </font></b>
+	  </td> 
+	  <td bgcolor="#cccccc" valign=top><font face="Arial, Helvetica">
+	    <a href="http://www.cs.brown.edu/courses/cs015/2001/Docs/cs015/index.html"> 
+	      http://www.cs.brown.edu/courses/cs015/2001/Docs/cs015/index.html
+	    </a></font>
+	  </td>
+	</tr>	
+
+	<tr>
+	  <td bgcolor="#dddddd" valign=top>
+	    <b><font face="Arial, Helvetica">
+	      Java Reference Guide
+	    </font></b>
+	  </td> 
+	  <td bgcolor="#dddddd" valign=top><font face="Arial, Helvetica">
+	    <a href="http://www.cs.brown.edu/courses/cs015/2001/ReferenceGuides/JavaRefGuide/JavaGuide.html"> 
+	      http://www.cs.brown.edu/courses/cs015/2001/ReferenceGuides/JavaRefGuide/JavaGuide.html
+	    </a></font>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td bgcolor="#cccccc" valign=top>
+	    <b><font face="Arial, Helvetica">
+	      Online TA (for compiler errors)
+	    </font></b>
+	  </td> 
+	  <td bgcolor="#cccccc" valign=top><font face="Arial, Helvetica">
+	    <a href="http://www.cs.brown.edu/courses/cs015/2001/OnlineTA/OnlineTA.html"> 
+	      http://www.cs.brown.edu/courses/cs015/2001/OnlineTA/OnlineTA.html
+	    </a></font>
+	  </td>
+	</tr>
+      </TABLE>
+   
+      
+    </p>
+
+     -->
+    <hr>
+    <center>
+      <table border=0 cellpadding=3 cellspacing=0>
+	  <tr>
+	    <td bgcolor="#cccccc">
+	      <a href="Emacs.html">
+		<img src="images/arrow_left.gif" align=top border=1></a>
+	    </td>
+	<td valign="top" bgcolor="#cccccc" align=right>
+	      <font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Emacs</b></font>
+	    </td>
+	    
+	    <td>&nbsp;</td>
+	    
+	    <td valign="top" bgcolor="#cccccc">
+	      <font face="Arial, Helvetica" size=2><u>NEXT</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Appendix</b></font>
+	    </td>
+	    <td bgcolor="#cccccc">
+	  <a href="Appendix.html">
+		<img src="images/arrow_right.gif" align=top border=1></a>
+	    </td>
+	  </tr>
+      </table>
+    </center>
+    <hr>
+
+
+    <hr>
+    <address><a href="mailto:jgoodwin@cs.brown.edu">John Jeffrey Goodwin</a></address>
+<!-- Created: Thu Jul 18 13:10:25 EDT 2002 -->
+<!-- hhmts start -->
+Last modified: Tue Sep  9 19:47:13 EDT 2003
+<!-- hhmts end -->
+  </body>
+</html>

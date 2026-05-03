@@ -1,0 +1,266 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Getting Started</title>
+  </head>
+  <BODY link="#5966A8" vlnk="#5966A8" alink="green" bgcolor="white">
+    <h1>Getting Started</h1>
+    
+    <p><o:p>&nbsp;</o:p></p>
+    
+    <hr>
+    <center>
+      <table border=0 cellpadding=3 cellspacing=0>
+	  <tr>
+	    <td bgcolor="#cccccc">
+	      <a href="Welcome.html">
+		<img src="images/arrow_left.gif" align=top border=1></a>
+	    </td>
+	    <td valign="top" bgcolor="#cccccc" align=right>
+	      <font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Welcome</b></font>
+	    </td>
+	    
+	    <td>&nbsp;</td>
+	    
+	    <td valign="top" bgcolor="#cccccc">
+	      <font face="Arial, Helvetica" size=2><u>NEXT</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Desktop</b></font>
+	    </td>
+	    <td bgcolor="#cccccc">
+	      <a href="Desktop.html">
+		<img src="images/arrow_right.gif" align=top border=1></a>
+	    </td>
+	  </tr>
+      </table>
+    </center>
+    <hr>
+    
+
+    
+    <h2>The Lab</h2>
+    
+    <p>In case you haven't figured it out yet, this is the main CS Lab.
+      It is likely to be a familiar working venue for 
+      you shortly. There are over 70 computers in here for student use. The 
+      computers are arranged in 10 rows, "1" down front, "10" facing the back 
+      wall. Within each row, computers are assigned letters, so the 
+      computer right in front of the door is "cslab9a" (or just "9a"), and 
+      the one at the other end of the room is "cslab9h."</p>
+    
+
+    <br><h2>The Consultant</h2>
+
+    <p>The computer "cslab9a" (at the entrance) is reserved for the
+      consultant. The consultant is there to help with any computer
+      issues you may have (but NOT course material!). If you ever need help
+      using the Linux environment, checking email, or if your computer 
+      isn't working, ask the consultant on duty.</p>
+
+    <br>
+    
+    <h2>Logging In</h2>
+
+    <p>Now take a look at your computer. If the
+      screen is blank, you may have to jiggle around the mouse a little. 
+      Eventually, you should get a screen that says, "Welcome to cslabXX" 
+      with a box labeled "Username."</p>
+
+    <br>
+    
+    <ul>
+	<p><img src="images/arrow_small.gif"> <em>If you haven't already, 
+	    get your username and password from a CS15 TA.</em></p>
+    </ul>
+
+   <!-- <br>
+
+    <ul>
+	<p><img src="images/arrow_small.gif"> <em>Click the mouse on the 
+	    "</em><code>Session</code><em>" menu and select 
+	    "</em><code>XSession</code><em>" (You only 
+	    have to do this the first time you log in, not every time.)</em>
+	</p>
+    </ul>-->
+
+    <br>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> <em>Type your username into the 
+	    box labeled "Username" and press enter or click "OK."</em>
+	</p>
+    </ul>
+    
+    <br>
+    
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> <em>Type your password into the 
+	    box labeled "Password" and press enter or click "OK."</em>
+	</p>
+    </ul>
+
+    <br>
+
+    <p>If your log in was successful, your screen should change
+      colors and start to open windows. Move on to the next section. 
+      If the log in failed, try again.
+    </p>
+
+    <br>
+    <table border=1 cellpadding=5 bgcolor="#eaeaea"><tr><td>
+	    <image src="images/lightbulb.gif" width=75>
+	      <h3>User Interfaces</h3>
+	      <br>
+	      <p>
+		<b>Introduction</b><br>
+		The way a computer looks when you use it is a function
+		of its <b>Graphical User Interface (GUI)</b>, which defines 
+		the "look and feel" of the operating system. A
+		GUI is a visual way you interact with a program.
+		When you use a graphical program (including an operating 
+		system), you are
+		dealing with a GUI, not the actual program. 
+		In Windows and Mac OS, you don't have a lot of
+		say in the GUI you use, as you are pretty much only given one. 
+		(There are some exceptions. In Windows XP, for example, 
+		you can choose
+		to have an appearance similar to the Windows 9X systems, or the
+		new XP look and feel, but both are pretty much the same.) 
+		In Linux,
+		however, there are a bunch of vastly different interfaces. 
+		Unlike Windows or Mac OS, Linux does not have a definitive 
+		"look and feel."
+	      </p>
+	      
+	      <p>
+		First, some terminology. You will probably hear people talking
+		about both "X Windows" (or just "X") and "FVWM."
+		(There may be some others, too.) Basically, 
+		<b>X Windows</b> is the tacit standard for displaying windows 
+		(all those frames that programs appear in) in Linux and other
+		UNIX variants. So, almost any GUI for Linux or UNIX will
+		use X Windows. While you can operate in straight X Windows, 
+		you would lack a lot of basic functionality, like menus, 
+		the ability to move and resize windows, etc. As a result,
+		people have built a number of <b>Window Managers</b> that 
+		manage the X Windows and create a more robust environment.
+	      </p>
+
+	      
+	      <p>
+		<b>FVWM</b><br>
+		In CS15, we use a Window Manager called <b>FVWM</b>*. 
+		 
+		FVWM is one of the most minimal X Window Managers. It
+		provides some simple menus, a virtual desktop (we'll explain
+		that later), and key and mouse interaction. In fact, FVWM
+		is so close to pure X Windows that you will often hear people
+		just refer to the environment as X Windows. Technically, 
+		calling an environment X could imply any window manager, but
+		if people say that they are using X (as opposed to Gnome or
+		KDE, other window managers), they probably mean FVWM. If you 
+		really don't like making friends, you can start correcting
+		everyone.
+	      </p>
+
+	      <p>
+		FVWM is the environment you get
+		by choosing to start an XSession. This further muddles the 
+		nomenclature, as the "XSession" technically just
+		starts straight X Windows, but your account has been 
+		configured to launch the FVWM manager when you start X.
+		Bottom line: X is the toolbox, FVWM the window manager, and the
+		two if them together create your GUI.
+	      </p>
+
+	      <p>
+		<b>Why FVWM?</b><br>
+		We have made FVWM the standard manager for a few reasons:
+	      </p>
+	      <ul>
+		<li>
+		  <b>Performance</b> - FVWM has less overhead and and greater
+		  stability than most other managers. As a result, it
+		  runs faster and is less likely to crash.
+		</li>
+		<li>
+		  <b>Usability</b> - FVWM has some features, like the way it
+		  handles active windows and the virtual desktop, that
+		  make it well suited for a programming class.
+		</li>
+		<li>
+		  <b>Flexibility</b> - FVWM gives you more control over your
+		  environment than most other managers. It is almost
+		  infinitely customizable, whereas it can be more difficult
+		  to change the look and feel of another interface.
+		</li>
+	      </ul>
+	      <p>
+		You are welcome to play
+		around with the other environments available on the Session
+		menu. (The Session menu is in the upper-left corner of the
+ login box.) You may find that you like another manager, such as 
+		KDE or Gnome (both of which have a feel more like
+		Microsoft Windows), better than FVWM. However, 
+		this tutorial, and
+		everything else in CS15, will be based on the assumption that
+		you are using FVWM. If you choose to use another environment, 
+		things might not work exactly the same, and you should know
+		enough to be able to sort it out, as the TAs might not know
+		how to help you with another window manager. Unless
+		you are very familiar with Linux, you should at least complete
+		this tutorial using FVWM, as all of the screen 
+		shots and step-by-step
+		instructions are based on that.
+	      </p>
+
+	      <p>
+		* Also referred
+		t+o as FVWM2 because this is the second version, and it has
+		some substantial performance differences from the first. 
+		We will probably
+		use both terms throughout this tutorial, and when you hear FVWM
+		around the department, you can bet FVWM2 is implied.
+	      </p>
+	      <br>
+	  </td></tr>
+    </table>
+
+    <hr>
+    <center>
+      <table border=0 cellpadding=3 cellspacing=0>
+	  <tr>
+	    <td bgcolor="#cccccc">
+	      <a href="Welcome.html">
+		<img src="images/arrow_left.gif" align=top border=1></a>
+	    </td>
+	    <td valign="top" bgcolor="#cccccc" align=right>
+	      <font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Welcome</b></font>
+	    </td>
+	    
+	    <td>&nbsp;</td>
+	    
+	    <td valign="top" bgcolor="#cccccc">
+	      <font face="Arial, Helvetica" size=2><u>NEXT</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Desktop</b></font>
+	    </td>
+	    <td bgcolor="#cccccc">
+	      <a href="Desktop.html">
+		<img src="images/arrow_right.gif" align=top border=1></a>
+	    </td>
+	  </tr>
+      </table>
+    </center>
+    <hr>
+
+    <hr>
+    <address><a href="mailto:jgoodwin@cs.brown.edu">John Jeffrey Goodwin</a></address>
+<!-- Created: Wed Jul 17 14:56:59 EDT 2002 -->
+<!-- hhmts start --> 
+Last modified: Wed Jul 17 15:18:02 EDT 2002
+<!-- hhmts end -->
+  </body>
+</html>

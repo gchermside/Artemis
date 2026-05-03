@@ -1,0 +1,708 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Using Linux Shells</title>
+  </head>
+  
+  <body link="#5966A8" vlnk="#5966A8" alink="green" bgcolor="white">
+    <h1>Linux Shells</h1>
+    
+    <hr>
+    <center>
+      <table border=0 cellpadding=3 cellspacing=0>
+	  <tr>
+	    <td bgcolor="#cccccc">
+	      <a href="Desktop.html">
+		<img src="images/arrow_left.gif" align=top border=1></a>
+	    </td>
+	<td valign="top" bgcolor="#cccccc" align=right>
+	      <font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Desktop</b></font>
+	    </td>
+	    
+	    <td>&nbsp;</td>
+	    
+	    <td valign="top" bgcolor="#cccccc">
+	      <font face="Arial, Helvetica" size=2><u>NEXT</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Mail, Internet, and More</b></font>
+	    </td>
+	    <td bgcolor="#cccccc">
+	  <a href="MailInternet.html">
+		<img src="images/arrow_right.gif" align=top border=1></a>
+	    </td>
+	  </tr>
+      </table>
+    </center>
+    <hr>
+
+   <p>As we mentioned earlier, the shell is your primary mode of
+      communication with the computer. Almost anything you want to do will 
+      involve inputting commands into the shell.
+    </p>
+    
+    <p>
+      Note that everything we
+      say here about shells applies to your console as well. As mentioned
+      before, the console is just another shell, but you should only have one 
+      console at any given time, as the console is responsible for displaying
+      messages from the system.
+    </p>
+
+    <img src="images/xterm.jpg">
+   <h2>Changing your Password</h2>
+    
+    <p>The first time you log in, you have to change your password.
+      Think of a new password. Try to include numbers, punctuation, or capital
+      and lower case letters. If your password is deemed too simple by Linux, 
+      you will have to pick another.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> <em>Type </em><code>passwd</code>
+	  <em> in a shell and hit 'enter.'</em>
+	</p>
+
+    </ul>
+    
+    <p>
+      You will get a prompt that looks like this (you may have to wait a 
+      few seconds):
+    </p>
+
+    <p>
+      <code>Changing account information for &lt;YourLoginNameHere&gt; on 
+	godzilla.<br>
+	Please enter old password:</code>
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> <em>Enter your old password 
+	    (the one you just logged on with). <b>NOTE:</b> Your password 
+	    will not be echoed in any way (no dots or asterisks). If you 
+	    make a mistake, you can try to hit "ctrl-u," which will
+	    clear everything you have typed. 
+	    (No, backspace won't work here. It works in other places. To learn
+	    how to deal with Linux's crazy deleting, see the Linux
+	    Hints in the <b><a href="Appendix.html">Appendix</a></b>.)
+	    Otherwise, let it fail and re-enter <code>passwd</code> 
+	    to try again.</em>
+	</p>
+    </ul>
+
+    <p>
+      You will then be asked for your new password:
+    </p>
+
+    <p>
+      <code>Please enter new password:</code>
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> <em>Enter the new password you
+	    thought up.</em>
+	</p>
+    </ul>
+
+    <p>
+      <code>Please retype new password:</code>
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Re-enter the new password.
+	  </em>
+	</p>
+    </ul>
+
+    <p>
+      The system will now determine whether you have selected a
+      good enough password. If you have, you will receive a message like:
+    </p>
+
+    <p>
+      <code>
+	The NIS password has been changed on godzilla.
+      </code>
+    </p>
+
+    <p>
+      If the change failed, you will receive some explanation, like:
+    </p>
+
+    <p>
+      <code>
+	Mismatch – password unchanged
+      </code>
+    </p>
+
+    <p>
+      If the change failed, re-enter <code>passwd</code> to try again.
+    </p>
+
+    <br>
+    <h2>Setting up your Account for CS15</h2>
+
+    <p>
+      For CS15, there is a little setup that has to be done to your account. 
+    To take care of this, we 
+      have written a special kind of program called a <b>script</b>
+      that you must run.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    In a shell, type </em><code>cs015_setup</code>
+	    <em>and press 'enter.'
+	  </em>
+	</p>
+    </ul>
+
+    <p>
+      You should get a message that the directory 
+      <code>course/cs015</span></code> has been created in your
+      home directory. <b>If you receive any kind of error message, see 
+      a TA immediately</b>.
+    </p>
+
+    <!--<p>
+      Since that script just updated one of your configuration
+      files, you have to tell your computer to use the new information. 
+      To do that:
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Go to every shell you have open (including your console)
+	    and type </em><code>source ~/.cshrc&nbsp; 
+	  </code><em> and press enter.
+	</em>
+	</p>
+    </ul>
+
+    <p>
+      All that did was tell the shell to re-read the configuration
+      file .cshrc, which is what tells the shell where to look for the 
+      programs you tell it to run, among other things.
+    </p>
+-->
+    <br>
+    <h2>Setting up SSH</h2>
+    <p>
+      For section, you are going to need to set up an SSH key pair. (For
+      more info on SSH, see the department's remote access page. For now,
+      just follow these steps and don't worry about the details.)
+    </p>
+
+        <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    In a shell, type </em><code>ssh-keygen -t dsa</code><em> and
+	    press enter.
+	</em>
+	</p>
+    </ul>
+
+    <p>
+      You should see the message:
+    </P>
+    <p>
+      <code>
+	Generating public/private dsa key pair.
+	</code>
+      </p>
+    <p>
+      There will be a pause, which may last a few seconds, followed by the 
+      prompt:
+    </p>
+    <p>
+      <code>
+	Enter file in which to save the key (/u/&lt;yourlogin&gt;/.ssh/id_dsa):
+      </code>
+    </p>
+
+            <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Press enter without typing anything.
+	</em>
+	</p>
+    </ul>
+
+    <p>
+      You will then be prompted to enter a passphrase. This is like
+      a password for when you use SSH to access a computer remotely. Think
+      up a new passphrase. <B><EM>This passphrase MUST be different from
+	  your password to log in to the computers!</b></em>
+    </p>
+
+            <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Type the passphrase you thought up and press enter. When prompted, 
+	    confirm your passphrase.
+	</em>
+	</p>
+    </ul>
+
+    <p>
+      Your SSH key is now created, but it is not in the right place.
+    </p>
+
+            <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Type </em><code>
+	    cat ~/.ssh/id_dsa.pub >>! ~/.ssh/authorized_keys</code>
+	  <em> &nbsp;&nbsp;<br>in a shell and press enter.
+	</em>
+	</p>
+    </ul>
+
+    <p>
+      You are now all set with SSH.
+      </p>
+
+    <br>
+    <h2>File System</h2>
+
+    <p>All of the computers on the CS department's network use a
+      "shared file system" called NFS (Network File System). That means that 
+      no matter what computer you log into in the department, you will have
+      access to all the same files. This might sound really scary, but
+      it is functionally the same as on any other computer. 
+      Data is contained in files, and files are organized with directories.
+      The files and directories are located in a 
+      "tree," like in Windows or Mac OS, with each directory containing 
+      subdirectories or files (or both, or nothing).
+    </p>
+
+    <p>
+      In Linux, 
+      directories are separated by '/,' and the root directory that contains
+      all other directories is also called '/.' The chain of directories and 
+      slashes
+      that describe a particular directory or file 
+      is called the directory or file's <b>path</b>. (For example,  
+      <code>/u/avd/README
+	</code> is a file called "README" in the "avd" directory, which is in
+      the "u" directory, which is in the "/" directory [<i>whew</i>].) A path that
+      begins from the root directory ( <code>/</code> ) is called a
+      <b>fully-specified path</b> because it leaves no ambiguity as to
+      the file or directory's location.
+    </p>
+
+    <center>
+      <img src="images/filesystem.JPG" border=1>
+    </center>
+
+    <p>Each user gets his/her own "home directory." All of the home
+      directories are located in a directory called "<code>u</code>." So, your home
+      directory is 
+      located in <code>/u/&lt;yourlogin&gt;/</code>. Since you use your home directory 
+      so much, it can be abbreviated to <code>'~'.</code> Meaning, 
+      you can write interchangeably: <code>
+      '/u/&lt;yourlogin&gt;/'</code> 
+      or <code>'~'.</code>
+    </p>
+
+    <p>
+      Your shell is pretty closely linked to the file system. Every shell 
+      has a current directory. You can think of this as your
+      location within the file system. (You cannot be within a file.)
+      A shell's current directory is
+      displayed on the <b>prompt</b>. 
+      So, when you have a prompt that looks like:
+    </p>
+
+    <p>
+    <ul>
+	<code>cslab4g /u/&lt;your login&gt; %</code>
+    </ul>
+    </p>
+
+    <p>It means that you are on computer "cslab4g" and you current
+      directory is your home directory (The '%' is just to indicate where 
+      you type.). If the prompt looked like:
+    </p>
+
+    <ul>
+	<p>
+	  <code>cslab4g /course/cs015/bin %</code>
+	</p>
+    </ul>
+
+    <p>
+      You would be in the bin directory of the cs015 course directory.
+    </p>
+    <br>
+ 
+
+    
+    <h2>Navigating the File System</h2>
+
+    <p>
+      There are a bunch of important commands for navigating the file
+      system. We are going to show you some of the most common here, but take 
+      a look at the <b><a href=Appendix.html>Appendix</a></b> for a full 
+      listing.
+    </p>
+
+    <br>
+
+    <h3>Where am I?</h3>
+
+    <p>
+      As noted above, you can usually figure out what directory
+      you're in simply by looking at the prompt in your shell. But what 
+      about the contents of the directory? The command 
+      <code><b>ls</b></code> (short for <i>list</i>) will
+      show you the contents of the current directory.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Type </em><code>ls</code><em> in a shell and press 'enter.'
+	</em>
+	</p>
+    </ul>
+
+    <p>
+      You should see something similar to this (probably not
+      exactly the same files and directories):
+    </p>
+
+    <img src="images/ls.jpg">
+
+    <p>
+      This shows the home directory of the CS15 test account. It is a little 
+      cluttered since it has been around awhile. It contains the directories
+      <code>Mail, News, course, mail, My Documents,</code> and 
+      <code>nsmail;</code> and the files
+      <code>README</code> and <code>flamingo.</code>
+      Notice that some names are followed by a '/.'
+      This '/' marks a directory. 
+      Thus, in the picture above, 
+      <code>course</span></code> is a directory, but 
+      <code>README</code> is not.
+    </p>
+    <br>
+<!--
+    <h3>Sidenote: Tab Completion</h3>
+
+    <p>
+      As we start to get into commands that involve <b>arguments</b> 
+      (information you give to the command, like telling the computer 
+      which directory to switch to), it will be helpful to point out a 
+      useful service of the shells: <b>tab completion</b>. 
+    </p>    
+
+    <p>
+      If you type part of a command or file name that is visible from your
+      current directory and hit the 'tab' key, Linux will either complete
+      your word (if there are no other possible completions), or give you
+      a list of possible matches. This saves a lot of
+      headaches with misspellings, and it saves you some typing.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Type </em><code>l</code><em> in a shell and then press 'tab.'
+	</em>
+	</p>
+	<p>
+	  <img src="images/arrow_small.gif"> <em>Press 'backspace' to delete
+	    the </em><code>l</code>.
+	</p>
+    </ul>
+
+    <p>
+      You should get a list of all the commands that begin with
+      '<code>l</code>,' including <code>ls</code>.
+    </p>
+
+    <br>
+    -->
+    <h3>How Do I Get Out of Here?</h3>
+
+    <p>
+      The command <code>cd &lt;dir&gt;</code> will move you to a different 
+      directory.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Type </em><code>cd course</code><em> in a shell and
+	    press 'enter.' <!--(If you want to use tab completion, try
+	    </em><code>cd c</code><em> and then 'tab.')-->
+	</em>
+	</p>
+    </ul>
+
+    <p>
+      Your prompt should now indicate that your current directory
+      is <code>/u/&lt;yourlogin&gt;/course.</code>
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Type </em><code>ls</code><em> and press 'enter.'
+	</em>
+	</p>
+    </ul>
+
+    <p>You should see a <code>cs015/</code> directory in the course 
+      directory. That is where you will be doing all of your
+      work for CS15.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Type </em><code>cd cs015</code><em> and press 'enter.' 
+	</em>
+	</p>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Type </em><code>ls</code><em> and press 'enter.' 
+	</em>
+	</p>
+    </ul>
+
+    <p>
+      You are now in your <code>course/cs015</code> directory, and your call
+      to <code>ls</code> should have shown you that the directory is empty.
+    </p>
+
+    <br>
+    <h3>Parent Directories</h3>
+
+    <p>
+      The symbol <code>'..'</code> represents the directory above your 
+      current one. So, if you want to move up one directory, you would enter 
+      <code>'cd ..'</code>.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Type </em><code>cd ../..</code><em> and press 'enter.'
+	</em>
+	</p>
+    </ul>
+
+    <p>
+      This brought you to the parent of your current directory's parent, 
+      or back to your home directory. (As a shortcut, 
+      <code>cd</code> with no directory specified will also bring you 
+      back to your home directory.)
+    </p>
+
+    <p>
+      Right now, your shell should look something like this:
+    </p>
+
+    <img src="images/shellcommands.jpg">
+
+    <p>
+      If your shell looks different, or if you are in a directory other than
+      your home directory, figure out your mistake and then type 
+      <code>cd</code> and press enter to return your home directory.
+    </p>
+      
+
+    <br>
+
+    <h3>Organizing it All</h3>
+
+    <p>
+      If you couldn't change the file system, it would be pretty useless. 
+      The command <code>mkdir &lt;dirname&gt;</code> allows you to create 
+      new directories.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    In your home directory (in a shell that only has <code>/u/&lt;yourlogin&gt;&nbsp;</code>
+	    for the current dir), type </em><code>mkdir tempdir</code><em>
+	    and press 'enter.'
+	  </em>
+	</p>
+    </ul>
+    
+    <p>
+      If you <code>ls</code> your home directory now, you should see the
+      new folder <code>tempdir</code> that you just created.
+    </p>
+
+    <br>
+
+    <h3>Copying Files</h3>
+
+    <p>
+      Also important for managing the file system is the <b>copy</b> command,
+      which is in the form:
+    </p>
+
+    <p>
+      <code>
+	cp &lt;sourcefile&gt; &lt;destinationfile&gt;
+      </code>
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Still in your home directory, type:
+	    <br>
+	<ul>
+	  </em><code>cp README tempdir/READMEcopy</code><em>
+	</ul>
+	&nbsp;&nbsp;&nbsp;&nbsp;and press 'enter.'
+	  </em>
+	</p>
+
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Type </em><code>cd tempdir</code><em> and then
+	    </em><code>ls</code><em> to see that you have indeed copied
+	    your </em><code>README</code><em> into your new directory.
+	  </em>
+	</p>
+    </ul>
+
+    <br>
+
+    <h3>Deleting Files and Directories</h3>
+
+    <p>
+      The rm &lt;file&gt; command will delete files.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    From your </em><code>~/tempdir </code><em> directory, type
+	    </em><code>rm READMEcopy</code><em> and press 'enter.'
+	    You will be asked to confirm the removal. Type 'y' and
+	    press 'enter' again to continue.
+	  </em>
+	</p>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Enter </em><code>ls</code><em> to ensure that the file has
+	    been removed.
+	  </em>
+    </ul>
+
+    <p>
+      To remove directories, use <code>rmdir &lt;dir&gt;</code>.
+    </p>
+
+    <ul>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Return to your home directory.
+	  </em>
+	</p>
+	<p>
+	  <img src="images/arrow_small.gif"> 
+	  <em>
+	    Type </em><code>rmdir tempdir</code><em> and press 'enter.'
+	  </em>
+    </ul>
+
+    <p>
+      If you try to remove a directory that is not empty with 
+      <code>rmdir</code>, you will get an error message. You must use
+      <code>rm</code> to remove all files within a directory before you
+      can delete the directory with <code>rmdir</code>. 
+      Since you emptied <code>tempdir</code> prior to calling
+      <code>rmdir</code> on it, typing <code>ls</code> should show
+      you that it is gone. See the 
+      <b><a href="Appendix.html">Appendix</a></b>
+      for ways to remove directories without having to empty them first.
+    </p>
+
+    <p>
+      At this point, your shell should look something like this:
+    </p>
+
+    <img src="images/dircommands.jpg">
+
+    <br>
+
+    <h3>More Commands</h3>
+
+    <p>
+      There are a ton more commands that will come in handy as you
+      proceed in CS. See the <b><a href="Appendix.html">Appendix</a></b> for 
+      a more complete listing.
+    </p>
+
+    <hr>
+    <center>
+      <table border=0 cellpadding=3 cellspacing=0>
+	  <tr>
+	    <td bgcolor="#cccccc">
+	      <a href="Desktop.html">
+		<img src="images/arrow_left.gif" align=top border=1></a>
+	    </td>
+	<td valign="top" bgcolor="#cccccc" align=right>
+	      <font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Desktop</b></font>
+	    </td>
+	    
+	    <td>&nbsp;</td>
+	    
+	    <td valign="top" bgcolor="#cccccc">
+	      <font face="Arial, Helvetica" size=2><u>NEXT</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Mail, Internet, and More</b></font>
+	    </td>
+	    <td bgcolor="#cccccc">
+	  <a href="MailInternet.html">
+		<img src="images/arrow_right.gif" align=top border=1></a>
+	    </td>
+	  </tr>
+      </table>
+    </center>
+    <hr>
+
+    <hr>
+    <address><a href="mailto:jgoodwin@cs.brown.edu"></a></address>
+<!-- Created: Wed Jul 17 20:18:26 EDT 2002 -->
+<!-- hhmts start -->
+Last modified: Tue Sep 10 00:50:45 EDT 2002
+<!-- hhmts end -->
+  </body>
+</html>
