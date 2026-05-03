@@ -1,0 +1,163 @@
+body{
+	background: #D8FAFB;
+	
+}
+h1{
+	font-size: 85px;
+	font-family: 'Bad Script', cursive ;
+	color:  ;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+	margin:5% 15% 0% 15%;
+}
+
+h2{
+	font-size:30px;
+	color: ;
+	text-align: center;
+	font-family:'Quicksand', sans-serif;
+	margin: 0px 20px;
+	color: black;
+	
+}
+
+h3 h4 h5 h6{
+		color: 
+}
+#content{
+	backround:white;
+    /*position: absolute;
+    /*right: 20px;*/
+    padding: 0px;
+	Text-align: justify;
+	margin: 0% 0% 0% 0%;
+	font-family: 'Bad Script', cursive;
+	font-size:36px
+}
+#content li{
+	text-align:center;
+	
+	}
+#footer{ float:right;
+/*border: solid 10px blue;*/
+top:0px;
+	
+	}
+
+#footer li{ display: inline-block;
+	margin: 10px 65px ; 
+	bottom: 500px;
+	 margin top:px;
+	
+}
+
+
+#header{
+	
+}
+
+
+
+#image{ 
+	/*float:right;*/
+	margin: 30px px;
+	
+	
+}
+
+
+#image li{
+	display: inline-block;
+	margin: 0px 85px;
+	
+	}
+	
+#image2{
+	width: 100%;
+	length: 100%;
+	
+	}
+body{
+	 margin: 0px;
+	
+	}
+
+
+#nav2{
+	font-size: 24px;
+	padding: 2px 7px;
+	margin: 0%;
+	width: 100%;
+	length: 80%;
+	
+	}
+
+#nav{
+	/*background: url(Pic%20for%20Collage/Newblurrred.PNG);*/
+	background: url(Newblurrred.PNG);
+	
+	
+	font-size: 24px;
+	font color:#000000;
+	padding: 2px 7px;
+	margin-top: -95px;
+	width: 100%;
+	length: 80%;
+	
+	
+	
+	
+}
+#nav2 li {
+	display: inline-block;
+	border:;
+	margin-right: 10px 10px;
+	padding-right: 100px;
+	font color: #FFFFFF;
+	
+}
+
+#nav2 ul{
+	text-align:center
+	
+	}
+	
+
+#nav li {
+	display: inline-block;
+	border:;
+	margin-right: 10px 10px;
+	padding-right: 100px;
+	font color: #FFFFFF;
+	
+}
+
+#nav ul{
+	text-align:center
+	
+	}
+	
+#footer2{ float:right;
+clear:both;
+top:0px;
+	
+	}
+
+#footer2 li{ display: inline-block;
+	margin: 50px 65px ; 
+	bottom: 100px;
+	 margin top:px;
+	
+
+
+/*Blue Beachy theme(http://design-seeds.com/home/entry/color-escape2)
+3CB3C2
+70D3DB
+E6E3DE
+F2EADA
+DBD2B9
+#F2EADA
+
+
+*/

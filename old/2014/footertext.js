@@ -1,0 +1,1 @@
+document.write('&copy; Artemis 2014' + ' (<a href="contact.html">Contact us!</a>)');

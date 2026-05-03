@@ -1,0 +1,116 @@
+
+
+html{
+	background: url(http://data2.whicdn.com/images/1740623/thumb.png) no-repeat center center;
+	background-size: cover;
+	
+}
+	
+	
+
+body {
+    font-family: Garamond,sans-serif;
+	font-size:17px;
+	
+
+	
+}
+
+h1 {
+	text-align:center;
+	color: #000;
+	border-style: solid;
+	background-color:#FF99CC;
+	font-size: 46px;
+	font-family: 'Finger Paint', cursive;
+	
+}
+
+h3 {
+	color:#000000;
+	text-align:center;
+	background-color: #FCF;
+	font-size: 22px;	
+	font-family: 'Amatic SC', cursive;
+	min-width: 555px;
+}
+
+p {
+}
+
+#header {
+	font-size: 18px;
+	background:#FFCCFF;
+	min-width: 555px
+	font-family: 'Amatic SC', cursive;
+}
+
+#nav a{
+	display: block;
+	postion: absolute;
+	left:0;
+	width:150px;
+	margin-left:10px;
+	margin-top:20px;
+	color: #F0C;
+	padding: 3px;
+}
+
+#nav ul{
+	position : absolute;
+	top : 95px;
+	width : 140px;
+	padding-left : 10px;
+	z-index : 3;
+	color: #000;
+	padding : 3px;
+	left: 11px;
+	background: #FCF;
+	border-style: solid;
+	margin-top: 7%;
+	background:#FFCCFF
+}
+
+#nav li{
+	border:#FF33FF;
+	border-style;
+	
+}
+
+#content {
+	top : 0px;
+	margin : 0px 25% 0 165px;
+	padding : 3px;
+	color : #000000;
+	min-width: 400px;
+	min-width: 555;
+	font-family: 'Comfortaa', cursive;
+	background: #F6F;
+	color: #FFFFFF;
+	text-align: center
+}
+
+	
+	
+
+img {
+	float:right;
+	display:inline-block;
+	width: 300px;
+	height: 200px;
+	margin-top: -222px;
+	margin-right: -320px;
+}
+
+
+#lower{
+}
+
+#footer {
+	text-align:center;
+	background:#FF9999;
+	border-style:solid;
+	min-width: 555px;
+	background-image: url(http://33.media.tumblr.com/0b51550b9e117aa0f6e37a9fdf703996/tumblr_mufhp6n2xy1qbpapko1_500.jpg);
+	color: #000
+}

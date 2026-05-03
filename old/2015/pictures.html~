@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Home</title>
+  <link href='http://fonts.googleapis.com/css?family=Mystery+Quest' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div id="pagewrapper">
+    <div id="logo"></div>
+  <header>
+  <h1>The Artemis Project</h1>
+</header>
+<nav>
+  <script type="text/javascript" src="navmenu.js"> </script>
+
+  </nav>
+
+<div id="content">
+  <h2>Pictures</h2>
+
+<p>Stay tuned for pictures of Artemis 2014! Until then, check out photos of last year's Artemis activities over at <a href="https://artemisbrown.shutterfly.com/" target="_new">Shutterfly</a>.</p>
+  
+  <footer>
+   <script type="text/javascript" src="footertext.js"> </script>
+  </footer>
+</div>
+
+
+</div>
+<body>
+</html>

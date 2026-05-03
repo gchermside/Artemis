@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+	margin: 0;
+}
+
+#header {
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	margin: 0;
+	padding: 40px;
+	font-family: Arial;
+}
+
+.colorblock {
+	width: 20%;
+	height: 65vh;
+	display: inline-block;
+	background-color: black;
+	margin: 20px 10px;
+}
+
+#downloads{
+	padding-bottom: 20px;
+}

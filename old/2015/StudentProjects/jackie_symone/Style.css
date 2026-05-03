@@ -1,0 +1,84 @@
+body {
+	background: #A1A9B3;	
+}
+
+h1 {
+	font-size: 75px;
+	font-family: Arial;
+	color: #3EEAEA;
+	background:#A1A9B3
+}
+h2 {
+	font size: 36px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+#content {
+	margin: 10px 300px;
+	border: 3px solid #3EEAEA;
+	background: #FFFBFC;
+	font-size: 19px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #5C6166;
+	text-align: center;
+	padding: 20px
+	
+	
+	
+}
+#color { color: green
+	
+}
+#image { float: right
+}
+
+#footer {
+	margin: 25px 500px;
+	border: 3px solid #3EEAEA;
+	background: #FFFBFC;
+	font-size: 19px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #5C6166;
+	text-align: center
+		
+}
+
+#footer li{background: #329DE6;
+text-align: center
+	
+}
+
+#header {
+	background: white;
+	text-align: center;
+	color:#0AE6A7
+	
+	
+	
+}
+
+#image{
+	
+}
+
+#nav{ font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	color: #5C6166;
+	text-align: center;
+
+}
+
+#nav li{
+	padding: 4px 100px;
+	display: inline;
+	text-align: center;
+	margin: 350px 25px;
+
+}
+/*
+DARK GRAY: #5C6166
+BLUE: #3EEAEA
+DARK BLUE: #329DE6
+LIGHT GRAY: #FFFBFC
+GRAY: #A1A9B3

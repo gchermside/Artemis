@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<link href="layout/style_08.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>Artemis 2011</title>
+</head>
+
+<body>
+
+<div id="header">
+	</div>
+
+<div id="nav">
+	<a href="index.html">Home</a><br />
+	<a href="about.html">About Artemis</a><br />
+	<a href="coordinators.html">Coordinators</a><br />
+	Students<br />
+	<a href="pictures.html">Pictures</a><br />
+	<a href="lessons.html">Lessons</a><br />
+	<a href="schedule.html">Weekly Schedule </a><br />
+	<a href="calendar.html">Calendar</a><br />
+	<a href="resources.html">Resources</a><br />
+	<a href="applications.html">Applications</a><br />
+	<a href="sponsors.html">Sponsors</a><br />
+	<a href="contact.html">Contact Us</a><br/>
+	<a href="../old/">Past Years</a>
+</div>
+
+<div id="content">
+<img src="layout/content_bg_2.gif" width="605" height="120" alt="Artemis" />
+
+<!--<h2> Applications are not open at this time. </h2>
+<a href="applications.html">Apply here!</a>-->
+<h2> Congratulations to our accepted students! Artemis 2011 is: </h2>
+
+<p>
+<big style="text-indent: .5in"> <b>Gabby Aiello - </big> </b>Lincoln, RI<br/> <br/>
+<big> <b>Olaide Ajiboye - </big> </b>Providence, RI<br/> <br/>
+<big> <b>Amadaly Almanzar - </big> </b>Pawtucket, RI<br/> <br/>
+<big> <b>Areli Almaraz - </big> </b>Providence, RI<br/> <br/>
+<big> <b>Joy Aso - </big> </b>Providence, RI<br/> <br/>
+<big> <b>Miya Brophy-Baermann - </big> </b>Providence, RI<br/> <br/>
+<big> <b>Valentina Buritica - </big> </b>Pawtucket, RI<br/> <br/>
+<big> <b>Clio Byrne-Gudding -</big> </b> Providence, RI<br/> <br/>
+<big> <b>Nicole Cruz - </big> </b>Providence, RI<br/> <br/>
+<big> <b>Chendra Derosier - </big> </b>Providence, RI<br/> <br/>
+<big> <b>Erin Devin - </big> </b>Bristol, RI<br/> <br/>
+<big> <b>Libby Dolan - </big> </b>Barrington, RI<br/> <br/>
+<big> <b>Ana Fernandes - </big> </b>Pawtucket, RI<br/> <br/>
+<big> <b>Jenny Garcia - </big> </b>Providence, RI<br/> <br/>
+<big> <b>Mariah Gomez - </big> </b>Providence, RI<br/> <br/>
+<big> <b>Helen Kauls - </big> </b>Kleinmachnow, Germany<br/> <br/>
+<big> <b>Mary Larcom - </big> </b>East Greenwich, RI<br/> <br/>
+<big> <b>Kyra Means - </big> </b>Attleboro, MA<br/> <br/>
+<big> <b>Betsy Ramirez - </big> </b>Providence, RI<br/> <br/>
+<big> <b>Olivia SaoBento - </big> </b>Warren, RI<br/> <br/>
+<big> <b>Mary Trinidad - </big> </b>South Attleboro, MA<br/> <br/>
+</p>
+
+</div>
+
+<div id="footer">
+	<a href="http://validator.w3.org/check?uri=referer">xhtml</a> <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a> 
+	&#169; 2010 The Artemis Project 
+</div>
+
+</body>
+</html>

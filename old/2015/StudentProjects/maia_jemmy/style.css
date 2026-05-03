@@ -1,0 +1,85 @@
+body { 
+	background:#ffd1dc;
+}
+
+
+h1 {
+	font-size: 100px;
+	color: black;
+	font-weight: normal;
+	text-align:center;
+	font-family: 'Great Vibes', cursive;
+}
+
+#content {
+	font-size: 25px;
+	font-family: Roboto Slab;
+	color: #000000;
+	margin-top: 5%;
+	text-align:center;
+	text-shawdow:black 0.1em 0.1em 0.2em;
+}
+
+
+/*#C2FFFF blue
+#FFE6F3 pink
+#FFCCFF pinky-purple
+#FFFF80 yellow
+*/ 
+
+
+
+p {
+	margin-left: 10%;
+	margin-right:10%;
+}
+
+/*header2 {
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	text-align:center;
+}
+*/
+	
+}
+
+
+#image {
+	text-align:center;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding:5% 5% 5% 5%;
+} 
+
+#nav ul {
+	margin: 5% 3% 5% 3%;
+	border-style: dahsed;
+	border-width: medium;
+	border-color: #FFE6F3;
+	padding: 3% 3% 3% 3%;
+	text-align:center;
+}
+
+#nav li {
+	display: inline;
+	padding-right: 2%;
+	padding-left: 2%;
+	font-size: 20px;
+	text-align:center;
+}
+
+ul {
+	font-size:20px;
+	text-align:center;	
+	margin: 5% 3% 5% 3%;
+	border-style: dashed;
+	border-width: medium;
+	border-color: #FFE6F3;
+	padding: 2% 2% 2% 2%;
+}
+
+#table {
+	padding-left: 2%;
+	padding-right: 2%;
+}

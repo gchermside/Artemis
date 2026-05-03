@@ -1,0 +1,61 @@
+body {
+	background-color: BlanchedAlmond;
+}
+
+h1 {
+	font-size: 45px;
+	font-family: Gerdon;
+	color: black;
+	font-weight: bold;
+	border-style: groove;
+	border-color: pink;
+	border-width: 10px;
+}
+h2 {
+	color: black;
+	font-family: Gerdon;
+	font-size: 24px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#content {
+	font-family: Gerdon;
+	font-size: 18px;
+	margin-right: 300px;
+	margin-left: 300px;
+	background-color: pink;
+}
+
+table {
+		margin-bottom: 50px;
+}
+	
+h3 {
+	font-size: 45px;
+	font-family: Gerdon;
+	color: black;
+}
+
+
+      
+	
+
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+*\

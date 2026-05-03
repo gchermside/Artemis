@@ -1,0 +1,39 @@
+* {
+	background-image: url(purple-galaxy-space-hd-wallpaper-1920x1200-4605.jpg);	
+}
+
+h1 {
+	color:white;
+	text-align:center;
+	font-family: colonna mt, sans-serif;
+}
+
+p {
+	color: white;
+	text-align:center;
+	font-size:25px;
+	font-family: colonna mt, sans-serif;
+}
+
+img {
+	height: 400px;
+	width: auto;
+	margin-left: 200px;
+	border: 2px solid white;
+	
+}
+
+div img {
+	height: 300px;
+	width: auto;
+	margin-left: 200px;
+	border: 2px solid white;
+}
+	
+a {
+	text-decoration:none;
+	color: white;
+	text-align:center;
+	font-size:25px;
+	font-family: colonna mt, sans-serif;
+}

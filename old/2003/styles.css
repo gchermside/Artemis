@@ -1,0 +1,32 @@
+BODY {
+background-color: #000000;
+background-image: url(img/fuzzy.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+font-size: 13pt;
+font-family: Arial;
+color: #66ccff;
+}
+
+A:link { 
+color: #9999cc;
+text-decoration: none;
+}
+
+A:visited { 
+color: #6666cc;
+text-decoration: none;
+}
+
+A:link:hover, :visited:hover {
+color: #ffff66;
+text-decoration: underline;
+}
+
+H1 { 
+text-align: center;
+font-size: 30;
+font-family: Arial Black;
+color: #3300cc;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<link href="layout/style_08.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>Artemis 2010</title>
+</head>
+
+<body>
+
+<div id="header">
+	</div>
+
+<div id="nav">
+	<a href="index.html">Home</a><br />
+	<a href="about.html">About Artemis</a><br />
+	Coordinators<br />
+	<a href="students.html">Students</a><br />
+	<a href="pictures.html">Pictures</a><br />
+	<a href="lessons.html">Lessons</a><br />
+	<a href="schedule.html">Weekly Schedule </a><br />
+	<a href="calendar.html">Calendar</a><br />
+	<a href="resources.html">Resources</a><br />
+	<a href="applications.html">Applications</a><br />
+	<a href="sponsors.html">Sponsors</a><br />
+	<a href="contact.html">Contact Us</a><br/>
+	<a href="../old/">Past Years</a>
+</div>
+
+<div id="content">
+<img src="layout/content_bg_2.gif" width="605" height="120" alt="Artemis" /><br /><br />
+
+<p>We are a group of four undergraduate women who study computer science at Brown University.  The coordinators for Artemis 2011 are Kelly Buckley, Joanna Lustig, Sophie Qiu and Kelly Winter.</p>
+<p>You can contact us at <a href="mailto:artemis@cs.brown.edu">artemis@cs.brown.edu</a>. </p>
+
+<!--<p>Four of us are undergraduate women who study computer science at Brown University. The fifth, Katherine, is from Boston University and hopes to 
+bring the Artemis Program to Boston. The coordinators for Artemis 2010 are:</p>
+<ul><li><a href="#michelle">Michelle Micallef</a></li>
+	<li><a href="#natalie">Natalie Serrino</a></li>
+	<li><a href="#miranda">Miranda Steele</a></li>
+	<li><a href="#tashy">Tashyana Thompson</a></li>
+	<li><a href="#katherine">Katherine Zhao</a></li>
+</ul>
+<p>You can contact us at <a href="mailto:artemis@cs.brown.edu">artemis@cs.brown.edu</a>. Our phone number during business hours is (401) 489-6109.</p>
+
+<h2><a name="michelle">Michelle Micallef</a></h2>
+
+<p>Age: 19<br />
+Hometown: Maplewood, NJ</p>
+
+
+<p><b>Favorites</b><br />
+Color: Blue<br />
+Artist/band: Broken Social Scene<br />
+Food: Spaghetti with Pesto<br />
+Operating system: Linux<br />
+Computer Application: Skype<br />
+Dessert: Chocolate Cake <br />
+</p>
+
+<p><b>If I were a(n) ----, I'd be a(n) ----.</b><br />
+Animal: octopus <br />
+Number: 4<br />
+Household appliance: oven<br />
+Ice cream flavor: Ben & Jerry's Half Baked</p>
+
+<p>Hobbies/interests: cooking, biking, math, computer science, french, playing scrabble<br /></p>
+<p>What did you want to be when you were a little kid? a scientist</p>
+
+
+
+
+<h2><a name="natalie">Natalie Serrino</a></h2>
+
+<p>Age: 20<br />
+Hometown: Chicago, IL</p>
+
+
+<p><b>Favorites</b><br />
+Color: Green<br />
+Artist/band: Passion Pit<br />
+Food: Dark Chocolate<br />
+Operating system: Mac OSX<br />
+Computer application: Mathematica<br />
+Dessert: Dark Chocolate<br/>
+Fish: Swordfish </p> 
+
+
+<p><b>If I were a(n) ----, I'd be a(n) ----.</b><br />
+Animal: Wolf<br />
+Number: 4<br />
+Household appliance: spatula<br />
+Ice cream flavor: Ben & Jerry's Chocolate Therapy</p> 
+
+<p>Hobbies/interests: solar cells, owls, education policy!<br /></p>
+<p>What did you want to be when you were a little kid? an electrical engineer!</p> 
+
+
+
+<h2><a name="miranda">Miranda Steele</a></h2>
+<p>Age: 19<br />
+Hometown: Tampa, FL</p>
+
+<p><b>Favorites</b><br />
+Color: Blue<br />
+Artist/band: Sufjan Stevens<br />
+Food: Cheeseeeeeee<br />
+Operating system: Linux<br />
+Computer application: Google Chrome<br />
+Dessert: Key Lime Pie </p>
+
+<p><b>If I were a(n) ----, I'd be a(n) ----.</b><br />
+Animal: Bird<br />
+Number: 6<br />
+Household appliance: Ceiling Fan<br />
+Ice cream flavor: Chocolate</p>
+
+<p>
+Hobbies/interests: painting (watercolor!), making presents, reading blogs, going to concerts <br /></p>
+<p>What did you want to be when you were a little kid? A character in Harry Potter</p>
+
+
+<h2><a name="tashy">Tashyana Thompson</a></h2>
+<p>Age: 20<br />
+Hometown: Newark, NJ</p>
+
+
+<p><b>Favorites</b><br />
+Color: Pink and Green<br />
+Artist/band: I love ALL Music!<br />
+Food: Seafood, especially Shrimp<br />
+Operating system: Linux, of course!<br />
+Computer application: Interner Explorer<br />
+Dessert: Candy</p>
+
+
+<p><b>If I were a(n) ----, I'd be a(n) ----.</b><br />
+Animal: Cheetah<br />
+Number: 16<br />
+Household appliance: Microwave<br />
+Ice cream flavor: Strawberry with strawberries in it!</p>
+
+<p>
+Hobbies/interests: listening to music, talking on the phone, switching outfits multiple times a day, shopping, doing hair, cooking, playing with little kids (especially babies), reading celebrity blogs, laughing, making people laugh, traveling around the country and having fun!<br /> </p> 
+<p>What did you want to be when you were a little kid? a cheerleader </p> 
+
+<h2><a name="katherine">Katherine Zhao</a></h2>
+<p>Age: 20<br />
+Hometown: Boston, MA</p>
+
+<p><b>Favorites</b><br />
+Color: Green<br />
+Artist/band: Gil Shaham and the Decemberists<br />
+Food: Ice Cream!<br />
+Operating system: Windows 7<br />
+Computer application: Google Chrome<br />
+Dessert: Ice Cream</p>
+
+
+<p><b>If I were a(n) ----, I'd be a(n) ----.</b><br />
+Animal: Eagle<br />
+Number: 8<br />
+Household appliance: Sink<br />
+Ice cream flavor: Mint Chocolate Chip</p>
+
+<p>
+Hobbies/interests: Violin, tennis, swimming, and hiking<br /> </p> 
+<p>What did you want to be when you were a little kid? an astronaut </p> -->
+
+</div>
+
+<div id="footer">
+	<a href="http://validator.w3.org/check?uri=referer">xhtml</a> <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a>  
+	&#169; 2010 The Artemis Project 
+</div>
+
+</body>
+</html>
