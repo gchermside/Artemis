@@ -194,6 +194,24 @@ html {
     text-align: center;
 }
 
+.archive-button {
+    display: block;
+    width: fit-content;
+    margin: 1rem auto 0;
+    background: #b8501a;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.archive-button:hover {
+    background: #f9c86a;
+}
+
 .about-photos {
     display: flex;
     gap: 2rem;
