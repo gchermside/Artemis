@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shower-Busters</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Slabo+27px|Poiret+One|EB+Garamond' rel='stylesheet' type='text/css'>
+		<img src="App-Logo.png">
+		<h7>App Icon</h7>
+	</head>
+
+	<body>
+		<div id="header">
+			<h1>who you gonna call......</h1>
+			<h1><center><img src="Logo.png"></center></h1>
+
+		</div>
+
+		<h2><a href="Introduction%20Page">Introduction</a><h2>
+
+		<h2><a href="About%20Page">About</a></h2>
+
+		<h2><a href="Contact%20Page">Contact</a></h2>
+
+		<h2><a href="More%20Info.">More Info.</a></h2>
+
+	</body>

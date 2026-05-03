@@ -1,0 +1,66 @@
+body {
+	background:#4d0000;
+}
+
+p{
+	font-family: 'Indie Flower', cursive;
+	font-size:20px;
+	color:white;
+}
+
+body{
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	color:white;
+}
+
+ul{
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	color:white;
+}
+
+a{
+	color:#b3d9ff;
+}
+
+a#iwpr{
+	color:#b3d9ff;
+}
+
+div#about{
+	font-family: 'Indie Flower', cursive;
+	font-size:20px;
+	color:white;
+	width: 1000px;
+	margin: -600px auto;
+	padding: 75px 75px;
+	position: relative;
+	top: -205px;
+}
+
+img#topleft{
+	position: relative;
+	margin: 400px 200px;
+	top:-175px;
+	right:115px;
+}
+
+img#bottomright{
+	position: absolute;
+	margin: 800px 400px;
+}
+div#about2{
+	margin: -150px 450px;
+	font-family:'Indie Flower', cursive;
+	color:#b3d9ff;
+	font-size:30px;
+}
+div#space{
+	margin:-100px 200px;
+}
+
+img#TheWageGap{
+	position: absolute;
+	margin:-200px 1520px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shower-Busters</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Slabo+27px|Poiret+One|EB+Garamond' rel='stylesheet' type='text/css'>
+		<img src="App-Logo.png">
+		<h7>App Icon</h7>
+	</head>
+
+	<body>
+		<div id="header">
+			<h1><center><img src="Logo.png"></center></h1>
+		</div>
+
+		<div id="overview">
+		<h4>Overview:</h4>
+		<p>
+			The app is meant to time how long you take in the shower and
+			then day by day it will subtract a minute from your time until
+			you reach the goal which is 8 minutes. So that means that you
+			will only use 16 gallons each time you shower. There are ways
+			to earn points and compete with other people. When you reach
+			your goal you will receive a trophy to add to your collection.
+		</p>
+		<img src="https://blueplanetnetwork.org/img/whywater5.jpg">
+
+		<h4>App's Goals:</h4>
+		<p>
+			This app will ensure taking shorter showers and saving water.
+			To learn more about how you can save water, how people today
+			are wasting water and ruining our planet, go to our <a href="file:///gpfs/main/home/art010/Desktop/My%20First%20HTML%20Website/Final%20Project/More%20Info.">More Info.</a> page.
+		</p>
+          <img src="http://viralknot.com/wp-content/uploads/2012/12/save-water-slogans.jpg">
+
+		<h4>How We Got Started:</h4>
+		<p>
+			 We took part in the Artemis summer camp and we wanted to
+			 make an app that showed people how to save water. We were
+			 concered when we noticed that there were many people
+			 wasting water and ruining our enviornment so we decideed
+			 to take action. This app is supposed to help people save
+			 water and make a difference in our community.
+		  <img src="https://pbs.twimg.com/profile_images/611257036119126018/IrhEtFAR_400x400.jpg"/>
+		</div>
+
+		<div id="navigation2">
+				<ul>
+					<li><a href="Home%20Page">Home</a>
+					<li><a href="Introduction%20Page">Introduction</a>
+					<li>About
+					<li><a href="Contact%20Page">Contact</a>
+					<li><a href="More%20Info.">More Info.</li> </a>
+				</ul>
+		</div>
+
+	</body>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shower-Busters</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Slabo+27px|Poiret+One|EB+Garamond' rel='stylesheet' type='text/css'>
+		<img src="App-Logo.png">
+		<h7>App Icon</h7>
+	</head>
+
+	<body>
+		<div id="header">
+			<h1><center><img src="Logo.png"></center></h1>
+		</div>
+
+        <h2>Contact Us!</h2>
+
+		<div id="info">
+		<h4>Katlyn<h4>
+
+		<ul>
+			<li>School: Central High School</li>
+			<li><a href="https://accounts.google.com/ServiceLogin?sacu=1&scc=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=en&service=mail#identifier">E-Mail</a>: Katlynreyes764@yahoo.com</li>
+			<li><a href="https://www.instagram.com/?hl=en">Instagram</a>: lolkatlyn</li>
+			<li><a href="https://www.facebook.com/">Facebook</a>: Katlyn Reyes</li>
+			<li><a href="https://www.snapchat.com/">Snapchat</a>: guatemala_xo</li>
+		</ul>
+
+		<p>
+			 Hello my name is Katlyn Reyes. I am 13 years old and both of my parents are from Guatemala. Ever since I started taking showers by myself my parents have always yelled at me for taking too long in the shower and wasting so much water. So eventually I've manage taking shorter showers. Then I learned that wasting so much water could be harmful to the enviornment. So then that's when we thought of an app that informs others about the dangers of long showers. This app was created to help save water and help inform other people in our community.
+		</p>
+        <img src ="katy.png">
+
+		<h4>Jadyn</h4>
+
+
+		<ul>
+			<li>School: Lincoln School</li>
+			<li><a href="https://accounts.google.com/ServiceLogin?sacu=1&scc=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=en&service=mail#identifier">E-Mail</a>: jramos@lincolnschool.org</li>
+			<li><a href="https://www.instagram.com/?hl=en">Instagram</a>: jay_ramos14</li>
+		</ul>
+
+		<p>
+			Hi, my name is Jadyn Ramos.  I am 14 years old and play soccer and basketball. My grandparents are from Portugal.(who just won the Euro 2016!!!!) I love to draw and cook/bake. Saving water is really important to me because it makes me really sad when I hear statistics about children dying from lack of clean water.  Creating this app is a chance for me to help people mantain a short shower time and save water.  I will also be using this app and saving my family water.
+
+		</p>
+		<img src ="picture.png">
+	</div>`
+		<div id="navigation3">
+				<ul>
+					<li><a href="Home%20Page">Home</a>
+					<li><a href="Introduction%20Page">Introduction</a>
+					<li><a href="About%20Page">About</a>
+					<li>Contact
+					<li><a href="More%20Info.">More Info.</li></a>
+				</ul>
+		</div>
+	</body>

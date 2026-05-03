@@ -1,0 +1,27 @@
+body{
+	background: lightblue;
+}
+
+h1 {
+	font-size: 100px;
+	font-family: Arial;
+}
+
+h2 {
+	font-size:40px;
+	font-family: 'Domine', serif;
+}
+div#header {
+	background-color: #F5CBA7 
+}
+div#hi {
+	width: 700px;
+	font-family: 'Domine', serif;
+}
+div#Navigation {
+	background-color: #000066;
+	color: white;
+}
+th {
+	width: 300px;
+}

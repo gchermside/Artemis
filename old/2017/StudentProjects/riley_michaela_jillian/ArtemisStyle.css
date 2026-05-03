@@ -1,0 +1,52 @@
+body{
+	background-color: #4d0000;
+}
+
+
+h1{
+	font-size: 45px;
+	font-family:'Indie Flower', cursive;
+	font-weight: normal;
+	color:#4d0000;
+}
+a{
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+	color:#b3d9ff;
+}
+a#python{
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+	color:#b3d9ff;
+}
+ul{
+	color: white;
+}
+p{
+	font-family: 'Indie Flower', cursive;
+	font-size:20px;
+	color:white;
+}
+div#container{
+	font-family:'Indie Flower', cursive;
+	font-size:20px;
+	color: white;
+	width: 1000px;
+	margin:0 auto;
+	padding:75px 75px;
+}
+img#imageLeft{
+	position: absolute;
+	margin:185px 350px;
+}
+img#imageBottom{
+	position: absolute;
+	margin:-100px 820px;
+}
+
+div{
+	margin:-150px 450px;
+}
+div#space{
+	margin:250px 150px;
+}

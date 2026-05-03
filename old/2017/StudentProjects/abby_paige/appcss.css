@@ -1,0 +1,77 @@
+body{
+	background:url(http://66.media.tumblr.com/0425c49c3a7408a1b29dace4b04f2f79/tumblr_inline_n2590137jN1qhwjx8.gif);
+	font-family:Comfortaa;
+	color:#6D5D63;
+}
+a:link{
+	text-decoration: none;
+}
+a:vlink{
+	text-decoration:none;
+}
+#logo{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width:350px;
+	background-color:#D1CAD3;
+	font-size:70px;
+	border-style:solid;
+	color:#6D5D63;
+	border-color:#534E58;
+	position:absolute;
+	top:40px;
+	left:40px;
+
+}
+
+
+
+#header{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width:600px;
+	background-color:#C3B0BB;
+	font-size:100px;
+	border-style:solid;
+	border-color:#534E58;
+	border-radius:40px;
+	position: relative;
+	left:auto;
+	top:20px;
+}
+#appInfo{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width:600px;
+	background-color:#C3B0BB;
+	font-size:50px;
+	border-style:solid;
+	border-color:#534E58;
+	border-radius:40px;
+	position: relative;
+	left:auto;
+	top:60px;
+	padding:20px;
+	
+
+
+}
+#download{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width:400px;
+	background-color:#9D868D;
+	font-size:40px;
+	border-style:solid;
+	border-color:#534E58;
+	border-radius:40px;
+	position: relative;
+	left:auto;
+	top:90px;
+	padding:20px;
+
+}
