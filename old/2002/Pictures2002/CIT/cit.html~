@@ -1,0 +1,128 @@
+
+
+
+<html>
+<!--created 07.22.02 - sraub-->
+<!--turns out one has to type 'webupdate' in the shell for changes to take place!!:) -->
+
+<head>
+  <title>The Artemis Project 2002 Picture Gallery</title>
+</head>
+
+<body bgcolor="#7646ff" text="#FFFFFF" link="#FF9999" alink="#29209d" vlink="#fc9306">
+
+<table><tr valign=top><td>
+<img src="../../img/person.teeny.jpg">
+</td><td>
+<h1>The Artemis Project 2002 Picture Gallery</h1>
+<h2>A Typical Day at the CIT</h2>
+</td></tr></table>
+<br><br>
+
+
+<table colspan = 6 width = "100%" cellpadding=1 border=0>
+<tr>
+    <td colspan=2>
+      <h2>Everyday, we gather at the CIT and work on our webpages, Alice2 programs, Logo, and Robots.</h2>
+    </td>
+    <td align="center" colspan=4>
+      <img src="workingMilaJudyMel.jpg">
+    </td>
+</tr>
+<tr>
+    <td align="center" colspan=4>
+      <img src="firstplace.jpg">
+      <h3>The Blue Angels (Duckie, Allie, Latoya, Selvana, and Patrice) win first place in the trivia game.</h3>
+    </td>
+</tr>
+<tr>
+    <td align="center" colspan=6>
+      <img src="stockmarketgame.jpg">
+      <h3>Jamie and Kim explain the stock market while Ouchy, Anna, Nawar, Mel, Allie, Haley, and Mila act as shareholders.</h3>
+    </td>
+</tr>
+<tr>
+    <td align="center" colspan=3>
+      <img src="TeamFenoms.jpg" width="500">
+      <h3>The Fenoms: Ouchy, Haley, Nancy, and Teonna</h3>
+    </td>
+    <td align="center" colspan=3>
+      <h3>Yogurt: Caitlin, Nina, Carla, Mila, and Judy</h3>
+      <img src="TeamYogurt2.jpg" width="500">
+    </td>
+</tr>
+<tr>
+    <td align="left" colspan=2>
+      <img src="openingprizes.jpg" width="400">
+    </td>
+    <td align="right" colspan=2>
+      <img src="openingprizes2.jpg" width="400">
+    </td>    
+    <td align="center" colspan=2>
+      <h3>Haley and Ouchy prepare for the big trivia contest as they make their Fenoms sign</h3>
+      <img src="haleyOuchy.jpg" width="400">
+    </td>
+</tr>
+<tr>
+    <td align="left" colspan=4>
+      <h3>Judy, Latoya, Willynn, Hong, Duckie, Nawar, and Teonna marvel at the gifts from GS.</h3>
+    </td>
+</tr>
+<tr>
+    <td align="center" colspan=2>
+      <h2><font color="red">Ice Cream!</font></h2>
+      <h3>Selvana, Mila, Ouchy, Teonna, Nancy, and Gloria</h3>
+    </td>
+    <td align="center" colspan=3>
+      <img src="GloriaBJs.jpg">
+    </td>
+</tr>
+<tr>
+    <td align="center" colspan=3>
+      <img src="BJs1.jpg">
+      <h3>Willynn, Anna, Latoya, and Judy</h3>
+    </td>
+    <td align="center" colspan=3>
+      <h3>Nina, Caitlin, Mel, Allie, and Haley</h3>
+      <img src="BJs2.jpg">
+    </td>
+</table>
+
+<center><br>
+<font size="6" color="red"><i>Thank you Goldman-Sachs!</i></font><br>
+<font size="5"><i>April, Serena, Sue, Melissa, Kim, Jamie, Julie, and Gloria</i></font>
+
+
+
+
+
+
+<center>
+<br><br>
+<small>
+
+
+<p><hr><b><a href="../home.html">home</a> | 
+<a href="../students/">students</a> |
+<a href="../coordinators.html">coordinators</a> |
+<a href="../pictures.html">pictures</a> | 
+<a href="../lessons.html">lessons</a> |
+<a href="../old/">previous years</a> |
+<a href="../sponsors.html">sponsors</a> |
+<a href="../links.html">resources</a> |
+<a href="../calendar.html">calendar</a> |
+<a href="../applications.html">applications</a></b>
+
+</small>
+</center>
+
+<br><br><br>
+<img src="../../img/bluebar.jpg"><br>
+<small><small>
+Please mail questions and comments to <a href="mailto:artemis@cs.brown.edu">
+artemis@cs.brown.edu</a><br>
+Copyright 2001 The Artemis Project, All Rights Reserved<br>
+</small></small>
+
+</body>
+</html>

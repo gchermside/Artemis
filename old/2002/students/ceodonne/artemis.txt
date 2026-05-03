@@ -1,0 +1,13 @@
+<html>
+	<body background="images/green.gif" text=#000000>
+	<title> Artemis
+	</title>
+	<font face="modern" color=#C71585 size=7><center> Artemis </center> </font>
+	<br>
+	<br>
+	<br>
+	<br>
+	<IMG src="Images/ceo2.gif"><font face="modern" color=#000000 size=5> &nbsp &nbsp &nbsp &nbsp Okay, so I know that the people who visit this website are either , my friends who I commanded to come here, or people from Artemis. In this part of my website, all the people from artemis can reminise about the great times we had in our summer going into ninth grade. And all you others, who are just checking out the artemis web site because your interested in going to artemis next year, I have two words: READ ON! </font>
+	<br>
+	<br>
+	<center><IMG src="Images/group1.jpg" width=200 height=200></center>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<element>
+  <class>edu.cmu.cs.stage3.alice.core.response.SayAnimation</class>
+  <children />
+  <properties>
+    <property name="name" type="java.lang.Object">null</property>
+    <property name="isFirstClass" type="java.lang.Boolean">false</property>
+    <property name="data" type="java.io.File">java.io.File[data.txt]</property>
+    <property name="isCommentedOut" type="java.lang.Boolean">false</property>
+    <property name="duration" type="java.lang.Double">1.0</property>
+    <property name="requiredFormalParameters" type="java.lang.Object">null</property>
+    <property name="keywordFormalParameters" type="java.lang.Object">null</property>
+    <property name="localVariables" type="java.lang.Object">null</property>
+    <property name="subject" type="edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion">edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[AliceLiddell]</property>
+    <property name="what" type="java.lang.String">
+      <![CDATA[nothing i just needs ta get the heck outta hea]]>
+    </property>
+    <property name="bubbleColor" type="edu.cmu.cs.stage3.alice.scenegraph.Color">edu.cmu.cs.stage3.alice.scenegraph.Color[r=1.0,g=1.0,b=1.0,a=1.0]</property>
+    <property name="textColor" type="edu.cmu.cs.stage3.alice.scenegraph.Color">edu.cmu.cs.stage3.alice.scenegraph.Color[r=0.0,g=0.0,b=0.0,a=1.0]</property>
+    <property name="fontSize" type="java.lang.Integer">20</property>
+    <property name="fontName" type="java.lang.String">
+      <![CDATA[Arial]]>
+    </property>
+  </properties>
+</element>
+

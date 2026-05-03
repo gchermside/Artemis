@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>A Day at Artemis</title>
+
+<script langauge = "Javascript">
+<!--  
+
+
+
+function ArtemisDay(story) {
+
+var heshe;
+
+if (story.gender.value =="female")
+{ 
+ heshe = "she";
+}
+else
+{
+ heshe = "he";
+}
+
+document.write("<center><font size=6>A Day at Artemis</font></center><br>" + "<font size = 5>" +"Precisely at 9:00 am  " +  story.coord1.value + " yells into the lobby,  \"Computers! Step right up and get a computer!\" " + story.stud1.value + " replies back, \" "+  story.exclam1.value + "  Do we get to choose our computers today?\" " +  story.stud2.value  +  " shouts out, \" Oh! I hope I get the back  row!\" " + story.stud3.value + "  " + story.adverb1.value + " sits down on a " + story.noun1.value + ". She's so excited about her new CD  featuring " + story.artist.value + ". "+ heshe + " is so " + story.adj1.value  + ". <br><br> The morning goes by so " + story.adverb2.value  + " that all the girls "+ story.adverb3.value + " race off too lunch. " + story.stud4.value + " can't decide if she wants to eat a " +  story.noun2.value + " or a " +  story.noun3.value + ". She chooses the " + story.noun2.value + " but alas! It costs more than $5.00! She  has quite a dilemma. She can either put back the " + story.noun2.value + " or she can beg " + story.coord2.value + " for the extra " +  story.numb1.value + " cents she needs. " + story.stud4.value + " decides to beg. " + story.coord2.value + " says, \"No! I need it to buy my " +  story.noun4.value + " \" .  Just when " + story.stud4.value + " thought she'd go hungry, " + story.stud5.value + ", who is super " +  story.adj2.value + " offered to give her money. Thanks " + story.stud5.value + "!  After having a " + story.adj3.value  + " meal, the girls  decided to shake their " + story.noun5.value + " while they do The Hustle. Everyone laughs at " + story.coord3.value + " because she  looks so " + story.adj4.value + " when she dances. After The Hustle, it's time to work on " + story.asgn.value + ". They all " +  story.verb1.value + " with joy! Everyone is so absorbed with their work, they don't notice the time. Suddenly, " + story.stud6.value + " yells,   \" Look! It's already " + story.numb2.value + "pm!  \" " + "They " + story.verb2.value + " down the hill, happy to know that they will have to  " + story.verb2.value + " back up it tomorrow." + "</font>");
+}
+
+-->
+</script>
+
+
+</head>
+
+<body bgcolor=#ffffff>
+<b><font size="6"> A Day at Artemis</font></b>
+<br>
+<font size="3">Enter a word in the text area.<br>
+Then Press Submit to Create you own Story.</font>
+<!-- Start of FORM -->
+<form>
+<font size = "5">
+<table border="0"  width="50%">
+
+<tr><td>Name a coordinator</td><td><input type="text" name="coord1" value=""></td></tr>
+<tr><td>Name an Artemis student </td><td><input type="text" name="stud1" value=""></td></tr>
+<tr><td>Give an Exclamation </td><td><input type="text" name="exclam1" value=""></td></tr>
+<tr><td>Name an Artemis Student </td><td><input type="text" name="stud2" value=""></td></tr>
+<tr><td>Name an Artemis Student</td><td><input type="text" name="stud3" value=""></td></tr>
+<tr><td>Adverb </td><td><input type="text" name="adverb1" value=""></td></tr>
+<tr><td>Noun </td><td><input type="text" name="noun1" value=""></td></tr>
+<tr><td>Name your favorite Artist </td><td><input type="text" name="artist" value=""></td></tr>
+<tr><td>Is your artist a female or male? </td><td><input type="text" name="gender" value=""></td></tr>"
+<tr><td>Adjective </td><td><input type="text" name="adj1" value=""></td></tr>
+<tr><td>Adverb </td><td><input type="text" name="adverb2" value=""></td></tr>
+<tr><td>Adverb </td><td><input type="text" name="adverb3" value=""></td></tr>
+<tr><td>Name an Artemis Student </td><td><input type="text" name="stud4" value=""></td></tr>
+<tr><td>Noun </td><td><input type="text" name="noun2" value=""></td></tr>
+<tr><td>Noun </td><td><input type="text" name="noun3" value=""></td></tr>
+<tr><td>Name a coordinator </td><td><input type="text" name="coord2" value=""></td></tr>
+<tr><td>Give a number </td><td><input type="text" name="numb1" value=""></td></tr>
+<tr><td>Noun</td><td><input type="text" name="noun4" value=""></td></tr>
+<tr><td>Name an Artemis Student </td><td><input type="text" name="stud5" value=""></td></tr>
+<tr><td>Adjective </td><td><input type="text" name="adj2" value=""></td></tr>
+<tr><td>Adjective </td><td><input type="text" name="adj3" value=""></td></tr>
+<tr><td>Noun </td><td><input type="text" name="noun5" value=""></td></tr>
+<tr><td>Adjective </td><td><input type="text" name="adj4" value=""></td></tr>
+<tr><td>Name a coordinator </td><td><input type="text" name="coord3" value=""></td></tr>
+<tr><td>Name an Artemis Assignment </td><td><input type="text" name="asgn" value=""></td></tr>
+<tr><td>Verb </td><td><input type="text" name="verb1" value=""></td></tr>
+<tr><td>Name an Artemis Student </td><td><input type="text" name="stud6" value=""></td></tr>
+<tr><td>A Number between 4 and 11 </td><td><input type="text" name="numb2" value=""></td></tr>
+<tr><td>Verb </td><td><input type="text" name="verb2" value=""></td></tr>
+
+</table>
+</font>
+
+<input type="hidden" NAME="results">
+<input type="button" VALUE="I wanna see!!" onClick="ArtemisDay(this.form)">
+<input type="reset">
+</form>
+<!-- End of FORM -->					
+</body>
+</html>
+
+</body>
+</html>

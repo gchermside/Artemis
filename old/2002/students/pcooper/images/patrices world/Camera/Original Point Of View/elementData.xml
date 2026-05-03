@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<element>
+  <class>edu.cmu.cs.stage3.alice.core.Variable</class>
+  <children />
+  <properties>
+    <property name="name" type="java.lang.String">
+      <![CDATA[Original Point Of View]]>
+    </property>
+    <property name="isFirstClass" type="java.lang.Boolean">false</property>
+    <property name="value" type="edu.cmu.cs.stage3.math.Matrix44">edu.cmu.cs.stage3.math.Matrix44[rc00=-0.8658575409861716,rc01=0.0,rc02=-0.5002906342491249,rc03=0.0,rc10=0.0,rc11=1.0,rc12=0.0,rc13=0.0,rc20=0.5002906342491252,rc21=0.0,rc22=-0.8658575409861716,rc23=0.0,rc30=-4.262701051336885,rc31=1.600000023841858,rc32=7.384681409266034,rc33=1.0]</property>
+    <property name="valueClass" type="java.lang.Class">class javax.vecmath.Matrix4d</property>
+  </properties>
+</element>
+

@@ -1,0 +1,14 @@
+edu.cmu.cs.stage3.alice.core.Response
+6
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[Alice wakeup.__Unnamed0__]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[Alice wakeup.__Unnamed1__]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[Alice wakeup.__Unnamed2__]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[Alice wakeup.__Unnamed3__]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[Alice wakeup.__Unnamed4__]
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[Alice wakeup.__Unnamed5__]

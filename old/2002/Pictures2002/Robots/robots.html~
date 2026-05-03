@@ -1,0 +1,144 @@
+
+
+
+<html>
+<!--created 07.22.02 - sraub-->
+
+<head>
+  <title>The Artemis Project 2002 Picture Gallery</title>
+</head>
+
+<body bgcolor="#7646ff" text="#FFFFFF" link="#FF9999" alink="#29209d" vlink="#fc9306">
+
+<table><tr valign=top><td>
+<img src="../../img/person.teeny.jpg">
+</td><td>
+<h1>The Artemis Project 2002 Picture Gallery</h1>
+<h2>Robot Dance Show! - July 26, 2002</h2>
+</td></tr></table>
+<br><br>
+
+<p align="center"><font size=+2>To learn how to program the robots, we picked songs and made up a dance for our robot to do.</font><br><br>
+
+<table colspan = 6 width = "100%" cellpadding = 1 border=0>
+<tr>
+    <td align="center" colspan=2>
+      <br><h2><font color="orange"><u>Kismet</u></font></h2>
+    </td>
+    <td align="left" colspan=4>
+      <img src="kismet3.jpg" width="400">
+    </td>
+</tr>
+<tr>
+    <td align="left" colspan=2>
+      <img src="kismet1.jpg" width="400">
+    </td>
+    <td align="center" colspan=2>
+      <img src="kismet2.jpg" width="400">
+      <h3>Kismet shows many emotions depending on what we say and how we act.</h3>
+    </td>
+    <td align="right" colspan=2>
+      <img src="kismet4.jpg" width="400">
+    </td>
+</tr>
+<tr>
+    <td align="center" colspan=2>
+      <br><h2><font color="red"><u>Big Red</u></font></h2>
+    </td>
+    <td align="left" colspan=4>
+      <img src="bigred3.jpg" width="500">
+    </td>
+</tr>
+<tr>
+    <td align="center" colspan=3>
+      <img src="bigred1.jpg" width="400">
+      <h3>Big Red wanders around, sensing things in its path and avoiding them.
+    </td>
+    <td align="left" colspan=3>
+      <img src="bigred2.jpg" width="400">
+    </td>
+</tr>
+<tr>
+    <td align="center" colspan=2>
+      <br><h2><font color="green"><u>Just Hanging Out</u></font></h2>
+    </td>
+    <td align="left" colspan=4>
+      <img src="leahErikaRelaxing.jpg">
+      <font color="red"><i>Leah and Erika relax</i></font>
+    </td>
+</tr>
+<tr>
+    <td align="left" colspan=2>
+      <img src="nawarDuckie.jpg">
+      <h3>Nawar and Duckie</h3>
+    </td>
+    <td align="center" colspan=2>
+      <img src="selvanaCarla.jpg">
+      <h3>Selvana and Carla</h3>
+    </td>
+    <td align="right" colspan=2>
+      <img src="girlsPosing.jpg">
+      <h3>Caitlin, Melanie, Allie, Ouchy, and Haley</h3>
+    </td>
+</tr>
+<tr>
+    <td align="center" colspan=3>
+      <img src="selvanaLatoyaJudy.jpg">
+      <h3>Selvana, Latoya, and Judy</h3>
+    </td>
+    <td align="center" colspan=3>
+      <img src="hahagame.jpg">
+      <h3>The Ha Ha Game</h3>
+    </td>
+</tr>
+<tr>
+    <td align="center" colspan=2>
+      <img src="pyramid.jpg">
+      <h3>Ouchy, Nina, Mel, Allie, Caitlin, and Haley make a pyramid.</h3>
+    </td>
+    <td align="center" colspan=2 width="400">
+      <img src="hangingOut.jpg">
+      <h3>Nawar, Patrice, Willynn, Latoya, Selvana, and Judy hang out.</h3>
+    </td>
+    <td align="center" colspan=2>
+      <img src="patriceHiding1.jpg">
+      <h3>Patrice is too quick for the camera.</h3>
+    </td>
+</tr>
+
+</table>
+
+
+
+
+
+
+<center>
+<br><br>
+<small>
+
+
+<p><hr><b><a href="../../home.html">home</a> | 
+<a href="../../students/">students</a> |
+<a href="../../coordinators.html">coordinators</a> |
+<a href="../../pictures.html">pictures</a> | 
+<a href="../../lessons.html">lessons</a> |
+<a href="../../old/">previous years</a> |
+<a href="../../sponsors.html">sponsors</a> |
+<a href="../../links.html">resources</a> |
+<a href="../../calendar.html">calendar</a> |
+<a href="../../applications.html">applications</a></b>
+
+</small>
+</center>
+
+<br><br><br>
+<img src="../../img/bluebar.jpg"><br>
+<small><small>
+Please mail questions and comments to <a href="mailto:artemis@cs.brown.edu">
+artemis@cs.brown.edu</a><br>
+Copyright 2001 The Artemis Project, All Rights Reserved<br>
+</small></small>
+
+</body>
+</html>

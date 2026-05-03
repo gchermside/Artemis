@@ -1,0 +1,59 @@
+to circle3
+repeat 360 [forward 2 right 1]
+end
+
+to circlesquare
+circle3
+FD 50
+repeat 4 [left 90 forward 100]
+back 50
+end
+
+to flower
+gyro
+right 90
+gyro
+right 90
+gyro 
+right 90
+gyro
+end
+
+to garden
+repeat random 10[setpencolor random 17
+flower
+penup
+forward random 500
+pendown]
+end
+
+to gyro
+repeat 360[forward 70 right 70]
+end
+
+to purple
+setpencolor 13
+end
+
+to rectangle :width :height
+forward :height
+right 90
+forward :width
+right 90
+forward :height
+right 90
+forward :width
+end
+
+to square
+repeat 4[forward 200 left 90]
+end
+
+to star
+repeat 8 [ setpencolor random 17 fd 100 rt 150]
+end
+
+to triangle
+repeat 3 [forward 200 right 120]
+end
+

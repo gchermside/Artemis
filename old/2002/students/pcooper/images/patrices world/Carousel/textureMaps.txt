@@ -1,0 +1,4 @@
+edu.cmu.cs.stage3.alice.core.TextureMap
+1
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion
+edu.cmu.cs.stage3.alice.core.criterion.InternalReferenceKeyedCriterion[Carousel.TextureMap]

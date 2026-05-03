@@ -1,0 +1,8 @@
+java.lang.String
+edu.cmu.cs.stage3.alice.authoringtool.userRepr.amount
+java.lang.String
+5.0
+java.lang.String
+edu.cmu.cs.stage3.alice.authoringtool.visibleProperties
+java.lang.String
+subject,direction,amount

@@ -1,0 +1,12 @@
+java.lang.String
+edu.cmu.cs.stage3.alice.authoringtool.playCount
+java.lang.String
+5
+java.lang.String
+edu.cmu.cs.stage3.alice.authoringtool.worldOpenTime
+java.lang.String
+638576
+java.lang.String
+edu.cmu.cs.stage3.alice.authoringtool.saveCount
+java.lang.String
+2

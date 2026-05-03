@@ -1,0 +1,186 @@
+<html>
+  <!--last updated 06.18.02 - jrosenb1-->
+<head>
+  <title>The Artemis Project 2002 Calendar</title>
+</head>
+
+<body bgcolor="#7646FF" 
+  text="#FFFFFF" link="#f08386" alink="#29209d" vlink="#fc9306">
+
+<table><tr valign=bottom><td>
+<img src="img/person.teeny.jpg">
+</td><td>
+<h1>The Artemis Project 2002 Calendars</h1>
+</td></tr></table>
+
+
+<table border="1">
+
+<tr>
+	<td colspan=5 align=center>
+	 <h2> Artemis Summer Schedule 2002 </h2></td>
+</tr>
+
+<tr>
+	<td align=center>
+	<font color="#f08386" size="+1">Monday</font></td>
+	<td align=center>
+	<font color="#f08386" size="+1">Tuesday</font></td>
+	<td align=center>
+	<font color="#f08386" size="+1">Wednesday</font></td>
+	<td align=center>
+	<font color="#f08386" size="+1">Thursday</font></td>
+	<td align=center>
+	<font color="#f08386" size="+1">Friday</font></td>
+</tr>
+<tr height=145>
+	<td valign=top width=120>
+	1st<br><hr>
+	Introduction to Artemis<br>
+	CIT Tour<br>
+	Games</td>
+	<td valign=top width=120>
+	2nd<br><hr>
+	Ropes Course</td>
+	<td valign=top width=120>
+	3rd<br><hr>
+	Campus Tour<br>
+	World Wide Web<br>
+	Learning XP<br>
+	Programming an Ice Cream Sundae</td>
+	<td valign=top width=120>
+	4th<br><hr>
+	No Camp, 4th of July!
+	</td>
+	<td valign=top width=120>
+	5th<br><hr>
+	No Camp, 5th of July!</td>
+</tr>
+<tr height=145>
+	<td valign=top width=120>
+	8th<br><hr>
+	Taking Apart Computers<br>
+	Computer part bingo!<br>
+	Outdoor algorithms</td>
+	<td valign=top width=120>
+	9th<br><hr>
+	HTML<br>
+	Campus Tour<br>
+	Start Making Webpages</td>
+	<td valign=top width=120>
+	10th<br><hr>
+	Boston Museum of Science</td>
+	<td valign=top width=120>
+	11th<br><hr>
+	Photoshop<br>
+	Outdoor game<br>
+	Build Your Own Webpage</td>
+	<td valign=top width=120>
+	12th<br><hr>
+	More Webpage Time<br>
+	ALICE!</td>
+</tr>
+<tr height=125>
+	<td valign=top width=120>
+	15th<br><hr>
+	Alice<br>
+	Math Games</td>
+	<td valign=top width=120>
+	16th<br><hr>
+	Alice<br>
+	Intro to Logo</td>
+	<td valign=top width=120>
+	17th<br><hr>
+	Field Trip to MIT</td>
+	<td valign=top width=120>
+	18th<br><hr>
+	Goldman Sachs Presentation</td>
+	<td valign=top width=120>
+	19th<br><hr>
+	Logo<br>
+	Intro to Robots<br>
+	BBQ<br>
+	Friday Fun-Day</td>
+</tr>
+<tr height=125>
+	<td valign=top width=120>
+	22nd<br><hr>
+	Alice<br>
+	Logo</td>
+	<td valign=top width=120>
+	23rd<br><hr>
+	Build Robots<br>
+	Guest Lecturer Tom Dean<br>
+	Logo</td>
+	<td valign=top width=120>
+	24th<br><hr>
+	Fun and Excitement<br>
+	Artemis Style</td>
+	<td valign=top width=120>
+	25th<br><hr>
+	Logo<br>
+	Intro to Programming Robots
+	</td>
+	<td valign=top width=120>
+	26th<br><hr>
+	Robot Dance Contest<br>
+	Robot Movies</td>
+</tr>
+<tr height= 125>
+	<td valign=top width=120>
+	29th<br><hr>
+	Robots<br>
+	Cave Visits</td>
+	<td valign=top width=120>
+	30th<br><hr>
+	Field Trip</td>
+	<td valign=top width=120>
+	31st<br><hr>
+	Robots<br>
+	Andy van Dam</td>
+	<td valign=top width=120>
+	1st<br><hr>
+	Alice, Logo, Robots and Webpages!<br>
+	Movie</td>
+	<td valign=top width=120>
+	2nd<br><hr>
+	Last Day of Camp!</td>
+</tr>
+</table>
+
+<br>
+And don't forget, Saturday, August 3rd, a celebratory picnic with all the families!
+<br><br>
+
+<br><br>
+<small>
+<p>**Calendar will be continually updated as feild trips are planned, speakers are scheduled, and other important events arise.**</p><br>
+<p>**All dates are subject to change. The Artemis coordinators are not responsible for inconviences caused by inaccurate dates obtained online.**</p>
+<br><br>
+<center>
+<p><hr><b><a href="home.html">home</a> |
+<a href="students.html">students</a> |
+<a href="coordinators.html">coordinators</a> |
+<a href="pictures.html">pictures</a> | 
+<a href="lessons.html">lessons</a> |
+<a href="old/">previous years</a> |
+<a href="sponsors.html">sponsors</a> |
+<a href="links.html">resources</a> |
+<font color="#ff9999">calendar</font> |
+<a href="applications.html">applications</a></b>
+
+ </b><hr>
+</small>
+</center>
+
+<br><br><br>
+
+<p><img src="img/bluebar.jpg"><br>
+<small><small>
+Please mail questions and comments to <a href="mailto:artemis@cs.brown.edu">
+artemis@cs.brown.edu</a><br>
+Copyright 2002 The Artemis Project, All Rights Reserved<br>
+</small></small>
+
+</body>
+</html>

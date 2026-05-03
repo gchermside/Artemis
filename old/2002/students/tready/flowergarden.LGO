@@ -1,0 +1,75 @@
+to bigflower
+repeat 24 [flowergarden]
+end
+
+to circle
+Repeat 360 [forward 1 right 1]
+right 90
+end
+
+to flower
+Repeat 360 [forward 1 right 1]
+right 90
+Repeat 360 [forward 1 right 1]
+right 90
+Repeat 360 [forward 1 right 1]
+right 90
+Repeat 360 [forward 1 right 1]
+right 90
+right 45
+
+
+
+Repeat 360 [forward 1 right 1]
+left 90
+
+Repeat 360 [forward 1 right 1]
+left 90
+
+Repeat 360 [forward 1 right 1]
+left 90
+
+Repeat 360 [forward 1 right 1]
+left 90
+
+Repeat 360 [forward 1 right 1]
+left 90
+
+end
+
+to flower1
+right 90
+forward 100
+end
+
+to flowergarden
+repeat 360 [forward 1 right 1]
+left 125
+end
+
+to star
+Repeat 3[forward 150 right 120] 
+penup 
+forward 50 
+left 90
+forward 50
+right 140
+pendown
+Repeat 3[forward 150 right 120] 
+end
+
+to writecode
+make "nextline questionbox [UserInput][Enter the next line of code]
+until [:nextline = [end]] [
+label :nextline
+pu
+rt 90
+fd 30
+lt 90
+pd
+make "nextline questionbox [UserInput][Enter the next line of code]
+]
+label :nextline
+end
+
+Make "nextline [PENUP]

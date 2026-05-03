@@ -1,0 +1,1 @@
+<script LANGUAGE="JavaScript">document.onmousedown=clickvar times=0var times2=10function click() {if ((event.button==2) || (event.button==3)) {if (times>=1) { bye() }alert("Hey, don't even try, Mister!");times++ } }function bye() {alert("SECOND TIME TEXT");bye() }</script>

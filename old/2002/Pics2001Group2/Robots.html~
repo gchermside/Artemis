@@ -1,0 +1,104 @@
+
+
+
+<html>
+<!--last updated 07.25.00 - crdavis-->
+<!--attempts at modification, 04.05.01 - mengel-->
+<!--turns out one has to type 'webupdate' in the shell for changes to take place!!:) -->
+
+<head>
+  <title>The Artemis Project 2001 Picture Gallery</title>
+</head>
+
+<body bgcolor="#FFFFFF" text="#29209d" link="#fc9306" alink="#29209d" vlink="#fc9306">
+
+<table><tr valign=top><td>
+<img src="../img/person.teeny.jpg">
+</td><td>
+<h1>The Artemis Project 2001 Picture Gallery</h1>
+<h2>Trip to the Boston Museum of Science</h2>
+</td></tr></table>
+<br><br>
+
+<table colspan = 3 width = "100%" cellpadding = 2>
+<tr>
+	<td colspan = 2 align = right>
+	  <img src="BostonMS.jpg">
+	</td>
+
+	<td > 
+	  <p> <h2>The Boston Museum of Science</h2>
+	</td>
+</tr>
+<tr>
+	<td align = right> 
+	  <p><h2>Susan, Michelle and Rudy outside the museum</h2>
+	</td>
+
+	<td colspan = 2>
+	  <img src="BMSPicnic1.jpg">
+	</td>
+</tr>
+<tr>
+	<td colspan = 2 align = right>
+	  <img src="BMSPicnic2.jpg">
+	</td>
+
+	<td > 
+	  <p> <h2>Location of our picnic of Domino's pizza</h2>
+	</td>
+</tr>
+<tr>
+	<td align = right> 
+	  <p><h2>The girls chow down in the sun</h2>
+	</td>
+
+	<td colspan = 2>
+	  <img src="BMSPicnic3.jpg">
+	</td>
+</tr>
+<tr>
+	<td colspan = 2 align = right>
+	  <img src="BostonHarbor.jpg">
+	</td>
+
+	<td > 
+	  <p> <h2>Boston harbor</h2>
+	</td>
+</tr>
+<tr>
+	<td align = right> 
+	  <p><h2>Rudy on the bus ride back to Providence</h2>
+	</td>
+
+	<td colspan = 2>
+	  <img src="Rudy.jpg">
+	</td>
+</tr>
+</table>
+
+<center>
+<br><br>
+<small>
+<p><a href="../home.html">home</a> |
+<a href="../students/">students</a> |
+<a href="../coordinators.html">coordinators</a> |
+<a href="../pictures.html">pictures</a> |
+<a href="../old/">previous years</a> |
+<a href="../sponsors.html">sponsors</a> |
+<a href="../links.html">resources</a> |
+<a href="../calendar.html">calendar</a>
+
+</small>
+</center>
+
+<br><br><br>
+
+<small><small>
+Please mail questions and comments to <a href="mailto:artemis@cs.brown.edu">
+artemis@cs.brown.edu</a><br>
+Copyright 2001 The Artemis Project, All Rights Reserved<br>
+</small></small>
+
+</body>
+</html>

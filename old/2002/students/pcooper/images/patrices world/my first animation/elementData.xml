@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<element>
+  <class>edu.cmu.cs.stage3.alice.core.response.DoInOrder</class>
+  <children>
+    <child>__Unnamed0__</child>
+    <child>__Unnamed1__</child>
+    <child>__Unnamed2__</child>
+    <child>__Unnamed3__</child>
+    <child>__Unnamed4__</child>
+    <child>__Unnamed5__</child>
+    <child>__Unnamed6__</child>
+    <child>__Unnamed7__</child>
+    <child>__Unnamed8__</child>
+    <child>__Unnamed9__</child>
+    <child>__Unnamed10__</child>
+  </children>
+  <properties>
+    <property name="name" type="java.lang.String">
+      <![CDATA[my first animation]]>
+    </property>
+    <property name="isFirstClass" type="java.lang.Boolean">false</property>
+    <property name="isCommentedOut" type="java.lang.Object">null</property>
+    <property name="duration" type="java.lang.Object">null</property>
+    <property name="requiredFormalParameters" type="java.lang.Object">null</property>
+    <property name="keywordFormalParameters" type="java.lang.Object">null</property>
+    <property name="localVariables" type="java.lang.Object">null</property>
+    <property name="componentResponses" type="java.io.File">java.io.File[componentResponses.txt]</property>
+  </properties>
+</element>
+
