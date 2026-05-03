@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<link href="layout/style_08.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>Artemis 2010</title>
+
+<script type="text/javascript">
+function show_alert()
+{
+alert("Hello! I am an alert box!");
+}
+
+function show_confirm()
+{
+var r=confirm("Press a button!");
+if (r==true)
+  {
+  alert("You pressed OK!");
+  }
+else
+  {
+  alert("You pressed Cancel!");
+  }
+}
+
+function show_prompt()
+{
+var fname=prompt("Please enter your name:","Your name")
+document.getElementById("msg").innerHTML="Greetings " + fname
+}
+</script>
+</head>
+
+<body onload=show_alert()>
+
+<div id="header">
+        </div>
+
+<div id="nav">
+        <a href="index.html">Home</a><br/>
+        <a href="about.html">About Artemis</a><br/>
+        <a href="coordinators.html">Coordinators</a><br/>
+        <a href="students.html">Students</a><br/>
+        <a href="pictures.html">Pictures</a><br/>
+        <a href="lessons.html">Lessons</a><br/>
+   <!--     <a href="schedule.html">Weekly Schedule</a><br/>-->
+        <a href="calendar.html">Calendar</a><br/>
+        <a href="resources.html">Resources</a><br/>
+        <a href="applications.html">Applications</a><br/>
+        <a href="sponsors.html">Sponsors</a><br/>
+        <a href="contact.htm">Contact Us</a><br/>
+        <a href="../home.html">Past Years</a>
+</div>
+
+<div id="content">
+<img src="layout/content_bg_2.gif" width="605" height="120" alt="Artemis" />
+
+
+<h2> Your questionnaire has been submitted! </h2>
+<p> Thank you! </p>
+
+<script type="text/javascript">
+var d = new Date();
+theDay=d.getDay();
+switch (theDay){
+case 5:
+  document.write("<p<br /><b>Finally Friday</b><br /><br />");
+  break;
+case 6:
+  document.write("<p><br /<b>Super Saturday</b><br /><br />");
+  break;
+case 0:
+  document.write("<p><br /><b>Sleepy Sunday</b><br /><br />");
+  break;
+default:
+  document.write("<p><br /><b>I'm really looking forward to this weekend!</b><br />");
+}
+var d = new Date();
+var time = d.getHours();
+if (time < 12){
+  document.write("<b>Good Morning!</b></p>");
+} else if (time < 18){
+  document.write("<b>Good Afternoon!</b></p>");
+} else {
+  document.write("<b>Good Evening!</b></p>");
+}
+</script>
+
+<input type="button" onclick="show_confirm()" value="Show a confirm box" />
+<input type="button" onclick="show_prompt()" value="Display a prompt box" /><br /><br />
+<div id="msg"></div>
+
+</div>
+
+<div id="footer">
+        <a href="http://validator.w3.org/check?uri=referer">xhtml</a> <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a>
+        &#169; 2010 The Artemis Project
+</div>
+
+</body>
+</html>

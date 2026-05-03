@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<link href="layout/style_08.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>Artemis 2013</title>
+</head>
+
+<body>
+
+<div id="header">
+	</div>
+
+<div id="nav">
+	<a href="index.html">Home</a><br />
+	<a href="about.html">About Artemis</a><br />
+	<a href="coordinators.html">Coordinators</a><br />
+	<a href="students.html">Students</a><br />
+	<a href="pictures.html">Pictures</a><br />
+	<a href="lessons.html">Lessons</a><br />
+<!--	<a href="schedule.html">Weekly Schedule </a><br />-->
+	<a href="calendar.html">Calendar</a><br />
+	<a href="resources.html">Resources</a><br />
+	Applications<br />
+	<a href="sponsors.html">Sponsors</a><br />
+	<a href="contact.html">Contact Us</a><br/>
+	<a href="../old/home.html">Past Years</a>
+</div>
+
+<div id="content">
+<img src="layout/content_bg_2.gif" width="605" height="120" alt="Artemis" />
+
+<h1> Applications to Coordinate Artemis 2014 Are Open </h1>
+<br>
+<h2>   How to apply:</h2>
+<ul>
+<li>Fill out an <a href="https://docs.google.com/a/brown.edu/forms/d/1obzC91IiEctSDw7Fz8GMRdsGfQxozhYoXmZ_SrzJusM/">application</a>
+</li>
+<li>Download a <a href="docs/Coordinator_rec_form_2014.docx">recommendation form</a>
+</li>
+</ul>
+
+<h2>Hiring Timeline</h2>
+<ul>
+<li>  <b> 12/3: </b>  Applications Due</li>
+<li>  <b> 12/9 - 12/13: </b> Interviews</li>
+<li>  <b> End of Finals</b> (or shortly thereafter): Decisions made!</li>
+</ul>
+
+
+
+<!--<h2> Applications for Artemis 2014 will open in the early spring.</h2>
+
+<!--
+<h2> Applications for Artemis 2013 are now open!!! </h2>
+
+<h2>   How to apply:</h2>
+<ol>
+<li>Download a
+ <a href="docs/StudentApp2013.pdf">student application</a></li> 
+<li>Send the student application and one teacher recommendation to us via snail mail OR e-mail
+<b>by May 1</b>.
+<p>Please mail applications to:
+
+<p>The Artemis Project 2013<br />
+Computer Science Department<br />
+Brown University<br />
+Box 1910<br />
+Providence, RI 02912-1910</p>
+
+<p> Or email us at <a href="mailto:artemis@cs.brown.edu">artemis@cs.brown.edu</a>.<br />
+<p>Please submit e-mail applications as .doc, .pdf, .txt, or .rtf files.</p>
+-->
+
+
+
+</div>
+
+<div id="footer">
+	<a href="http://validator.w3.org/check?uri=referer">xhtml</a> <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a>  
+	&#169; 2013 The Artemis Project 
+</div>
+
+</body>
+</html>
