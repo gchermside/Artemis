@@ -1,0 +1,79 @@
+body{
+	background-color: #FFFFFF;
+}
+
+
+
+@font-face {
+    font-family: 'beyond the mountains';
+    src: url('beyond_the_mountains-webfont.woff2') format('woff2'),
+         url('beyond_the_mountains-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1{
+	
+	font-family:beyond the mountains;
+	font-size:80px;
+	
+	width: 100%;
+	height: 300px;
+	top: -10px;
+	margin:20px;
+	padding:50px;
+}
+
+
+a{
+	color: black;
+}
+ 
+table {
+	position:absolute;
+	
+	font-family:angostura;
+	right: 25%;
+	top:7%;
+	width: 1000px;
+	font-size: 50px;
+
+
+}
+div#header{
+	background-color: #F7CAC9;
+	height: 150px;
+
+}
+
+img{
+	width: 100%;
+}
+
+div#chicken{
+	background:url("sunset.png");
+	background-size: 1700px;
+	height:1000px;
+	width:1700px;
+	font-size:40px;
+	margin-left: 100px;
+}
+
+p{
+	padding:80px;
+	font-family: angostura;
+	font-size: 80px;
+	font-weight: 20px;
+}
+div#logo img{
+  	position: absolute;
+  	top:0;
+  	right:0;
+  	padding-top:10px;
+  	padding-right:7px;
+  	height:155px;
+  	width:250px;
+
+
+}

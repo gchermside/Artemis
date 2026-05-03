@@ -1,0 +1,104 @@
+ div#body {
+	background-color: white; 
+	width: 70%;
+	margin: 0 auto;
+	border: 3px gold dotted;
+}
+div#logo {
+    margin-top: 25px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Courier';
+	font-size: 50px;
+	background-color: white;
+	text-align: center;
+	margin-bottom:0px;
+}
+div#tabs {
+	background-color: #FFDBC4;
+	text-align: center;
+	color:black;
+	font-family: 'Courier'
+
+
+}
+p#triangle {
+	text-align: right;
+}
+h2 {
+	margin-left:35px;
+	font-family: 'courier';
+	background-color: white;
+	text-align: center;
+	color: #DAA520;
+	font-size: 30px;
+	
+}
+h3 {
+	margin-top: 25px;
+	margin-left:25px;
+	font-family: 'courier';
+	background-color: white;
+	text-align: center;
+	color: #DAA520;
+	margin-bottom: 0px;
+	font-size: 30px;
+
+}
+h4 {
+	margin-top: 25px;
+	text-align: center;
+	font-family: 'courier';
+	background-color: white;
+	color: #DAA520;
+	margin-bottom: 0px;
+	font-size: 30px;
+}
+p#about{
+	margin-left: 25px;
+	margin-right:25px;
+	font-family: 'Courier', serif;
+	background-color: white;
+	text-align:center;
+
+}
+li {
+	margin-left: 25px;
+	margin-right:25px;
+	font-family: 'Courier', serif;
+	background-color: white;
+	text-align:left;
+}
+p#truth {
+	margin-left: 500px;
+	margin-right:25px;
+	font-family: 'Courier', serif;
+	background-color: white;
+	text-align: right;
+
+
+}
+p#convince {
+
+}
+div#image {
+	height: 100px;
+	width: 100px;
+
+}
+body {
+	background-color: #E9967A;
+}
+a{
+	color: #DAA520;
+	text-decoration: none;
+}
+p#game{
+	font-family: 'Courier';
+	font-size:16px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 50px;
+}

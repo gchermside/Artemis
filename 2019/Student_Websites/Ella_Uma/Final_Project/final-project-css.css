@@ -1,0 +1,114 @@
+h1{
+  color:teal;
+}
+h1{
+  font-family: "Amatic SC";
+}
+h1{
+  text-align: center;
+  padding-top: 20%;
+}
+h1{
+  font-size: 500%;
+}
+body{
+  background-image: url("images/backround2.png");
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+p{
+  color:#4B0082;
+  font-size: 200%;
+  font-family: 'Bad Script';
+  text-align: center;
+}
+
+
+
+li a {
+  display: block;
+  width: 60%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#8A2BE2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-family:"Amatic SC";
+}
+
+
+li a:hover {
+  background-color: #6495ED;
+}
+
+img{
+  padding: 10%;
+}
+ div img:hover{
+
+ }
+
+  a{
+ display: inline-block;
+ text-align: center;
+ }
+
+ body {
+     margin: 0;
+     padding: 0;
+ }
+
+
+ }
+
+ ul {
+     margin: 0;
+     padding: 0;
+ }
+
+ ul li {
+     margin-left: auto;
+     margin-right: auto;
+ }
+ div {
+ position:relative;
+ }
+ #nav {
+ position:absolute;
+ left:50%;top:0;
+ margin-left:-375px; /* negative margin equal to half the width */
+ width:750px;
+ list-style:none;
+ }
+ #nav li {
+ float:left;
+ }
+ #nav a {
+ display:block;
+ text-align:center;
+ width:150px; /* fixed width */
+ text-decoration:none;
+ }
+
+ h6{
+   text-align: center;
+   font-size: 100%;
+   font-family:serif;
+ }

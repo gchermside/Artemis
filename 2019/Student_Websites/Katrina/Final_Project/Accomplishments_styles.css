@@ -1,0 +1,11 @@
+body{
+  background-image: url("SlashBackground.jpg");
+}
+
+ul{
+  font-size: 60px
+}
+
+a:hover {
+  color: #AB81CD
+}

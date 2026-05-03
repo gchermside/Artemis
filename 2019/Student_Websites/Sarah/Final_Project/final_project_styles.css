@@ -1,0 +1,92 @@
+body {
+  background: #E5B252;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+p {
+  color: #22223B;
+  margin-bottom: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #22223B;
+  text-align: center;
+  font-size: 50px;
+}
+
+.itinerary {
+  display: list-item;
+  border-style:none;
+  color: #A74482;
+  text-align: left;
+  list-style-type: disc;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+li {
+  border: 3px double #A74482;
+  padding: 10px;
+  display:inline;
+  margin: 50px;
+  font-size: 24px;
+}
+
+li{
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #A74482;
+}
+
+a:hover{
+  color: #22223B;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #A74482;
+}
+
+h5 {
+  font-size: 25px;
+  color: #A74482;
+  border-top: double;
+  border-color: #22223B;
+}
+
+.Food {
+  list-style-type: disc;
+  font-size: 20px;
+  color: #22223B;
+  border-style: none;
+  display: list-item;
+  text-align: left;
+}
+
+h6 {
+  font-size: 50px;
+  border-top: double;
+  border-color: #22223B;
+  color: #A74482;
+  text-align: left;
+}
+
+h3 {
+  font-size: 25px;
+  color: #22223B;
+  border-bottom: solid
+}
+
+h4 {
+  color: #A74482;
+}

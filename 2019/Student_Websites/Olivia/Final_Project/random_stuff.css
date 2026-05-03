@@ -1,0 +1,15 @@
+body{
+background-color: #B4A0E5;
+text-align: center;
+text-size:30px;
+}
+
+h1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: 'Courgette', cursive;
+    font-size:60px;
+
+}

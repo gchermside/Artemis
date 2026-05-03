@@ -1,0 +1,32 @@
+ul {
+  list-style-type: none;
+  margin: -6;
+  padding: 0;
+  font-size: 80px
+}
+
+ul{
+  text-align: center;
+}
+
+a{
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #AB81CD
+}
+
+body{
+  background-image: url("SlashBackground.jpg");
+}
+
+title{
+  text-decoration-color: : white
+}
+
+ul{
+  resize: both;
+  overflow: auto;
+}

@@ -1,0 +1,83 @@
+body {
+  background-color: #d6d6d6;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  color:#37b0b2;
+  text-align: center;
+  font-size:50px
+}
+
+ul {
+  list-style-type: none;
+  margin-left:3vw;
+  margin-right: 3vw;
+  border: 9px dashed #8bf4e3;
+  padding: 5px;
+  width:90vw;
+  text-align:center;
+}
+
+
+li {
+  display: inline;
+  margin-left: 3vw;
+}
+
+a{
+  text-decoration: none;
+  color:#669bff;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+a:hover{
+  color: #8ca1ff;
+}
+
+.gemini,.aquarius {
+  margin-left: 25vw;
+  width:15vw;
+  text-align:center;
+}
+.seoul {
+  width:25vw;
+  text-align:center;
+}
+
+.spider-man {
+  width:25vw;
+  text-align:center;
+}
+
+.bts,.shawn {
+  width:15vw;
+  text-align:center;
+}
+
+.bloodline{
+  width:25vw;
+  text-align:center;
+}
+img {
+  margin-left: 25vw;
+  width:50vw;
+  text-align:center;
+}
+
+h2 {
+   font-family: 'Dancing Script';
+   font-size: 3vw;
+   text-align: center;
+   color:#669bff;
+}
+
+p {
+  font-family: 'Rajdhani';
+  font-size:28px;
+  color: #669bff;
+  margin-left: 2vw;
+  padding-bottom: 3vw;
+}

@@ -1,0 +1,21 @@
+.center{
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+
+body{
+  background:#3066be;
+}
+
+h1{
+  text-align: center;
+  color:#1c448e;
+}
+
+li{
+  font-size:3vw;
+  text-align: center;
+  list-style-type: none;
+  font-family: 'Indie Flower', cursive;
+}

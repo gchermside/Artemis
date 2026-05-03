@@ -1,0 +1,42 @@
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Butterfly Kids', cursive;*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 70px;
+
+}
+
+a{
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a:hover {
+
+}
+.homelink{
+  font-family: 'Indie Flower', cursive;
+  color:#000500
+}
+
+.scratchlink{
+  font-family: 'Indie Flower', cursive;
+  color: #000500
+}
+
+.aboutmelink{
+  font-family: 'Indie Flower', cursive;
+  color:#000500
+}
+body{
+  background-color: #B5B5B5;
+}
+.hope{
+  width: 700px;
+}

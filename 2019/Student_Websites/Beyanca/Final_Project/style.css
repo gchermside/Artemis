@@ -1,0 +1,70 @@
+ body {
+  text-align: center;
+}
+
+body {
+  font-family: 'Poiret One', cursive;
+
+}
+
+p {
+  font-size: 20px;
+  color: #09193A;
+}
+
+h2 {
+  font-size: 50px;
+  color: #C16E70;
+}
+
+h6 {
+  font-size: 25px;
+}
+
+
+.music {
+  width: 100vw;
+  height: auto;
+  background-color: #EA3546 ;
+  border-radius: 10vw;
+  color: white;
+
+}
+
+div h2 {
+  color: white;
+
+}
+
+.musicppl {
+  height: 20vw;
+  padding-bottom: 30px;
+
+}
+
+.favmemes {
+width: 100vw;
+height: auto;
+background-color: #FEC601;
+border-radius: 10vw;
+color: white;
+}
+
+.favomemes {
+  height: 21vw;
+  padding-bottom: 30px;
+
+}
+
+.favoshows {
+  height: 20vw;
+  padding-bottom: 30px;
+
+}
+.favshows {
+width: 100vw;
+height: auto;
+background-color: #42D9C8;
+border-radius: 10vw;
+color: white;
+}

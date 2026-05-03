@@ -1,0 +1,46 @@
+h1{
+  color:teal;
+}
+h1{
+  font-family: "Amatic SC";
+}
+h1{
+  text-align: center;
+}
+h1{
+  font-size: 50px;
+}
+body{
+  background-image: url("images/poan.png");
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+p{
+  color:#1789FC;
+}
+ol,li{
+  color:#444545;
+}
+
+ul.pool {
+  list-style-image: url(images/aww.gif);
+  height:50%;
+  padding-left: 44px;
+  padding-top: 3px;
+}
+ul {
+  list-style: circle inside url(images/aww.gif);
+}
+ul.pool {
+    width: 50%;
+    height: auto;
+}
+
+ul.pool {
+    width: 50%;
+    height: auto;
+}

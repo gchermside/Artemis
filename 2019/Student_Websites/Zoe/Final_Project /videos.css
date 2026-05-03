@@ -1,0 +1,186 @@
+.center{
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+h1{
+  text-align: center;
+  color:#6f8695;
+}
+
+.iframe-container{
+  height: 30px;
+    width: 300px;
+    resize: both;
+    overflow: auto;
+
+  /*position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;*/
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:60.8%;
+  height:100%;
+}
+
+.iframe-contains{
+  position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;
+}
+.iframe-contains iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.iframe-contained{
+  position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;
+}
+.iframe-contained iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.iframe-containest{
+  position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;
+}
+.iframe-containest iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.iframe-containerest{
+  position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;
+}
+.iframe-containerest iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.iframe-containereed{
+  position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;
+}
+.iframe-containereed iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.iframe-containerested{
+  position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;
+}
+.iframe-containerested iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.iframe-containss{
+  position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;
+}
+.iframe-containss iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.iframe-containerss{
+  position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;
+}
+.iframe-containerss iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.iframe-container1{
+  position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;
+}
+.iframe-container1 iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.iframe-container1{
+  position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;
+}
+.iframe-container1 iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.iframe-container3{
+  position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;
+}
+.iframe-container3 iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+body{
+  background:#ADBCFF;
+}

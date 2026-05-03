@@ -1,0 +1,14 @@
+.viafoura p.vf-status{position:relative;width:100%;padding:1em 2.1em;margin-bottom:1.5em;border-radius:4px;text-align:center}.viafoura .vf-status--link{text-decoration:underline}.viafoura .vf-status__close-button{position:absolute;right:0;top:0;padding-left:0.9em;padding-right:0.9em}.viafoura .vf-success-bg-colour .vf-status--link{color:#fff ;color:var(--text-on-success-color, #fff)
+}.viafoura .vf-success-bg-colour .vf-status__close-button{fill:#fff ;fill:var(--text-on-success-color, #fff)
+}.viafoura .vf-warning-bg-colour .vf-status--link{color:#fff ;color:var(--text-on-warning-color, #fff)
+}.viafoura .vf-warning-bg-colour .vf-status__close-button{fill:#fff ;fill:var(--text-on-warning-color, #fff)
+}.viafoura .vf-info-bg-colour .vf-status--link{color:#fff ;color:var(--text-on-accent-color, #fff)
+}.viafoura .vf-info-bg-colour .vf-status__close-button{fill:#fff ;fill:var(--text-on-accent-color, #fff)
+}
+
+.viafoura .vf-input-list{text-align:left;margin-bottom:15px}.viafoura .vf-setting-module .vf-label{color:rgba(0,0,0,0.6) ;color:var(--light-text-on-default-color, rgba(0,0,0,0.6))
+}.viafoura .vf-setting-module__title{border-bottom-color:rgba(0,0,0,0.1) ;border-bottom-color:var(--primary-color-10, rgba(0,0,0,0.1)) ;border-bottom-width:1px;border-bottom-style:solid;padding:15px 2em;color:rgba(0,0,0,0.6) ;color:var(--light-text-on-default-color, rgba(0,0,0,0.6))
+}
+
+.viafoura .vf-account-form{padding:25px}.viafoura .vf-account-form .vf-account-form-fieldset{border:none}.viafoura .vf-account-form .vf-account-form-fieldset>*+*{margin-top:1em}.viafoura .vf-signup-submit-btn{text-transform:capitalize;margin-bottom:15px}.viafoura .vf-signup-recaptcha{display:table;margin:0 auto}.viafoura .vf-account-form .vf-account-error{margin:12px 0px 0px;padding:4px;border-radius:4px}.viafoura .vf-account-form .vf-text-input-label{border-bottom-color:rgba(0,0,0,0.15) ;border-bottom-color:var(--primary-color-15, rgba(0,0,0,0.15)) ;border-bottom-width:1px;border-bottom-style:solid}
+

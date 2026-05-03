@@ -1,0 +1,96 @@
+ul{
+  list-style-type:none;
+  margin: 0;
+  padding:0;
+}
+li{
+  display: inline;
+}
+
+a{
+  text-decoration:none;
+  color: white
+}
+a:hover{
+color: red
+}
+body{
+  background-image: url("backgroundRose.jpg")
+}
+
+li a {
+  display: inline;
+  width: 60 px;
+  margin: 100px;
+}
+.inline{
+  border: 5px dotted red;
+  padding: 20px...;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  background-color: #;
+}
+
+li a{
+display: block;
+color: white;
+text-align:center;
+padding; 14px 16xpx;
+}
+
+li a:hover{
+  background-color:#;
+}
+h2{
+  margin: auto;
+  padding: 0;
+  padding-top:10px;
+text-align: center;
+
+}
+
+.meme{
+background-image: url(dots.png)
+
+}
+ol{
+color:white;
+}
+.meme{
+  color:black;
+}
+.Facts{
+background-image: url(galaxy.png)
+}
+.Facts{
+color:white;
+font-size:500;
+}
+ul{
+font-size: 20px;
+}
+.hobbies{
+font-family: 'Kaushan Script', cursive;
+font-size: 50px;
+}
+.stories{
+background-image: url(Back1.png);
+}
+.Stories{
+color: black;
+}
+.Home{
+color= black;
+}
+
+/*@media only screen and (min-width: 10px){
+  img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 40%;
+  }
+}*/

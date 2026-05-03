@@ -1,0 +1,41 @@
+body {
+  background-color: #23395B;
+}
+
+h1,h2 {
+  color: #EEE5E9;
+  font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #EDB6A3;
+  font-size: 35px;
+  border: double white;
+  padding: 10px;
+}
+
+
+.countries {
+  color: #EEE5E9;
+  font-family: 'Comfortaa', cursive;
+  font-size: 25px;
+}
+
+li {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #EDB6A3;
+  font-size: 23px;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.highskool {
+  font-size: 25px;
+}

@@ -1,0 +1,40 @@
+body {
+  background-color: #E5ECF4
+}
+
+img {
+  height: 30vw;
+  width: 45vw;
+  resize: both;
+
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 45px;
+}
+
+.Goal {
+  font-family: 'Satisfy', cursive;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Meds {
+  font-family: 'Satisfy', cursive;
+}
+
+.Clinics {
+  font-family: 'Satisfy', cursive;
+}
+
+.Leisure {
+  font-family: 'Satisfy', cursive;
+}
+
+.Takeaway {
+  font-family: 'Satisfy', cursive;
+}

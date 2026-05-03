@@ -1,0 +1,39 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 6vw;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+      color: #D81159;
+}
+
+body{
+  background-color:#99A1A6;
+}
+
+li a{
+  color: blue;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.home{
+  vertical-align: top;
+  font-size: 25px
+}

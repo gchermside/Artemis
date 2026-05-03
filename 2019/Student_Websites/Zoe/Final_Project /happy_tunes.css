@@ -1,0 +1,28 @@
+h1{
+  text-align: center;
+  color:#5b618a;
+}
+
+body{
+  background:#9eadc8;
+}
+
+.center{
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+
+li{
+  text-align: center;
+  list-style-type: none;
+}
+
+a{
+  color:#21295C;
+  font-size:20px;
+}
+
+a:hover{
+  color:#414288;
+}

@@ -1,0 +1,92 @@
+body{
+	background-color: #FFFFFF;
+}
+
+
+
+
+h1{
+	
+	font-family:beyond the mountains;
+	font-size:80px;
+	
+	width: 100%;
+	
+	top: -10px;
+	margin:20px;
+	padding:50px;
+}
+
+
+a{
+	color: black;
+}
+ 
+table {
+	position:absolute;
+	
+	font-family:angostura;
+	right: 25%;
+	top:7%;
+	width: 1000px;
+	font-size: 50px;
+
+
+}
+div#header{
+	background-color: #F7CAC9;
+	height: 150px;
+
+}
+p{
+	font-size:35px;
+	font-family:angostura;
+	margin:50px;
+	width:900px;
+}
+div#logo{
+  	position: absolute;
+  	top:0;
+  	right:0;
+  	padding-top:10px;
+  	padding-right:7px;
+
+
+}
+div#mission{
+	font-size: 60px;
+	margin: 20px;
+}
+
+div#img1 img{
+	position:absolute;
+	height:800px;
+	width:800px;
+	right:0;
+	margin: 50px;
+	top:270px;
+
+
+}
+div#boom img{
+	position:absolute;
+	height:800px;
+	width:800px;
+	right:0;
+	top:600px;
+	
+	
+	margin: 50px;
+	padding-top: 600px;
+
+}
+div#hope img{
+	position:absolute;
+	height:800px;
+	width:800px;
+	right:0;
+	top:1550px;
+	margin:50px;
+	padding-top:600px;
+	
+}

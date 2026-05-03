@@ -1,0 +1,91 @@
+body {
+  background-color: #d6d6d6;
+}
+
+.title {
+  font-family: 'Amatic SC', cursive;
+  color:#37b0b2;
+  text-align: center;
+  font-size:50px
+}
+
+ul {
+  list-style-type: none;
+  margin-left:3vw;
+  margin-right: 3vw;
+  border: 9px dashed #8bf4e3;
+  padding: 5px;
+  width:90vw;
+  text-align:center;
+}
+
+
+li {
+  display: inline;
+  margin-left: 3vw;
+}
+
+a{
+  text-decoration: none;
+  color:#669bff;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+a:hover{
+  color: #8ca1ff;
+}
+
+h1{
+  font-family: 'Dancing Script';
+  font-size: 3vw;
+  text-align: center;
+  color: #4f86ff;
+}
+
+
+p{
+  font-family: 'Handlee', cursive;
+  font-size:28px;
+  color: #9ea2ff;
+  margin-left: 2vw;
+}
+
+.allison {
+  font-family: 'Handlee', cursive;
+  font-size:28px;
+  color: #51c6bf;
+  margin-left: 2vw;
+}
+
+.tarte{
+  font-family: 'Handlee', cursive;
+  font-size:28px;
+  color: #51c6bf;
+  margin-left: 2vw;
+}
+.allisonscholar{
+  width:19vw;
+  text-align:center;
+}
+.allisondisney {
+  width:17vw;
+  text-align:center;
+}
+
+.pictures {
+  display: flex;
+  margin-left: 17vw;
+}
+.allisonmovie{
+  width:20vw;
+}
+
+.allisongroup{
+  width:19vw;
+}
+
+.allisonlunch {
+  width:20vw;
+}
