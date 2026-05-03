@@ -1,0 +1,127 @@
+<html>
+
+<head>
+<title>Artemis 2006
+</title>
+<link rel="stylesheet" href="css_06.css" type="text/css">
+</head>
+
+<body background="bg2.jpg">
+
+<center><div id="header">
+
+
+</div></center>
+
+<center>
+<div id="main">
+
+<div id="menu">
+<p><a href="home.html"><b>HOME</b></a>
+<br>
+<p><a href="info.html"><b>ABOUT ARTEMIS</b></a>
+<br>
+<p><a href="coordinators.html"><b>COORDINATORS</b></a>
+<br>
+<p><a href="students.html"><b>STUDENTS</b></a>
+<br>
+<p><a href="pictures.html"><b>PICTURES</b></a>
+<br>
+<p><a href="lessons.html"><b>LESSONS</b></a>
+<br>
+<p><a href="calendar.html"><b>CALENDAR</b></a>
+<br>
+<p><a href="resources.html"><b>RESOURCES</b></a>
+<br>
+<p><a href="sponsors.html"><b>SPONSORS</b></a>
+<br>
+<p><a href="applications.html"><b>APPLICATIONS</b></a>
+<br>
+<p><a href="http://www.cs.brown.edu/orgs/artemis/old/" target="new"><b>PAST YEARS</b></a>
+<br>
+</div>
+
+<div id="content">
+	<center><img src="img/about_logo.gif"></center><br>
+				<p><font color="006699"><b><u> What is Artemis? </u></b></font>
+				<br><br>
+				The Artemis Project is a five-week summer program for girls entering 
+				9th grade who are interested in science and technology.  It bears no 
+cost to the participants.  Transportation is provided to all students through RIPTA bus passes.
+
+				<br><br>
+				<p><font color=#006699><b><u> Time & Place </u></b></font>
+				<br><br>
+				The program is held on the Brown University campus
+				from June 25th to July 27th.&nbsp; <br>
+&nbsp;<p><font color=#006699><b><u> What will you learn? </u></b></font>
+				<br><br>
+				We begin by introducing the computer and its basic functions.  
+				Through practical experience with Windows XP, Macintosh, and UNIX, 
+				you will gain an understanding of these operating systems and of 
+				the fundamental workings of a computer. 
+				<br><br>
+				We will focus on the use of logic and deductive reasoning in exploring 
+				topics in computer science, such as object-oriented programming, 
+				artificial intelligence (i.e. smart robots), and computer animation.  
+				You will be introduced to some of the most cutting-edge discoveries 
+				in computer science. 
+				<br><br> 
+				In addition you will learn the practical skills needed for word processing, 
+				e-mail, and the World Wide Web. 
+				<br><br>
+				By the end of the program, you will have practical skills and 
+				conceptual background that will allow you to follow your curiosity and 
+				interests in any direction they may lead you.
+				
+				<br><br>
+				<p><font color=#006699><b><u> Who can apply? </u></b></font>
+				<br><br>
+				Creative and motivated girls who are curious about math, science, or 
+				computers and are entering 9th grade in  Fall 2007 are 
+				qualified to apply for Artemis.  
+                                
+				<b><i>No prior computer experience is necessary.</i></b>
+
+				<br><br>
+				<p><font color=#006699><b><u> How do you apply? </u></b></font>
+				<br><br>
+				Print an application and a teacher recommendation form off the 
+				<a href="applications.html"> applications</a> page. 
+				Fill them out, and send them to:
+				<br><br>
+				<font face="courier new">
+       				The Artemis Project 2006<br>
+        			Computer Science Department<br>
+        			Brown University<br>
+        			Box 1910<br>
+        			Providence, RI 02912-1910
+				</font>
+				<br><br>
+				We look forward to hearing from you! 
+</p>
+			<br><br>
+			<br><br>
+<!---END BODY--->
+
+
+
+<!-- FOOTER --> 
+
+
+				<p align="right">
+				<a href="mailto:artemis@cs.brown.edu"><img src="img/email.jpg" border="0" alt="~*email 
+us*~"></a>
+				<br>
+				<font size="1"><i> / Copyright 2006 / The Artemis Project /
+<!--				<br>/ updated 05.05.06/</i></font> </p>
+-->
+
+<!-- END FOOTER --> 
+
+</div>
+</div></center>
+
+</body>
+
+</html>

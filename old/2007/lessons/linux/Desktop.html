@@ -1,0 +1,283 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Using the X Desktop</title>
+  </head>
+
+  <BODY link="#5966A8" vlnk="#5966A8" alink="green" bgcolor="white">
+    <h1>The Desktop</h1>
+    <br>
+
+    <hr>
+    <center>
+      <table border=0 cellpadding=3 cellspacing=0>
+	  <tr>
+	    <td bgcolor="#cccccc">
+	      <a href="GettingStarted.html">
+		<img src="images/arrow_left.gif" align=top border=1></a>
+	    </td>
+	<td valign="top" bgcolor="#cccccc" align=right>
+	      <font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Getting Started</b></font>
+	    </td>
+	    
+	    <td>&nbsp;</td>
+	    
+	    <td valign="top" bgcolor="#cccccc">
+	      <font face="Arial, Helvetica" size=2><u>NEXT</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Linux Shells</b></font>
+	    </td>
+	    <td bgcolor="#cccccc">
+	  <a href="Shell.html">
+		<img src="images/arrow_right.gif" align=top border=1></a>
+	    </td>
+	  </tr>
+      </table>
+    </center>
+    <hr>
+
+    <p>If you're properly logged in, you will see a screen
+      that looks like this (without the numbers):</p>
+
+    <img src="images/numberedscreen.jpg">
+
+    <p>A lot of this you are going to learn by just playing around,
+      but here's a quick rundown (numbered windows are explained below):</p>
+
+    <br>
+    
+    <h2>The Windows</h2>
+    
+    <h3>Initial Windows</h3>
+
+    <p>Your account opens a set of default windows when you log in. All
+      windows are laid out on a desktop, which is the blue background you see.
+      The default windows are:
+    </p>   
+
+    <ol>
+      <li><b>System MOTD</b> (Message Of The Day) – Contains information 
+	about Sun Lab hours, closings, due dates, etc.</li>
+      <li><b>Shell (xterm)</b> – This is your main means
+	of communication with your computer. Most activities will involve
+	typing commands into the shell. You can have as many shells open at a
+	time as you want. More on the shell later.</li>
+      <li><b>Console</b> – This is really just
+	another shell, with the exception that you only have one console per
+	session, and that the console will display messages from the system. You
+	can use it just like any other shell.</li>
+      <li><b>Window Manager Module</b> – This is the
+	control center for your virtual desktop (explained below). It also has a
+	list of all the windows you have open; a mailbox, which will have its 
+	flag up when you have new email in your new CS email account; 
+	and a clock.
+      <li><b>Mozilla</b> – This is a web browser, similar to Netscape or Internet
+	Explorer.  It is currently showing the new users guide that is maintained 
+	by the CS Department Technical Staff.  You can ignore this page for now, since
+	we'll be doing mostly the same things in this tutorial.</li>
+    <br>
+    
+    </ol>
+
+    <br>
+
+    <h3>Active Window</h3>
+    
+    <p>If you want to type in a window, it must be active.
+      Unlike Windows and Mac OS, in the Linux environment we are
+      using, <b>the active window is the one that has the mouse cursor over 
+	it</b>. A window is made active when the mouse pointer enters it, 
+      no clicking required. It 
+      will then remain active until the mouse pointer enters another window.
+      Note that the active window is not necessarily on top, as it is in 
+      Windows or Mac OS. This can be quite helpful at times, but be careful
+      you are not inadvertently typing in a partially hidden window because
+      the mouse cursor is over it!
+
+    </p>
+
+    <ul>
+	<p><img src="images/arrow_small.gif"> <em>Move the
+	    mouse around and see how the active window changes. Notice how the 
+	    colors of the windows' frames change as they are made active and 
+	    inactive.</em>
+	</p>
+    </ul>
+
+    <br>
+
+    <h3>Title Bar</h3>
+
+    <p>Almost all windows have a title bar that looks like this:</p>
+
+    <img src="images/xterm-titlebar.jpg">
+
+    <br>
+    
+    <p>You can use the title-bar to orient windows. Pressing
+      and dragging any of the mouse buttons on the title bar allows you to 
+      <b>move</b> the window. Clicking on the title bar with the left mouse button 
+      will pull that window in front of any other windows that may be 
+      overlapping it ("<b>popping</b>" the window), while clicking with the right
+      mouse button will push the window to the
+      back of any windows behind it on the desktop ("<b>pushing</b>" the window).
+    </p>
+
+    <p>The three buttons on the title bar also have different
+      functions:</p>
+    
+    <p>
+      <img src="images/titlebar-tab.jpg"> - The <b>tab</b> button 
+      in the left corner will open
+      the <b>Window Ops Menu</b>. This menu gives you a variety of window 
+      operations that may come in handy. For a detailed list of
+      operations, see the <b><a href="Appendix.html">Appendix</a></b>.
+    </p>
+
+    <p>
+      <img src="images/titlebar-icon.jpg"> - The <b>iconify</b> or 
+      <b>minimize</b> button does just that--it will 
+      turn the window into an icon in the upper-left corner of the screen. 
+      Click on the icon to restore ("<b>de-iconify</b>") the window.
+    </p>
+
+    <p>
+      <img src="images/titlebar-max.jpg"> - The <b>maximize</b> button 
+      will enlarge the window to take up available space.
+    </p>
+
+    <ul>
+	<p><img src="images/arrow_small.gif"> <em>Try out
+	    some of the window operations. (move, push, pop, iconify, 
+	    de-iconify, maximize)</em>
+	</p>
+    </ul>
+    <br>
+
+    <h2>Virtual Desktop</h2>
+
+    <p>Your desktop is larger than it seems! Think of it as 4
+      screens arranged in a grid, with your current screen being the 
+      upper-left. You can move from screen-to-screen using the Function keys
+      (F1 for top-left, F2 for top-right, F3 for bottom-left, F4 for
+      bottom-right), by moving your mouse cursor to the edge of the screen, 
+      or by clicking on the appropriate screen in
+      the window manager module in the lower-right corner of your screen.
+      If all of your windows are suddenly missing, check to make sure you 
+      haven't accidently moved to another screen.
+    </p>
+
+    <center>
+      <img src="images/fvwmmodule.jpg">
+    </center>
+
+    <ul>
+	<p><img src="images/arrow_small.gif"> <em>Play around with your
+	    virtual screens. Try dragging windows from one screen to
+	    another. Notice how the window manager module 
+	    is a miniature view of
+	    the state of your screens.</em>
+	</p>
+    </ul>
+
+    <br>
+
+    <h2>Menus</h2>
+
+    <p>If you click the mouse buttons on the desktop (not on a window), you 
+      will notice that you get some menus. Each button has a different
+      menu. We are going to give you some highlights here, but the 
+ <b><a href="Appendix.html">Appendix</a></b> has a complete listing.
+The <b>left</b> button gives you the <b>Root Menu</b>, which 
+      includes 2 very important items:
+    </p>
+
+    <ul>
+      <li><b>"<code>XTerm</code>"</b> – This will give you a new shell. 
+	(The type of shell we have been using is
+	called an xterm, short for X Terminal. There are other kinds. Ask a
+	consultant.)
+      </li>
+      
+      <li><b>"<code>XLock</code>"</b> – XLock opens a password-protected 
+	screen saver. Use this every time you walk away from your computer,
+	even if it's just for a
+	minute. (Don't turn it on and go away for hours.
+	If a waitlist starts, you might get kicked off and lose your work)
+      </li>
+     
+    </ul>
+
+<p>
+  The <b>right</b> mouse button pulls up the <b>Special</b> menu. One
+  very important item on the Special menu is <b>Logout</b>. This is how
+you exit the system. Always exit all programs before logging off!</p>
+
+
+    <p>For a complete listing of the default menus and their
+     items, see the <b><a href="Appendix.html">Appendix</a></b>.
+    </p>
+
+
+    <table border=1 cellpadding=5 bgcolor="#eaeaea"><tr><td>
+	    <image src="images/lightbulb.gif" width=75>
+	      
+	      <h3>Customizing Your Environment</h3>
+
+	      <p>One of the great things about Linux and FVWM (the
+		window manager we are using) is that you have a ton of control
+		over the appearance and feel of your environment. For example,
+		you might want to change the colors of your desktop or 
+		put a picture up. For a basic overview of customizing your
+		environment, take a look at the Linux Hints section of the
+		<b><a href="Appendix.html">Appendix</a></b>. For more info,
+		try the
+		<a href="http://www.cs.brown.edu/courses/cs015">CS15 Webpage
+		</a> or ask a consultant.
+	      </p>
+	      
+	      <br>
+	  </td></tr>
+    </table>
+    
+
+
+
+
+    <hr>
+    <center>
+      <table border=0 cellpadding=3 cellspacing=0>
+	  <tr>
+	    <td bgcolor="#cccccc">
+	      <a href="GettingStarted.html">
+		<img src="images/arrow_left.gif" align=top border=1></a>
+	    </td>
+	<td valign="top" bgcolor="#cccccc" align=right>
+	      <font face="Arial, Helvetica" size=2><u>PREVIOUS</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Getting Started</b></font>
+	    </td>
+	    
+	    <td>&nbsp;</td>
+	    
+	    <td valign="top" bgcolor="#cccccc">
+	      <font face="Arial, Helvetica" size=2><u>NEXT</u></font><br>
+	      <font face="Arial, Helvetica" size=4><b>Linux Shells</b></font>
+	    </td>
+	    <td bgcolor="#cccccc">
+	  <a href="Shell.html">
+		<img src="images/arrow_right.gif" align=top border=1></a>
+	    </td>
+	  </tr>
+      </table>
+    </center>
+    <hr>
+
+
+    <hr>
+    <address><a href="mailto:jgoodwin@cs.brown.edu">John Jeffrey Goodwin</a></address>
+<!-- Created: Wed Jul 17 16:22:11 EDT 2002 -->
+<!-- hhmts start -->
+Last modified: Tue Sep  2 23:07:41 EDT 2003
+<!-- hhmts end -->
+  </body>
+</html>

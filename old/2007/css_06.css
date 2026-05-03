@@ -1,0 +1,11 @@
+p {font-family: Verdana, Arial, Helvetica, sans-serif; font-style:normal; font-size:10pt; margin-left:10px; margin-right:10px}
+h1 {font-family: Verdana; font-size=9pt}
+
+A:link {color: #006699;text-decoration:none}
+A:visited {color:#666666;text-decoration:none}
+A:hover {color:#000000;text-decoration:underline}
+
+#header{border-left:1px solid #999999; border-right:1px solid #999999; border-top:1px solid #999999; position:relative;width:600px;height:150;float:top;border-bottom:medium none #999999;background-image:url('img/banner.jpg')}
+#main{position:relative;float:top;width:600px;height:525;border-style:solid;border-width:1px;border-color:#999999}
+#menu{position:relative;float:left;width:149;height:525;border-width:1px;background-image:url('img/menuBG3.jpg');border-color:#999999}
+#content{position:relative;float:right;width:449;height:525;border-left:solid;border-width:1px;background-color:#FFFFCC;border-color:#999999;overflow:scroll}
